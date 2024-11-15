@@ -1,0 +1,27 @@
+site_name: TKAI Lab
+
+# Repository
+repo_name: TKAI-Lab
+repo_url: https://github.com/TKAI-LAB-Mali
+
+# Site configuration
+theme:
+  name: material
+  features:
+  - navigation.instant
+  - navigation.instant.progress
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.top
+  - search.highlight
+  - search.suggest
+  - toc.follow
+plugins:
+  - search
+
+# Site organization
+nav:
+  - Home: index.md
+  - People: people.md
+  - Projects: projects.md
+  - Publications: papers.md
