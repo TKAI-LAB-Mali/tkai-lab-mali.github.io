@@ -17,12 +17,12 @@ theme:
   - search.suggest
   - toc.follow
   palette: 
-    # Palette toggle for light mode
+    # light mode
     - scheme: default
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
-        # Palette toggle for dark mode
+    # dark mode
     - scheme: slate
       toggle:
         icon: material/toggle-switch-off-outline
@@ -37,4 +37,5 @@ nav:
   - People: people.md
   - Projects: projects.md
   - Publications: publications.md
+  - Join Us: join.md
   - Contact: contact.md
