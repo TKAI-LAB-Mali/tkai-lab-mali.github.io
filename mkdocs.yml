@@ -16,6 +16,7 @@ theme:
   - search.highlight
   - search.suggest
   - toc.follow
+  - toc.integrate
   palette: 
     # light mode
     - scheme: default
@@ -30,6 +31,11 @@ theme:
 
 plugins:
   - search
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
 
 # Site organization
 nav:
