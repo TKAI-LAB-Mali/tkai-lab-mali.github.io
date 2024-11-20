@@ -1,10 +1,7 @@
 site_name: TKAI Lab
-
-# Repository
 repo_name: TKAI-Lab
 repo_url: https://github.com/TKAI-LAB-Mali
 
-# Site configuration
 theme:
   name: material
   features:
@@ -37,11 +34,12 @@ markdown_extensions:
   - md_in_html
   - pymdownx.blocks.caption
 
-# Site organization
+extra_css:
+  - stylesheets/extra.css
+
 nav:
   - Home: index.md
   - People: people.md
   - Projects: projects.md
   - Publications: publications.md
   - Join Us: join.md
-  - Contact: contact.md
