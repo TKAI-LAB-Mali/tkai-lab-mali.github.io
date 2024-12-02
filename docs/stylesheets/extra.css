@@ -1,3 +1,35 @@
 .md-grid {
   max-width: 1440px; 
 }
+.people-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.person {
+  flex: 0 0 30%;
+  text-align: center;
+}
+
+.person img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.person h3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+}
+
+.person p {
+  margin: 0.2em 0;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}

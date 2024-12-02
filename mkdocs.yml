@@ -17,6 +17,7 @@ theme:
   palette: 
     # light mode
     - scheme: default
+      primary: '#006747'
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
