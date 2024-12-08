@@ -20,7 +20,7 @@ Bloch’s advisor was [Professor Werner Karl Heisenberg](https://en.wikipedia.or
 
 Heisenberg’s advisor was [Professor Arnold Johannes Wilhelm Sommerfeld](https://en.wikipedia.org/wiki/Arnold_Sommerfeld), Ph.D. University of Königsberg.
 
->   <p style="margin-left: 2em;"> <a href="https://en.wikipedia.org/wiki/Arnold_Sommerfeld" style="color: red; text-decoration: underline;">Sommerfeld</a> studied mathematics and physical sciences and became a theoretical physicist. He is notable for having <a style="color: red; text-decoration: underline;">four</a> of his students, <a style="color: red; text-decoration: underline;">three</a> of his postdocs, and <a style="color: red; text-decoration: underline;">one</a> student's student being awarded the <a href="https://www.nobelprize.org" style="color: #FFD700; text-decoration: underline;">Nobel Prize</a>. He was nominated <span style="color:red; text-decoration: underline;">81 times</span> for the Nobel Prize but never received it. </p>
+>   <a href="https://en.wikipedia.org/wiki/Arnold_Sommerfeld" style="color: red; text-decoration: underline;">Sommerfeld</a> studied mathematics and physical sciences and became a theoretical physicist. He is notable for having <a style="color: red; text-decoration: underline;">four</a> of his students, <a style="color: red; text-decoration: underline;">three</a> of his postdocs, and <a style="color: red; text-decoration: underline;">one</a> student's student being awarded the <a href="https://www.nobelprize.org" style="color: #FFD700; text-decoration: underline;">Nobel Prize</a>. He was nominated <span style="color:red; text-decoration: underline;">81 times</span> for the Nobel Prize but never received it.
 
 Sommerfeld’s advisor was [Professor C. L. Ferdinand Lindemann](https://en.wikipedia.org/wiki/Ferdinand_von_Lindemann), Ph.D. Friedrich-Alexander-Universität Erlangen-Nürnberg.
 
@@ -43,4 +43,4 @@ Poisson's and Fourier's advisor was [Professor Joseph Louis Lagrange](https://en
 This line continues with Euler, both Bernoulli's, and Leibnitz.
 
 ---
-    For more information please see the Mathematics Genealogy Project.
+For more information please see the [Mathematics Genealogy Project](https://www.mathgenealogy.org).
