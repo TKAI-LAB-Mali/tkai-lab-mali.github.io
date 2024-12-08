@@ -28,65 +28,170 @@ and natural language processing). -->
 
 ## PhD Students
 
-<div style="display: flex; flex-wrap: wrap; gap: 45px;">
+<div class="grid cards" markdown>
 
-<div style="width: 300px; text-align: center; border: 1px solid #ddd; padding: 10px; border-radius: 10px;">
-  <img src="assets/images/hitesh.jpg" alt="Person 1" style="border-radius: 50%; width: 150px; height: 150px;">
-  <h3>Person 1</h3>
-  <p>Short bio about Person 1 goes here. They love programming and solving complex problems.</p>
-  <p>
-    <a href="https://twitter.com/person1" target="_blank">Twitter</a> |
-    <a href="https://github.com/person1" target="_blank">GitHub</a>
-  </p>
-</div>
-
-<div style="width: 300px; text-align: center; border: 1px solid #ddd; padding: 10px; border-radius: 10px;">
-  <img src="assets/images/shion_matsumoto.jpg" alt="Person 2" style="border-radius: 50%; width: 150px; height: 150px;">
-  <h3>Person 2</h3>
-  <p>Short bio about Person 2 goes here. They specialize in data science and AI.</p>
-  <p>
-    <a href="https://linkedin.com/in/person2" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/person2" target="_blank">GitHub</a>
-  </p>
-</div>
-
-<div style="width: 300px; text-align: center; border: 1px solid #ddd; padding: 10px; border-radius: 10px;">
-  <img src="https://via.placeholder.com/150" alt="Person 2" style="border-radius: 50%; width: 150px; height: 150px;">
-  <h3>Person 2</h3>
-  <p>Short bio about Person 2 goes here. They specialize in data science and AI.</p>
-  <p>
-    <a href="https://linkedin.com/in/person2" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/person2" target="_blank">GitHub</a>
-  </p>
-</div>
-
-</div>
-
-
-<div class="people-grid">
-  <div class="person">
-    <img src="docs/assets/images/hitesh.jpg" alt="Hitesh">
-    <h3>Hitesh</h3>
-    <p>Email: john@example.com</p>
-    <p>Twitter: @johndoe</p>
+<div class="card">
+  <div class="card-name">Hitesh Vaidya</div>
+  <div class="card-divider"></div>
+  <img src="../assets/images/hitesh.jpg" alt="Hitesh" class="card-image">
+  <div class="card-bio">
+    PhD Student, CSE<br>
+    Continual Learning </br> Bio-mimetic Machine Learning
   </div>
-  <div class="person">
-    <img src="assets/images/shion_matsumoto.jpg" alt="Shion">
-    <h3>Shion</h3>
-    <p>Email: jane@example.com</p>
-    <p>LinkedIn: janesmith</p>
-  </div>
-  <div class="person">
-    <img src="path/to/image3.jpg" alt="Person 3">
-    <h3>Bob Johnson</h3>
-    <p>Email: bob@example.com</p>
-    <p>GitHub: bobjohnson</p>
+  <div class="card-socials">
+    <a href="mailto:hvaidya@usf.edu" title="Email"> <!-- email link -->
+    <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
+  </a> | <a href="https://hiteshvaidya.github.io" title="Website"> <!-- website link -->
+    <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
+  </a> | <a href="https://scholar.google.com/citations?user=_kpePHMAAAAJ&hl=en&authuser=1" title="Google Scholar">
+    <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
+  </a>
   </div>
 </div>
+
+<div class="card">
+  <div class="card-name">Theophilus</div>
+  <div class="card-divider"></div>
+  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
+  <div class="card-bio">
+    Research Assistant, CSE<br>
+    Short bio here
+  </div>
+  <div class="card-socials">
+    <a href="#">Email</a> | <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-name">Shion Matsumoto</div>
+  <div class="card-divider"></div>
+  <img src="../assets/images/shion_matsumoto.jpg" alt="Shion" class="card-image">
+  <div class="card-bio">
+    Research Assistant, CSE<br>
+    Bioinspired learning
+  </div>
+  <div class="card-socials">
+    <a href="mailto:matsumoto@usf.edu">Email</a> | <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-name">Benjamin Prada</div>
+  <div class="card-divider"></div>
+  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
+  <div class="card-bio">
+    Research Assistant, CSE<br>
+    Short bio here
+  </div>
+  <div class="card-socials">
+    <a href="#">Email</a> | <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+  </div>
+</div>
+
+</div>
+
+
+## Graduate Students
 
 <div class="grid cards" markdown>
 
--   ![Hitesh](assets/images/hitesh.jpg){ align=center width="200" }
+<div class="card">
+  <div class="card-name">Rushita</div>
+  <div class="card-divider"></div>
+  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
+  <div class="card-bio">
+    Research Assistant, CSE<br>
+    Short bio here
+  </div>
+  <div class="card-socials">
+    <a href="#">Email</a> | <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-name">abc</div>
+  <div class="card-divider"></div>
+  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
+  <div class="card-bio">
+    Research Assistant, CSE<br>
+    Short bio here
+  </div>
+  <div class="card-socials">
+    <a href="#">Email</a> | <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-name">abc</div>
+  <div class="card-divider"></div>
+  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
+  <div class="card-bio">
+    Research Assistant, CSE<br>
+    Short bio here
+  </div>
+  <div class="card-socials">
+    <a href="#">Email</a> | <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+  </div>
+</div>
+
+</div>
+
+
+## Under Graduate Students
+
+<div class="grid cards" markdown>
+
+<div class="card">
+  <div class="card-name">Yusra</div>
+  <div class="card-divider"></div>
+  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
+  <div class="card-bio">
+    Research Assistant, CSE<br>
+    Short bio here
+  </div>
+  <div class="card-socials">
+    <a href="#">Email</a> | <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-name">Zhanna</div>
+  <div class="card-divider"></div>
+  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
+  <div class="card-bio">
+    Research Assistant, CSE<br>
+    Short bio here
+  </div>
+  <div class="card-socials">
+    <a href="#">Email</a> | <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-name">abc</div>
+  <div class="card-divider"></div>
+  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
+  <div class="card-bio">
+    Research Assistant, CSE<br>
+    Short bio here
+  </div>
+  <div class="card-socials">
+    <a href="#">Email</a> | <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+  </div>
+</div>
+
+
+</div>
+
+
+<!-- 
+<div class="grid cards" markdown>
+
+-   Hitesh Vaidya
+  
+    ---
+
+  ![Hitesh](assets/images/hitesh.jpg){ align=center width="200" }
     </br>
     PhD Student, CSE </br>
     hvaidya@usf.edu </br>
@@ -206,5 +311,7 @@ and natural language processing). -->
 
 
 </div>
+ -->
 
 ## Alumni
+..
