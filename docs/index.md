@@ -1,3 +1,10 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
+
 ![lab-logo](assets/images/lab-logo.png){ align=left width="250" height="300"}
 
 <!-- # Trustworthy Knowledge-Driven Artificial Intelligence (TKAI) Lab -->
