@@ -322,24 +322,24 @@ and natural language processing). -->
 </div>
 
 <div class="card">
-  <div class="card-name">abc</div>
+  <div class="card-name">Mustafa Mannan</div>
   <div class="card-divider"></div>
-  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
+  <img src="../assets/images/people/Mustafa.png" alt="Mustafa" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
-    Short bio here
+    Tackling challenges in neural network learnability and stability<br>
   </div>
   <div class="card-socials">
-    <a href="mailto:email@usf.edu" title="Email">
+    <a href="mailto:mannan2@usf.edu" title="Email">
       <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
     </a>
-    <a href="https://yourwebsite.com" title="Website">
+    <a href="https://mannanmustafa.com" title="Website">
       <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
     </a>
-    <a href="https://linkedin.com/in/yourprofile" title="LinkedIn">
+    <a href="https://linkedin.com/in/mustafa-mannan" title="LinkedIn">
       <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
     </a>
-    <a href="https://github.com/yourprofile" title="GitHub">
+    <a href="https://github.com/mmannan17" title="GitHub">
       <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
     </a>
     <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
