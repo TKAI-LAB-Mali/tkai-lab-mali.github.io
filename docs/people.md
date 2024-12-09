@@ -124,22 +124,22 @@ and natural language processing). -->
   <img src="../assets/images/people/shion_matsumoto.jpg" alt="Shion" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
-    Bioinspired learning
+    Bioinspired learning, physics-informed neural networks
   </div>
   <div class="card-socials">
-    <a href="mailto:email@usf.edu" title="Email">
+    <a href="mailto:matsumoto@usf.edu" title="Email">
       <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
     </a>
-    <a href="https://yourwebsite.com" title="Website">
-      <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
-    </a>
-    <a href="https://linkedin.com/in/yourprofile" title="LinkedIn">
+    <!--<a href="https://yourwebsite.com" title="Website">-->
+    <!--  <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">-->
+    <!--</a>-->
+    <a href="https://linkedin.com/in/shion-matsumoto" title="LinkedIn">
       <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
     </a>
-    <a href="https://github.com/yourprofile" title="GitHub">
+    <a href="https://github.com/matsumotosan" title="GitHub">
       <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
     </a>
-    <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
+    <a href="https://scholar.google.com/citations?user=tu2K8tkAAAAJ&hl=en" title="Google Scholar">
       <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
     </a>
   </div>
