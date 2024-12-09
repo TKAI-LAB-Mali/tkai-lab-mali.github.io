@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-<p class = "heading" >Principal Investigator - Prof. Ankur Mali</p>
+<p class = "heading" >Principal Investigator - Professor Ankur Mali</p>
 
 <!-- ![Prof. Ankur Mali](assets/images/Ankur_Mali.jpg){ align=left width="300" height="400"} -->
 
@@ -20,7 +20,7 @@ Furthermore, he has also designed approaches to investigate the mysterious succe
 <div class="profile-container ankur-mali-profile">
   <img src="../assets/images/people/Ankur_Mali.jpg" alt="Prof. Ankur Mali" class="profile-image">
   <div class="profile-content">
-    <p>Prof. Ankur Mali completed his Ph.D. under Prof. Clyde Lee Giles from The Pennsylvania State University in 2022. He works at the intersection of language, memory, and computation—spanning Natural Language Processing (NLP), linguistics, and formal language theory.</p>
+    <p>Professor Ankur Mali completed his Ph.D. under Professor Clyde Lee Giles from The Pennsylvania State University in 2022. He works at the intersection of language, memory, and computation—spanning natural language processing, linguistics, and formal language theory.</p>
     
     <p>Furthermore, he has also designed approaches to investigate the mysterious success of deep learning in recognizing natural language from a theoretical and empirical perspective. He also works on designing learning algorithms and computational neural architectures guided by theories of the brain. These architectures focus on solving challenges such as continual/lifelong learning, learning with minimal supervision, Reinforcement Learning, and robustness (both in computer vision and natural language processing).</p>
     
@@ -124,22 +124,22 @@ and natural language processing). -->
   <img src="../assets/images/people/shion_matsumoto.jpg" alt="Shion" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
-    Bioinspired learning
+    Bioinspired learning, physics-informed neural networks
   </div>
   <div class="card-socials">
-    <a href="mailto:email@usf.edu" title="Email">
+    <a href="mailto:matsumoto@usf.edu" title="Email">
       <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
     </a>
-    <a href="https://yourwebsite.com" title="Website">
-      <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
-    </a>
-    <a href="https://linkedin.com/in/yourprofile" title="LinkedIn">
+    <!--<a href="https://yourwebsite.com" title="Website">-->
+    <!--  <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">-->
+    <!--</a>-->
+    <a href="https://linkedin.com/in/shion-matsumoto" title="LinkedIn">
       <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
     </a>
-    <a href="https://github.com/yourprofile" title="GitHub">
+    <a href="https://github.com/matsumotosan" title="GitHub">
       <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
     </a>
-    <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
+    <a href="https://scholar.google.com/citations?user=tu2K8tkAAAAJ&hl=en" title="Google Scholar">
       <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
     </a>
   </div>
@@ -175,7 +175,7 @@ and natural language processing). -->
 </div>
 
 
-## Graduate Students
+## Master's Students
 
 <div class="grid cards" markdown>
 
@@ -263,7 +263,7 @@ and natural language processing). -->
 </div>
 
 
-## Under Graduate Students
+## Undergraduate Students
 
 <div class="grid cards" markdown>
 
@@ -350,136 +350,6 @@ and natural language processing). -->
 
 
 </div>
-
-
-<!-- 
-<div class="grid cards" markdown>
-
--   Hitesh Vaidya
-  
-    ---
-
-  ![Hitesh](assets/images/hitesh.jpg){ align=center width="200" }
-    </br>
-    PhD Student, CSE </br>
-    hvaidya@usf.edu </br>
-    Continual Learning, Bio-mimetic Machine Learning
-
-
--   Theophilus
-
-    ---
-
-    ![Shion](https://dummyimage.com/400x400/eee/aaa){ align=left width="200" }
-
-    Research Assistant, CSE
-
-
--   Shion Matsumoto
-
-    ---
-
-    ![Shion](assets/images/shion_matsumoto.jpg){ align=left width="200" }
-
-    Research Assistant, CSE
-
-    matsumoto@usf.edu
-
-    Bioinspired learning
-
--   Benjamin Prada
-
-    ---
-
-    ![Shion](https://dummyimage.com/400x400/eee/aaa){ align=left width="200" }
-
-    Research Assistant, CSE
-
-
-</div>
-
-## Master's Students
-
-<div class="grid cards" markdown>
-
--   Alfredo
-
-    ---
-
-    ![Shion](https://dummyimage.com/400x400/eee/aaa){ align=left width="200" }
-
-    Research Assistant, CSE
-
-
--   Gerardo
-
-    ---
-
-    ![Shion](https://dummyimage.com/400x400/eee/aaa){ align=left width="200" }
-
-    Research Assistant, CSE
-
-
--   Rushitha
-
-    ---
-
-    ![Shion](https://dummyimage.com/400x400/eee/aaa){ align=left width="200" }
-
-
--   Tahsun
-
-    ---
-
-    ![Shion](https://dummyimage.com/400x400/eee/aaa){ align=left width="200" }
-
-    Research Assistant, CSE
-
-
-</div>
-
-## Undergraduate Students
-
-<div class="grid cards" markdown>
-
--   Shrabon
-
-    ---
-
-    ![Shion](https://dummyimage.com/400x400/eee/aaa){ align=left width="200" }
-
-    Research Assistant, CSE
-
-
--   Zhanna
-
-    ---
-
-    ![Shion](https://dummyimage.com/400x400/eee/aaa){ align=left width="200" }
-
-    Research Assistant, CSE
-
-
--   Mustafa
-
-    ---
-
-    ![Shion](https://dummyimage.com/400x400/eee/aaa){ align=left width="200" }
-
-    Research Assistant, CSE
-
-
--   Yusra
-
-    ---
-
-    ![Shion](https://dummyimage.com/400x400/eee/aaa){ align=left width="200" }
-
-    Research Assistant, CSE
-
-
-</div>
- -->
 
 ## Alumni
 
