@@ -1,4 +1,8 @@
-# Academic Geneology
+---
+hide:
+  - navigation
+  - toc
+---
 
 ### [Academic Geneology of Dr. Ankur Mali](https://www.mathgenealogy.org/id.php?id=292756)
 

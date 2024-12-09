@@ -1,6 +1,10 @@
-# People
+---
+hide:
+  - navigation
+  - toc
+---
 
-## Principal Investigator - Prof. Ankur Mali
+<p class = "heading" >Principal Investigator - Prof. Ankur Mali</p>
 
 <!-- ![Prof. Ankur Mali](assets/images/Ankur_Mali.jpg){ align=left width="300" height="400"} -->
 
@@ -14,7 +18,7 @@ Furthermore, he has also designed approaches to investigate the mysterious succe
 </div> -->
 
 <div class="profile-container ankur-mali-profile">
-  <img src="../assets/images/Ankur_Mali.jpg" alt="Prof. Ankur Mali" class="profile-image">
+  <img src="../assets/images/people/Ankur_Mali.jpg" alt="Prof. Ankur Mali" class="profile-image">
   <div class="profile-content">
     <p>Prof. Ankur Mali completed his Ph.D. under Prof. Clyde Lee Giles from The Pennsylvania State University in 2022. He works at the intersection of language, memory, and computation—spanning Natural Language Processing (NLP), linguistics, and formal language theory.</p>
     
@@ -63,7 +67,7 @@ and natural language processing). -->
 <div class="card">
   <div class="card-name">Hitesh Vaidya</div>
   <div class="card-divider"></div>
-  <img src="../assets/images/hitesh.jpg" alt="Hitesh" class="card-image">
+  <img src="../assets/images/people/hitesh.jpg" alt="Hitesh" class="card-image">
   <div class="card-bio">
     Continual Learning, Bio-mimetic Machine Learning <br>
     loves running, yoga and travelling
@@ -117,7 +121,7 @@ and natural language processing). -->
 <div class="card">
   <div class="card-name">Shion Matsumoto</div>
   <div class="card-divider"></div>
-  <img src="../assets/images/shion_matsumoto.jpg" alt="Shion" class="card-image">
+  <img src="../assets/images/people/shion_matsumoto.jpg" alt="Shion" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
     Bioinspired learning
@@ -144,7 +148,7 @@ and natural language processing). -->
 <div class="card">
   <div class="card-name">Benjamin Prada</div>
   <div class="card-divider"></div>
-  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
+  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Benjamin" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
     Short bio here
@@ -176,21 +180,21 @@ and natural language processing). -->
 <div class="grid cards" markdown>
 
 <div class="card">
-  <div class="card-name">Rushita</div>
+  <div class="card-name">Sree Rushitha Santhoshi Mamidala</div>
   <div class="card-divider"></div>
-  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
+  <img src="../assets/images/people/rushitha.jpg" alt="Rushitha" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
     Short bio here
   </div>
   <div class="card-socials">
-    <a href="mailto:email@usf.edu" title="Email">
+    <a href="mailto:sreerushitha@usf.edu" title="Email">
       <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
     </a>
     <a href="https://yourwebsite.com" title="Website">
       <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
     </a>
-    <a href="https://linkedin.com/in/yourprofile" title="LinkedIn">
+    <a href="https://www.linkedin.com/in/sree-rushitha-mamidala/" title="LinkedIn">
       <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
     </a>
     <a href="https://github.com/yourprofile" title="GitHub">

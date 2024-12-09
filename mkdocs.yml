@@ -3,10 +3,11 @@ repo_name: TKAI-Lab
 repo_url: https://github.com/TKAI-LAB-Mali
 
 theme:
+  logo: assets/images/lab-logo.png
   name: material
   features:
-  - navigation.instant
-  - navigation.instant.progress
+  # - navigation.instant
+  # - navigation.instant.progress
   - navigation.tabs
   - navigation.tabs.sticky
   - navigation.top
@@ -14,18 +15,37 @@ theme:
   - search.suggest
   - toc.follow
   - toc.integrate
-  palette: 
-    # light mode
-    - scheme: default
-      primary: '#006747'
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
-    # dark mode
-    - scheme: slate
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to light mode
+  # palette: 
+  #   # light mode
+  #   - media: "(prefers-color-scheme: light)"
+  #   - scheme: default
+  #     toggle:
+  #       icon: material/weather-sunny
+  #       name: Switch to dark mode
+  #   # dark mode
+  #   - media: "(prefers-color-scheme: dark)"
+  #   - scheme: slate
+  #     toggle:
+  #       icon: material/weather-night
+  #       name: Switch to light mode
+  palette:
+  # Light mode configuration
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: custom
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to dark mode
+
+  # Dark mode configuration
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: black 
+    accent: black
+    toggle:
+      icon: material/weather-night
+      name: Switch to light mode
+
 
 plugins:
   - search
@@ -39,10 +59,14 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - js/extra.js
+
 nav:
   - Home: index.md
   - People: people.md
   - Projects: projects.md
   - Publications: publications.md
   - Academic Geneology: geneology.md
+  - Moments : moments.md
   - Join Us: join.md

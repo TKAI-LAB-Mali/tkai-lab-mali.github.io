@@ -8,7 +8,7 @@ hide:
 ![lab-logo](assets/images/lab-logo.png){ align=left width="250" height="300"}
 
 <!-- # Trustworthy Knowledge-Driven Artificial Intelligence (TKAI) Lab -->
-<p style="color: #CFC493; font-size: 24px; font-weight: bold;">Trustworthy Knowledge-Driven Artificial Intelligence (TKAI) Lab</p>
+<p class = "heading">Trustworthy Knowledge-Driven Artificial Intelligence (TKAI) Lab</p>
 
 At the Trustworthy Knowledge Driven Artificial Intelligence (TKAI) Laboratory,
 we combine research ideas derived from formal methods, linguistics, cognitive

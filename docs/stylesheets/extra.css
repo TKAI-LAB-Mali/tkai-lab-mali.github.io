@@ -1,3 +1,9 @@
+.heading {
+  color: #CFC493; 
+  font-size: 24px; 
+  font-weight: bold;
+}
+
 .ankur-mali-profile {
   display: flex;
   gap: 20px;
@@ -18,6 +24,57 @@
   gap: 10px;
   margin-top: 20px;
 }
+
+.image-stack {
+  position: relative;
+  width: 1200px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  position: relative;
+  width: calc(100%*5);
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.stacked-image {
+  width: 33.33%; 
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 3px solid #CFC493; 
+  border-radius: 8px; 
+  box-sizing: border-box; 
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
 
 /* .md-grid {
   max-width: 1440px; 
@@ -219,4 +276,9 @@
   .grid.cards {
     grid-template-columns: 1fr;
   }
+}
+
+:root {
+  --md-primary-fg-color:        #0f311d;
+  --md-primary-bg-color:        #CFC493;
 }
