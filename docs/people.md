@@ -482,4 +482,12 @@ and natural language processing). -->
  -->
 
 ## Alumni
-..
+
+### PhD students
+- [Neisarg Dave](https://www.neisargdave.com), advised by [Dr. C. Lee Giles](https://clgiles.ist.psu.edu), [Dr. Dan Kifer](https://www.cse.psu.edu/~duk17/), Dr. Ankur Mali
+- [Haiwen Guan](https://scholar.google.com/citations?user=TfhgkD4AAAAJ&hl=en), advised by [Dr. C. Lee Giles](https://clgiles.ist.psu.edu) and Dr. Ankur Mali
+- Alex Bi, advised by [Dr. Parisa Shokouhi](https://sites.psu.edu/ultrasonics/pshokouhi/) and Dr. Ankur Mali
+
+### Graduate students
+- [Thejasvi Valega](https://github.com/thejasvi204), advised by [Dr. Parisa Shokouhi](https://sites.psu.edu/ultrasonics/pshokouhi/) and Dr. Ankur Mali
+- Sudarshan Nayak, advised by [Dr. Dan Kifer](https://www.cse.psu.edu/~duk17/), [Dr. Parisa Shokouhi](https://sites.psu.edu/ultrasonics/pshokouhi/), and Dr. Ankur Mali

@@ -1,3 +1,13 @@
+.md-content a {
+  color: #CFC493; /* Change this to your preferred color */
+  text-decoration : underline;
+}
+
+.md-typeset a:hover {
+  color: #466069;
+  /* background-color: #OPTIONAL-BACKGROUND-COLOR; */
+}
+
 .heading {
   color: #CFC493; 
   font-size: 24px; 
