@@ -1,5 +1,3 @@
-# Contact
-
 The TKAI Lab is seeking highly-motivated Ph.D. students to conduct multidisciplinary research on the problems such as:
 
 - Encoding knowledge graph with Artificial neural network to construct safe, robust Artificial general intelligence system (AGI) that can be deployed to work on high-risk domains such as medicine, finance. This field is also known as neuro-symbolic AI, where goal is to build trustworthy AI system by encoding interpretable knowledge
@@ -22,7 +20,7 @@ Please refer to instructions highlighted above:
 - Self-motivated and eager to explore challenging problems in NLP and AI.
 - Ideally have some background in AI/NLP and working knowledge of linear algebra and statistics
 
-### How to work with me?
+## How to work with me?
 
 - Ideally you will/should consider starting as an volunteer and work with me for some-time. In future there with possibility of funding based on performance. Please remember evaluation is based on research conducted in any given semester and not on line of codes you have written.
 - When you volunteer, I would expect you to work for minimal 5-10 hours, however given your obligations are minimal, one can adjust involvement based on schedule and current learning curve.

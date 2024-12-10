@@ -185,24 +185,24 @@ and natural language processing). -->
   <img src="../assets/images/people/rushitha.jpg" alt="Rushitha" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
-    Short bio here
+    Natural Language Processing
   </div>
   <div class="card-socials">
     <a href="mailto:sreerushitha@usf.edu" title="Email">
       <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
     </a>
-    <a href="https://yourwebsite.com" title="Website">
+    <!-- <a href="https://yourwebsite.com" title="Website">
       <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
-    </a>
+    </a> -->
     <a href="https://www.linkedin.com/in/sree-rushitha-mamidala/" title="LinkedIn">
       <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
     </a>
-    <a href="https://github.com/yourprofile" title="GitHub">
+    <a href="https://github.com/RushithaMamidala" title="GitHub">
       <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
     </a>
-    <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
+    <!-- <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
       <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
-    </a>
+    </a> -->
   </div>
 </div>
 
