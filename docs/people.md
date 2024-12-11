@@ -11,7 +11,7 @@ hide:
 <!-- ### Prof. Ankur Mali -->
 <!-- <div class="profile-container ankur-mali-profile">
 
-Prof. Ankur Mali completed his Ph.D. under Prof. Clyde Lee Giles from The Pennsylvania State University in 2022. He works at the intersection of language, memory, and computation—spanning Natural Language Processing (NLP), linguistics, and formal language theory. 
+Prof. Ankur Mali completed his Ph.D. under Prof. Clyde Lee Giles from The Pennsylvania State University in 2022. He works at the intersection of language, memory, and computation—spanning Natural Language Processing (NLP), linguistics, and formal language theory.
 
 Furthermore, he has also designed approaches to investigate the mysterious success of deep learning in recognizing natural language from a theoretical and empirical perspective. He also works on designing learning algorithms and computational neural architectures guided by theories of the brain. These architectures focus on solving challenges such as continual/lifelong learning, learning with minimal supervision, Reinforcement Learning, and robustness (both in computer vision and natural language processing).
 
@@ -174,7 +174,6 @@ and natural language processing). -->
 
 </div>
 
-
 ## Master's Students
 
 <div class="grid cards" markdown>
@@ -262,7 +261,6 @@ and natural language processing). -->
 
 </div>
 
-
 ## Undergraduate Students
 
 <div class="grid cards" markdown>
@@ -348,16 +346,44 @@ and natural language processing). -->
   </div>
 </div>
 
+<div class="card">
+  <div class="card-name">Shrabon Kumar Das</div>
+  <div class="card-divider"></div>
+  <img src="../assets/images/people/shrabon.jpg" alt="Shrabon" class="card-image">
+  <div class="card-bio">
+    Research Assistant, CSE<br>
+    Investigating learnability and expressivity of neural architectures
+  </div>
+  <div class="card-socials">
+    <a href="mailto:das157@usf.edu" title="Email">
+      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
+    </a>
+    <!-- <a href="https://yourwebsite.com" title="Website">
+      <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
+    </a> -->
+    <a href="https://www.linkedin.com/in/shrabon-kumar-das-25564621a/" title="LinkedIn">
+      <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
+    </a>
+    <a href="https://github.com/ShrabonDas" title="GitHub">
+      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
+    </a>
+    <a href="https://scholar.google.com/citations?user=kCbp6B4AAAAJ&hl=en" title="Google Scholar">
+      <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
+    </a>
+  </div>
+</div>
 
 </div>
 
 ## Alumni
 
 ### PhD students
+
 - [Neisarg Dave](https://www.neisargdave.com), advised by [Dr. C. Lee Giles](https://clgiles.ist.psu.edu), [Dr. Dan Kifer](https://www.cse.psu.edu/~duk17/), Dr. Ankur Mali
 - [Haiwen Guan](https://scholar.google.com/citations?user=TfhgkD4AAAAJ&hl=en), advised by [Dr. C. Lee Giles](https://clgiles.ist.psu.edu) and Dr. Ankur Mali
 - Alex Bi, advised by [Dr. Parisa Shokouhi](https://sites.psu.edu/ultrasonics/pshokouhi/) and Dr. Ankur Mali
 
 ### Graduate students
+
 - [Thejasvi Valega](https://github.com/thejasvi204), advised by [Dr. Parisa Shokouhi](https://sites.psu.edu/ultrasonics/pshokouhi/) and Dr. Ankur Mali
 - Sudarshan Nayak, advised by [Dr. Dan Kifer](https://www.cse.psu.edu/~duk17/), [Dr. Parisa Shokouhi](https://sites.psu.edu/ultrasonics/pshokouhi/), and Dr. Ankur Mali
