@@ -179,6 +179,33 @@ and natural language processing). -->
 <div class="grid cards" markdown>
 
 <div class="card">
+  <div class="card-name">Alfredo Fernandez</div>
+  <div class="card-divider"></div>
+  <img src="../assets/images/people/Alfredo.png" alt="Theophilus" class="card-image">
+  <div class="card-bio">
+    Research Assistant, CSE<br>
+    Deep Learning, Applied Mathematics
+  </div>
+  <div class="card-socials">
+    <a href="mailto:alfredo.fernandez2021@outlook.com" title="Email">
+      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
+    </a>
+    <!-- <a href="https://yourwebsite.com" title="Website">
+      <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
+    </a> -->
+    <a href="https://www.linkedin.com/in/alfredofernandezjr/" title="LinkedIn">
+      <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
+    </a>
+    <a href="https://github.com/alfredofernandez2021" title="GitHub">
+      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
+    </a>
+    <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
+      <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
+    </a>
+  </div>
+</div>
+
+<div class="card">
   <div class="card-name">Sree Rushitha Santhoshi Mamidala</div>
   <div class="card-divider"></div>
   <img src="../assets/images/people/rushitha.jpg" alt="Rushitha" class="card-image">
@@ -202,33 +229,6 @@ and natural language processing). -->
     <!-- <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
       <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
     </a> -->
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-name">abc</div>
-  <div class="card-divider"></div>
-  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
-  <div class="card-bio">
-    Research Assistant, CSE<br>
-    Short bio here
-  </div>
-  <div class="card-socials">
-    <a href="mailto:email@usf.edu" title="Email">
-      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-    </a>
-    <a href="https://yourwebsite.com" title="Website">
-      <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
-    </a>
-    <a href="https://linkedin.com/in/yourprofile" title="LinkedIn">
-      <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
-    </a>
-    <a href="https://github.com/yourprofile" title="GitHub">
-      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
-    </a>
-    <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
-      <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
-    </a>
   </div>
 </div>
 
