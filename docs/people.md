@@ -92,27 +92,27 @@ and natural language processing). -->
 </div>
 
 <div class="card">
-  <div class="card-name">Theophilus</div>
+  <div class="card-name">Theophilus Amaefuna</div>
   <div class="card-divider"></div>
   <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
-    Short bio here
+    Predictive coding, Natural Language Processing <br>
   </div>
   <div class="card-socials">
-    <a href="mailto:email@usf.edu" title="Email">
+    <a href="mailto:ikennaamaefuna@usf.edu" title="Email">
       <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
     </a>
-    <a href="https://yourwebsite.com" title="Website">
+    <!-- <a href="https://yourwebsite.com" title="Website">
       <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
-    </a>
-    <a href="https://linkedin.com/in/yourprofile" title="LinkedIn">
+    </a> -->
+    <!-- <a href="https://linkedin.com/in/yourprofile" title="LinkedIn">
       <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
-    </a>
-    <a href="https://github.com/yourprofile" title="GitHub">
+    </a> -->
+    <a href="https://github.com/ait360" title="GitHub">
       <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
     </a>
-    <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
+    <a href="https://scholar.google.com/citations?hl=en&user=XI04vUMAAAAJ" title="Google Scholar">
       <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
     </a>
   </div>
