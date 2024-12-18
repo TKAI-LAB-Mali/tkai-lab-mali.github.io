@@ -296,22 +296,22 @@ and natural language processing). -->
 <div class="card">
   <div class="card-name">Yusra</div>
   <div class="card-divider"></div>
-  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
+  <img src="https://github.com/TKAI-LAB-Mali/lab-website/blob/main/docs/assets/images/people/YUSRA.jpeg?raw=true" alt="Yusra" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
-    Short bio here
+    Addressing challenges in neural network learnability and stability by exploring alternative algorithms to backpropagation
   </div>
   <div class="card-socials">
-    <a href="mailto:email@usf.edu" title="Email">
+    <a href="mailto:yrasool@usf.edu" title="Email">
       <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
     </a>
-    <a href="https://yourwebsite.com" title="Website">
+    <a href="https://yrasool.github.io/PORTFOLIO/" title="Website">
       <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
     </a>
-    <a href="https://linkedin.com/in/yourprofile" title="LinkedIn">
+    <a href="https://www.linkedin.com/in/yusra-rasool-5963b11b1/" title="LinkedIn">
       <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
     </a>
-    <a href="https://github.com/yourprofile" title="GitHub">
+    <a href="https://github.com/yrasool" title="GitHub">
       <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
     </a>
     <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
@@ -319,6 +319,7 @@ and natural language processing). -->
     </a>
   </div>
 </div>
+
 
 <div class="card">
   <div class="card-name">Zhanna</div>
