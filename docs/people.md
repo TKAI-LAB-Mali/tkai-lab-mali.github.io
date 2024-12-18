@@ -21,9 +21,9 @@ Furthermore, he has also designed approaches to investigate the mysterious succe
   <img src="../assets/images/people/Ankur_Mali.jpg" alt="Prof. Ankur Mali" class="profile-image">
   <div class="profile-content">
     <p>Professor Ankur Mali completed his Ph.D. under Professor Clyde Lee Giles from The Pennsylvania State University in 2022. He works at the intersection of language, memory, and computation—spanning natural language processing, linguistics, and formal language theory.</p>
-    
+
     <p>Furthermore, he has also designed approaches to investigate the mysterious success of deep learning in recognizing natural language from a theoretical and empirical perspective. He also works on designing learning algorithms and computational neural architectures guided by theories of the brain. These architectures focus on solving challenges such as continual/lifelong learning, learning with minimal supervision, Reinforcement Learning, and robustness (both in computer vision and natural language processing).</p>
-    
+
     <div class="card-socials">
       <a href="mailto:ankurmali@usf.edu" title="Email">
         <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
@@ -296,7 +296,7 @@ and natural language processing). -->
 <div class="card">
   <div class="card-name">Yusra</div>
   <div class="card-divider"></div>
-  <img src="https://github.com/TKAI-LAB-Mali/lab-website/blob/main/docs/assets/images/people/YUSRA.jpeg?raw=true" alt="Yusra" class="card-image">
+  <img src="../assets/images/people/YUSRA.jpeg" alt="Yusra" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
     Addressing challenges in neural network learnability and stability by exploring alternative algorithms to backpropagation
