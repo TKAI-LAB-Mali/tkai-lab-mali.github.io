@@ -12,7 +12,7 @@ His students are part of the following legacy.
 
 His advisor was [Professor C. Lee Giles](https://clgiles.ist.psu.edu/index.shtml), Ph.D. University of Arizona.
 
-His advisor was [Professor Harrison H. Barrett](https://www.optics.arizona.edu/person/harrison-barrett), Ph.D. Harvard University.
+Lee's advisor was [Professor Harrison H. Barrett](https://www.optics.arizona.edu/person/harrison-barrett), Ph.D. Harvard University.
 
 Barrett’s advisor was [Professor R. Victor Jones](https://en.wikipedia.org/wiki/Richard_Victor_Jones), Ph.D. University of California, Berkeley.
 
