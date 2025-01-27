@@ -1,51 +1,79 @@
-The TKAI Lab is seeking highly-motivated Ph.D. students to conduct multidisciplinary research on the problems such as:
+The TKAI Lab is seeking highly motivated Ph.D. and undergraduate students to join our multidisciplinary research efforts aimed at addressing foundational and applied challenges in Artificial Intelligence (AI). Our lab's mission is to develop stable, trustworthy, and explainable AI systems inspired by insights from neuroscience, cognitive science, control theory, and formal methods. Below are key areas of research you will have the opportunity to contribute to:
 
-- Encoding knowledge graph with Artificial neural network to construct safe, robust Artificial general intelligence system (AGI) that can be deployed to work on high-risk domains such as medicine, finance. This field is also known as neuro-symbolic AI, where goal is to build trustworthy AI system by encoding interpretable knowledge
-- Design mathematical foundation and derive theoretical limits for these models to work in polynomial time
-- Design predictive coding inspired architectures for sequential modeling, encode multi-modality signals into the systems and evaluate them on critical or high-risk domains
-- Design computational models that can encode various fairness metrics while learning, such that model has a prior and produces fair information by design
-- Design computational models that are capable of generating and recognizing languages when trained on low-resource datasets (low resource NLP)
-- Most importantly we are working on encoding knowledge and build neural architectures that are explainable (XAI) by design and also by visualization.
+### Research Focus Areas
 
-## PhD Students
+- **Neuro-Symbolic AI for Trustworthy Systems:** 
+   We are developing methods to encode knowledge graphs into artificial neural networks to create robust and interpretable Artificial General Intelligence (AGI). These systems are designed to operate safely in high-risk domains such as medicine and finance. This aligns with our broader goal of building explainable and trustworthy AI systems by combining symbolic reasoning with neural architectures.
 
-Position Requirements: Master’s/Bachelor’s degree in majors/fields including but not limited to: Mathematics, Applied Physics, Statistics, Electrical Engineering, Computer Science/Engineering, linguistics and other related fields.
+- **Theoretical Foundations of AI Models:** 
+   Establishing rigorous mathematical frameworks is central to our work. We aim to derive theoretical limits and stability guarantees for AI models, ensuring they function efficiently in polynomial time. This connects to our ongoing efforts to integrate insights from formal methods into AI development for both theoretical rigor and practical reliability.
 
-Preferred Experience: experimental research experience such as, but not limited to Fluency in at least one programming language C/C++ or python, Good working knowledge about Artificial intelligence and Reinforcement learning, Linguistics, formal language theory etc.
+- **Predictive Coding Architectures:** 
+   Inspired by cognitive science, we are designing predictive coding-based architectures for sequential modeling and multi-modal signal encoding. These systems are evaluated on high-stakes domains, such as medicine and cybersecurity, to ensure stability, efficiency, and adaptability.
+
+- **Fairness by Design in AI Systems:** 
+   We aim to create computational models that inherently encode fairness metrics during training. These models are designed with prior constraints to ensure fair and unbiased outcomes, addressing critical ethical concerns in AI deployment.
+
+- **Low-Resource Natural Language Processing (NLP):** 
+   Our lab is developing systems capable of generating and recognizing languages in low-resource settings. This research focuses on creating efficient and explainable neural architectures that perform well even with limited training data, enabling broader accessibility of AI technologies.
+
+- **Explainability by Design (XAI):** 
+   At TKAI, we prioritize explainability in AI systems, both through inherent architectural design and visualization tools. This aligns with our mission to create trustworthy AI systems that are transparent to end-users, fostering confidence in their real-world deployment.
+
+---
+
+## Ph.D. Students
+
+We are looking for Ph.D. students who are passionate about tackling these research challenges and contributing to cutting-edge advancements in AI.
+
+### Position Requirements:
+- A Master's or Bachelor's degree in fields such as Mathematics, Applied Physics, Statistics, Electrical Engineering, Computer Science/Engineering, Linguistics, or related disciplines.
+- Preferred skills include:
+  - Proficiency in at least one programming language (e.g., Python, C/C++).
+  - Strong understanding of Artificial Intelligence, Reinforcement Learning, or Linguistics.
+  - Knowledge of formal language theory, mathematical modeling, or multi-modal learning is a plus.
+
+---
 
 ## Undergraduate Students
 
-Please refer to instructions highlighted above:
-- Interested in working on relevant topics highlighted in our lab’s webpage
-- Self-motivated and eager to explore challenging problems in NLP and AI.
-- Ideally have some background in AI/NLP and working knowledge of linear algebra and statistics
+Undergraduate students interested in exploring AI and NLP are encouraged to join as volunteers or through independent study.
 
-## How to work with me?
+### Requirements:
+- Interest in topics highlighted on the lab’s webpage.
+- Self-motivated with a willingness to tackle challenging problems.
+- Background in AI/NLP, linear algebra, and statistics is preferred but not required.
 
-- Ideally you will/should consider starting as an volunteer and work with me for some-time. In future there with possibility of funding based on performance. Please remember evaluation is based on research conducted in any given semester and not on line of codes you have written.
-- When you volunteer, I would expect you to work for minimal 5-10 hours, however given your obligations are minimal, one can adjust involvement based on schedule and current learning curve.
-- Second approach is to take course credits or independent study and formally work on some challenging problems.
+---
 
-Instructions for Graduate Students seeking me as an advisor:
-- Graduate students should satisfy requirements highlighted in the main and under the undergraduate student section.
-- Graduate students are required to add additional hours and work on thesis and/or research article with me.
+## How to Work with Me
 
-If you wish to work with me, then your email should have following points
+### Getting Started:
+- Start as a **volunteer** to explore research opportunities and establish a working relationship. Depending on performance, funding opportunities may become available. Volunteers should dedicate a minimum of 5–10 hours per week, with flexibility based on obligations and learning curves.
+- Alternatively, take course credits or pursue an independent study under my guidance, focusing on a specific challenging research problem.
 
-- What: What are the problems you wish to explore and how it aligns with our lab’s agenda/interest.
-- How: How your knowledge/experience would be beneficial for the group.
-- Most important thing to remember is I can guide you, but I won’t be doing entire job for you.
+### Instructions for Graduate Students:
+- Graduate students should meet the general requirements and commit additional hours toward thesis work or publishing research articles.
+- Ensure your research aligns with the lab’s focus areas and be prepared to demonstrate your contributions.
 
-If you satisfy all criteria and wish to work on challenging topics
-Please send me an email(remember to mention topic) with your CV and other relevant details.
-Interested in working on NLP but do not have prior experience.
+---
 
-At TKAI we believe each student is special and offer different perspectives for solving any given problem.
+## Application Instructions
 
-If student invest time in understanding my work, allocates time to understand NLP and then decides to approach me with interests, then exceptions can be made.
+If you are interested in working with me, your email should include:
+1. **What:** Describe the problems you wish to explore and how they align with the lab’s research agenda.
+2. **How:** Explain how your skills, background, or experience will contribute to the lab’s success.
+3. **Note:** Remember, I can guide you, but I expect you to take ownership of your work.
 
-## Things not to do
+Include your CV and relevant details, along with the specific research topics you are interested in.
 
-- Asking me about funding without even working with me or taking my courses.
-- Not looking at my papers and website, and sending me an email your work is great in AI/NLP/CV and I wish to solve everything. Such emails won’t be answered. This clearly shows you did not invest any time in reading my work/papers.
+---
 
+## Things to Avoid
+
+- Asking about funding without prior work or taking relevant courses.
+- Sending generic emails without reading my papers or understanding the lab’s focus. Such emails will not receive a response.
+
+---
+
+At TKAI, we believe every student brings a unique perspective to solving complex problems. If you take the time to understand our work, explore the field, and approach us with specific research interests, exceptions can always be made for those eager to learn and contribute.
