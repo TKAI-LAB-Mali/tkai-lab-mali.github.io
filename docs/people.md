@@ -269,7 +269,7 @@ and natural language processing). -->
 <div class="card">
   <div class="card-name">Zhanna</div>
   <div class="card-divider"></div>
-  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
+  <img src="../assets/images/people/Zhanna_S.jpg" alt="Theophilus" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
     Evaluating learnability and stability in deep learning models by investigating alternative approaches to backpropagation and analyzing the effects of input perturbations <br>
