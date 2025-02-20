@@ -272,7 +272,8 @@ and natural language processing). -->
   <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
-    Short bio here
+    Evaluating learnability and stability in deep learning models by investigating alternative approaches to backpropagation and analyzing the effects of input perturbations <br>
+    Incoming SWE intern at DELL Technologies
   </div>
   <div class="card-socials">
     <a href="mailto:email@usf.edu" title="Email">
