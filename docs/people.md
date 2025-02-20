@@ -276,21 +276,21 @@ and natural language processing). -->
     Incoming SWE intern at DELL Technologies
   </div>
   <div class="card-socials">
-    <a href="mailto:email@usf.edu" title="Email">
+    <a href="mailto:zsergeeva@usf.edu" title="Email">
       <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
     </a>
-    <a href="https://yourwebsite.com" title="Website">
+<!--     <a href="https://yourwebsite.com" title="Website">
       <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
-    </a>
-    <a href="https://linkedin.com/in/yourprofile" title="LinkedIn">
+    </a> -->
+    <a href="https://www.linkedin.com/in/zhannasergeeva/" title="LinkedIn">
       <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
     </a>
-    <a href="https://github.com/yourprofile" title="GitHub">
+    <a href="https://github.com/zhannasunny" title="GitHub">
       <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
     </a>
-    <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
+<!--     <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
       <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
-    </a>
+    </a> -->
   </div>
 </div>
 
