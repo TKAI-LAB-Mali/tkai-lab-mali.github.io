@@ -37,7 +37,7 @@ Furthermore, he has also designed approaches to investigate the mysterious succe
       <a href="https://github.com/ankurmali" title="GitHub">
         <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
       </a>
-      <a href="https://scholar.google.com/citations?user=RaGvEEEAAAAJ&hl=en" title="Google Scholar">
+      <a href="https://scholar.google.co.in/citations?user=ogxlzgcAAAAJ&hl=en" title="Google Scholar">
         <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
       </a>
     </div>
