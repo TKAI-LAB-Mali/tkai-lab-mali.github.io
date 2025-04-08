@@ -375,6 +375,34 @@ and natural language processing). -->
   </div>
 </div>
 
+<div class="card">
+  <div class="card-name">Raul Castillo</div>
+  <div class="card-divider"></div>
+  <img src="../assets/images/people/Raul_Castillo.jpg" alt="Raul" class="card-image">
+  <div class="card-bio">
+    Research Assistant, CSE<br>
+    Studying the capabilities of different neural architectures by looking at their ability to model automatas
+  </div>
+  <div class="card-socials">
+    <a href="mailto:castillo113@usf.edu" title="Email">
+      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
+    </a>
+    <!-- <a href="https://yourwebsite.com" title="Website">
+      <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
+    </a> -->
+    <a href="http://www.linkedin.com/in/raul-castillo-215485213" title="LinkedIn">
+      <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
+    </a>
+    <a href="https://github.com/RaulCastillo547" title="GitHub">
+      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
+    </a>
+<!--     <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
+      <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
+    </a> -->
+  </div>
+</div>
+
+
 </div>
 
 ## Alumni
