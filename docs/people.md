@@ -381,7 +381,7 @@ and natural language processing). -->
   <img src="../assets/images/people/Raul_Castillo.jpg" alt="Raul" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
-    Studying the capabilities of different neural architectures by looking at their ability to model automatas
+    Studying the capabilities of transformers to model automatas
   </div>
   <div class="card-socials">
     <a href="mailto:castillo113@usf.edu" title="Email">
