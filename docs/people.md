@@ -172,19 +172,13 @@ and natural language processing). -->
   </div>
 </div>
 
-</div>
-
-## Master's Students
-
-<div class="grid cards" markdown>
-
 <div class="card">
   <div class="card-name">Sree Rushitha Santhoshi Mamidala</div>
   <div class="card-divider"></div>
   <img src="../assets/images/people/rushitha.jpg" alt="Rushitha" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
-    Natural Language Processing
+    Neuro-symbolic Language Models, Natural Language Processing
   </div>
   <div class="card-socials">
     <a href="mailto:sreerushitha@usf.edu" title="Email">
@@ -199,11 +193,17 @@ and natural language processing). -->
     <a href="https://github.com/RushithaMamidala" title="GitHub">
       <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
     </a>
-    <!-- <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
+    <a href="https://scholar.google.com/citations?user=4iC55J0AAAAJ&hl=en" title="Google Scholar">
       <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
-    </a> -->
+    </a>
   </div>
 </div>
+
+</div>
+
+## Master's Students
+
+<div class="grid cards" markdown>
 
 <div class="card">
   <div class="card-name">Tahsun Rahman Khan</div>
