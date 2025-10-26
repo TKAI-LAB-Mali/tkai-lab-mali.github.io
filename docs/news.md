@@ -19,6 +19,11 @@ Welcome to our lab's news page! Here you'll find the latest updates on our resea
 - One paper accepted in **NeurIPS 2025 workshop** - Circuit Complexity From Physical Constraints: Scaling Limitations of Attention - Congratulations **Benjamin**!
 - One paper accepted in **EMNLP 2025 (main)** - ["Investigating Pedagogical Teacher and Student LLM Agents: Genetic Adaptation Meets Retrieval Augmented Generation Across Learning Style"](https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=ogxlzgcAAAAJ&sortby=pubdate&citation_for_view=ogxlzgcAAAAJ:vV6vV6tmYwMC) - Congratulations to students and collaborators.
 
+**🎤 Conference Presentations** 
+Rushitha Santhoshi Mamidala presented "*Rethinking Reasoning in LLMs: Neuro-Symbolic Local RetoMaton Beyond ICL and CoT*" at the 19th International Conference on Neuro-Symbolic Learning and Reasoning (NeSy 2025) — delivered both oral and poster presentations.
+
+![Rushitha Mamidala at NeSy 2025 Conference](images/20250913_210125.jpg){ width="300" }
+
 ### July 2025
 
 **🎤 Invited Presentations**
