@@ -10,7 +10,7 @@ Welcome to our lab's news page! Here you'll find the latest updates on our resea
 
 **🎤 Conference Presentations** 
 
-Raul Castillo and Abdul-Malik Zekri presented "The 'Surprisal' Between constrastive Representation Learning and the Free Energy Principle" at the 1st Bellini College REU Symposium (BCRS 2025). 
+Raul Castillo and Abdul-Malik Zekri presented "The 'Surprisal' Between Constrastive Representation Learning and the Free Energy Principle" at the 1st Bellini College REU Symposium (BCRS 2025). 
 
 ![Raul Castillo and Abdul-Malik Zekri at BCRS 2025 Conference](images/bcrs_surprisal.jpg){ width="400"}
 
