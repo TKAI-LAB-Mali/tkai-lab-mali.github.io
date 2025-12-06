@@ -6,6 +6,14 @@ Welcome to our lab's news page! Here you'll find the latest updates on our resea
 
 ## 2025
 
+### December 2025
+
+**🎤 Conference Presentations** 
+
+Raul Castillo and Abdul-Malik Zekri presented "The 'Surprisal' Between constrastive Representation Learning and the Free Energy Principle" at the 1st Bellini College REU Symposium (BCRS 2025). 
+
+![Raul Castillo and Abdul-Malik Zekri at BCRS 2025 Conference](images/bcrs_surprisal.jpg){ width="400"}
+
 ### October 2025
 
 **📚 Research Publications**
@@ -20,6 +28,7 @@ Welcome to our lab's news page! Here you'll find the latest updates on our resea
 - One paper accepted in **EMNLP 2025 (main)** - ["Investigating Pedagogical Teacher and Student LLM Agents: Genetic Adaptation Meets Retrieval Augmented Generation Across Learning Style"](https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=ogxlzgcAAAAJ&sortby=pubdate&citation_for_view=ogxlzgcAAAAJ:vV6vV6tmYwMC) - Congratulations to students and collaborators.
 
 **🎤 Conference Presentations** 
+
 Rushitha Santhoshi Mamidala presented "*Rethinking Reasoning in LLMs: Neuro-Symbolic Local RetoMaton Beyond ICL and CoT*" at the 19th International Conference on Neuro-Symbolic Learning and Reasoning (NeSy 2025) — delivered both oral and poster presentations.
 
 ![Rushitha Mamidala at NeSy 2025 Conference](images/20250913_210125.jpg){ width="300" }
