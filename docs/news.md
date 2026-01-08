@@ -8,6 +8,12 @@ Welcome to our lab's news page! Here you'll find the latest updates on our resea
 
 ### December 2025
 
+**🎤 Conference Presentation**
+
+Benjamin Prada presented ["Realizable Circuit Complexity: Embedding Computation in Space-Time"](https://arxiv.org/abs/2509.19161v3) at a NeurIPS 2025 workshop ([What Can't Transformers Do?](https://transformerstheory.github.io/)).
+
+![Benjamin Prada at NeurIPS 2025](images/neurips_2025.jpg){ width="300" }
+
 **🎤 Conference Presentations** 
 
 Raul Castillo and Abdul-Malik Zekri presented "The 'Surprisal' Between Constrastive Representation Learning and the Free Energy Principle" at the 1st Bellini College REU Symposium (BCRS 2025). 
