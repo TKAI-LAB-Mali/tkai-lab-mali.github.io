@@ -4,7 +4,9 @@ hide:
   - toc
 ---
 
-<p class = "heading" >Principal Investigator - Professor Ankur Mali</p>
+## Principal Investigator
+
+<p class = "heading" >Professor Ankur Mali</p>
 
 <div class="profile-container ankur-mali-profile">
   <img src="../assets/images/people/Ankur_Mali.jpg" alt="Prof. Ankur Mali" class="profile-image">
@@ -210,24 +212,24 @@ hide:
 <div class="card">
   <div class="card-name">Jiyoong Gonzalez</div>
   <div class="card-divider"></div>
-  <img src="../assets/images/people/jiyoong.jpg" alt="Jiyoong" class="card-image">
+  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
     Deep Learning
   </div>
   <div class="card-socials">
-    <a href="mailto:tahsunrahman@usf.edu" title="Email">
+    <!-- <a href="mailto:tahsunrahman@usf.edu" title="Email">
       <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-    </a>
+    </a> -->
     <!-- <a href="https://yourwebsite.com" title="Website">
       <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
     </a> -->
-    <a href="https://www.linkedin.com/in/tahsun-rahman-khan-b94641214/" title="LinkedIn">
+    <!-- <a href="https://www.linkedin.com/in/tahsun-rahman-khan-b94641214/" title="LinkedIn">
       <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
     </a>
     <a href="https://github.com/emeraldsplash47" title="GitHub">
       <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
-    </a>
+    </a> -->
     <!-- <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
       <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
     </a> -->
