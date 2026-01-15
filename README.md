@@ -5,11 +5,14 @@
 To build the website locally, first install the requirements in the `requirements.txt` file.
 
 ```sh
-# Create venv
+# Create venv (pip)
 python3 -m venv .venv
-source .venv/bin/activate
 
-# Install dependencies
+# Create venv (uv)
+uv venv
+
+# Activte environment and install dependencies
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
