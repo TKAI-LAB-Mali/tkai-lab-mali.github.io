@@ -1,0 +1,295 @@
+.md-content a {
+  color: #CFC493; /* Change this to your preferred color */
+  text-decoration : underline;
+}
+
+.md-typeset a:hover {
+  color: #466069;
+  /* background-color: #OPTIONAL-BACKGROUND-COLOR; */
+}
+
+.heading {
+  color: #CFC493; 
+  font-size: 24px; 
+  font-weight: bold;
+}
+
+.ankur-mali-profile {
+  display: flex;
+  gap: 20px;
+}
+
+.ankur-mali-profile .profile-image {
+  width: 300px;
+  height: 380px;
+  object-fit: cover;
+}
+
+.ankur-mali-profile .profile-content {
+  flex: 1;
+}
+
+.ankur-mali-profile .card-socials {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.image-stack {
+  position: relative;
+  width: 1200px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  position: relative;
+  width: calc(100%*5);
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.stacked-image {
+  width: 33.33%; 
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 3px solid #CFC493; 
+  border-radius: 8px; 
+  box-sizing: border-box; 
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+
+/* .md-grid {
+  max-width: 1440px; 
+}
+.people-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.person {
+  flex: 0 0 30%;
+  text-align: center;
+}
+
+.person img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.person h3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+}
+
+.person p {
+  margin: 0.2em 0;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+/* 
+.grid.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.grid.cards > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.grid.cards > ul > li {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.grid.cards img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+} */
+
+.grid.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.grid.cards > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.grid.cards > ul > li {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-name {
+  font-size: 1.2em;
+  color: #CFC493;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-divider {
+  width: 80%;
+  border-top: 1px solid #ddd;
+  margin: 0.5rem 0;
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 1rem 0;
+}
+
+.card-bio {
+  margin-bottom: 1rem;
+}
+
+.card-socials a {
+  margin: 0 0.5rem;
+  color: #006747;
+  text-decoration: none;
+}
+
+.card-socials a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .grid.cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .grid.cards {
+    grid-template-columns: 1fr;
+  }
+} */
+
+.grid.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.grid.cards .card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-divider {
+  width: 80%;
+  border-top: 1px solid #ddd;
+  margin: 0.5rem 0;
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;  /* This ensures a perfect circle */
+  margin: 1rem 0;
+}
+
+.card-bio {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.card-socials {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.card-socials a {
+  color: #006747;
+  text-decoration: none;
+}
+
+.card-socials a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .grid.cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .grid.cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+:root {
+  --md-primary-fg-color:        #0f311d;
+  --md-primary-bg-color:        #CFC493;
+}
