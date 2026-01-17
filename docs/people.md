@@ -210,26 +210,26 @@ hide:
 </div>
 
 <div class="card">
-  <div class="card-name">Jiyoong Gonzalez</div>
+  <div class="card-name">Joo-Young Gonzalez</div>
   <div class="card-divider"></div>
   <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
-    Deep Learning
+    NLP for second-language development and learner modeling
   </div>
   <div class="card-socials">
-    <!-- <a href="mailto:tahsunrahman@usf.edu" title="Email">
+    <a href="mailto:jooyoungg@usf.edu" title="Email">
       <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-    </a> -->
+    </a> 
     <!-- <a href="https://yourwebsite.com" title="Website">
       <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
     </a> -->
-    <!-- <a href="https://www.linkedin.com/in/tahsun-rahman-khan-b94641214/" title="LinkedIn">
+    <a href="https://www.linkedin.com/in/jooyoung-gonzalez/" title="LinkedIn">
       <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
     </a>
-    <a href="https://github.com/emeraldsplash47" title="GitHub">
+    <a href="https://github.com/jygonza" title="GitHub">
       <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
-    </a> -->
+    </a> 
     <!-- <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
       <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
     </a> -->
