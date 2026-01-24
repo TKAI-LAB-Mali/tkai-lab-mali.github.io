@@ -3,6 +3,11 @@
 Welcome to our lab's news page! Here you'll find the latest updates on our research milestones, student achievements, publications, awards, and other exciting developments from the TKAI Lab.
 
 ---
+## 2026
+
+### January 2026
+
+Raul Castillo and Abdul-Malik Zekri got their work "The Alpha-Divergence Connection Between Contrastive Representation Learning and the Free Energy Principle" accepted at the 2026 Florida Undergraduate Resarch Conference (FURC 2026)!
 
 ## 2025
 
