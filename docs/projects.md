@@ -3,23 +3,13 @@
 At the TKAI Lab, our mission is to develop stable systems for Artificial Intelligence applications. Our approach integrates insights from neuroscience, control theory, advanced physics, formal methods, and cognitive science. By combining theoretical foundations with empirical validation, we aim to pioneer stability-driven methodologies. Our focus is on creating systems that demand minimal supervision, leverage smaller datasets, and remain computationally efficient. Above all, we strive to ensure these systems are both explainable and trustworthy, paving the way for reliable and transparent AI solutions.
 
 At TKAI Lab, we recognize that stability and trustworthiness must be built on a solid theoretical foundation. Formal methods form the backbone of our research, enabling us to ensure that our AI systems are reliable, transparent, and verifiable in both theory and practice.
-
-### Theory
-
 We develop rigorous mathematical frameworks to analyze and guarantee the stability of AI systems. Our theoretical work bridges the gap between foundational research and real-world applications, ensuring our methods are robust under a variety of conditions.
-
-### Empirical
-
 To validate our theoretical models, we conduct comprehensive empirical studies. These experiments test the applicability and scalability of our methods in real-world scenarios, ensuring that our stability-driven AI systems perform reliably under diverse and challenging conditions.
 
 
 ## AI for Science
 
 We are committed to harnessing the power of AI to revolutionize other scientific domains. At TKAI Lab, we explore the intersection of AI with physics, biology, cybersecurity, health and cognitive science to address some of the most complex interdisciplinary challenges. Our aim is to create transformative solutions that are explainable, efficient, and trustworthy, pushing the boundaries of both AI and the sciences it touches.
-
-### Physics-Informed Machine Learning
-
-
 
 ### Enzyme-Substrate Affinity Prediction
 
