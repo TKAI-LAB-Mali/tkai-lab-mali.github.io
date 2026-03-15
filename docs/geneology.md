@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-### [Academic Geneology of Dr. Ankur Mali](https://www.mathgenealogy.org/id.php?id=292756)
+# [Academic Geneology of Dr. Ankur Mali](https://www.mathgenealogy.org/id.php?id=292756)
 
 Please find Dr. Ankur Mali's academic geneology below. This information was obtained from [Dr. C. Lee Giles'](https://clgiles.ist.psu.edu/index.shtml) webpage, who was the Academic Advisor of Dr. Ankur Mali at Pennsylvania State University. The [Mathematics Genealogy Project](https://www.mathgenealogy.org) is a wonderful tool for tracing academic lineage.
 
@@ -24,7 +24,7 @@ Bloch’s advisor was [Professor Werner Karl Heisenberg](https://en.wikipedia.or
 
 Heisenberg’s advisor was [Professor Arnold Johannes Wilhelm Sommerfeld](https://en.wikipedia.org/wiki/Arnold_Sommerfeld), Ph.D. University of Königsberg.
 
->   <a href="https://en.wikipedia.org/wiki/Arnold_Sommerfeld" style="color: red; text-decoration: underline;">Sommerfeld</a> studied mathematics and physical sciences and became a theoretical physicist. He is notable for having <a style="color: red; text-decoration: underline;">four</a> of his students, <a style="color: red; text-decoration: underline;">three</a> of his postdocs, and <a style="color: red; text-decoration: underline;">one</a> student's student being awarded the <a href="https://www.nobelprize.org" style="color: #FFD700; text-decoration: underline;">Nobel Prize</a>. He was nominated <span style="color:red; text-decoration: underline;">81 times</span> for the Nobel Prize but never received it.
+> <a href="https://en.wikipedia.org/wiki/Arnold_Sommerfeld" style="color: red; text-decoration: underline;">Sommerfeld</a> studied mathematics and physical sciences and became a theoretical physicist. He is notable for having <a style="color: red; text-decoration: underline;">four</a> of his students, <a style="color: red; text-decoration: underline;">three</a> of his postdocs, and <a style="color: red; text-decoration: underline;">one</a> student's student being awarded the <a href="https://www.nobelprize.org" style="color: #FFD700; text-decoration: underline;">Nobel Prize</a>. He was nominated <span style="color:red; text-decoration: underline;">81 times</span> for the Nobel Prize but never received it.
 
 Sommerfeld’s advisor was [Professor C. L. Ferdinand Lindemann](https://en.wikipedia.org/wiki/Ferdinand_von_Lindemann), Ph.D. Friedrich-Alexander-Universität Erlangen-Nürnberg.
 
@@ -36,7 +36,7 @@ Klein’s advisors were [Professor Julius Plücker](https://en.wikipedia.org/wik
 
 Plücker’s advisor was [Professor Christian Ludwig Gerling](https://en.wikipedia.org/wiki/Christian_Ludwig_Gerling), Ph.D. Georg-August-Universität Göttingen.
 
-Gerling’s advisor was [Professor Carl Friedrich Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss), Ph.D. Universität Helmstedt. 
+Gerling’s advisor was [Professor Carl Friedrich Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss), Ph.D. Universität Helmstedt.
 
 Lipschitz's advisors were [Professor Gustav Peter Lejeune Dirichlet](https://en.wikipedia.org/wiki/Peter_Gustav_Lejeune_Dirichlet), honorary Rheinische Friedrich-Wilhelms-Universität Bonn, and [Professor Martin Ohm](https://en.wikipedia.org/wiki/Martin_Ohm), Dr. phil. Friedrich-Alexander-Universität Erlangen-Nürnberg.
 
