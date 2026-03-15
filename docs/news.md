@@ -3,11 +3,12 @@
 Welcome to our lab's news page! Here you'll find the latest updates on our research milestones, student achievements, publications, awards, and other exciting developments from the TKAI Lab.
 
 ---
+
 ## 2026
 
 ### January 2026
 
-Raul Castillo and Abdul-Malik Zekri got their work "The Alpha-Divergence Connection Between Contrastive Representation Learning and the Free Energy Principle" accepted at the 2026 Florida Undergraduate Resarch Conference (FURC 2026)!
+Raul Castillo and Abdul-Malik Zekri got their work "The Alpha-Divergence Connection Between Contrastive Representation Learning and the Free Energy Principle" accepted at the 2026 Florida Undergraduate Rese  arch Conference (FURC 2026)!
 
 ## 2025
 
@@ -19,9 +20,9 @@ Benjamin Prada presented ["Realizable Circuit Complexity: Embedding Computation 
 
 ![Benjamin Prada at NeurIPS 2025](images/neurips_2025.jpg){ width="300" }
 
-**🎤 Conference Presentations** 
+**🎤 Conference Presentations**
 
-Raul Castillo and Abdul-Malik Zekri presented "The 'Surprisal' Between Constrastive Representation Learning and the Free Energy Principle" at the 1st Bellini College REU Symposium (BCRS 2025). 
+Raul Castillo and Abdul-Malik Zekri presented "The 'Surprisal' Between Constrastive Representation Learning and the Free Energy Principle" at the 1st Bellini College REU Symposium (BCRS 2025).
 
 ![Raul Castillo and Abdul-Malik Zekri at BCRS 2025 Conference](images/bcrs_surprisal.jpg){ width="400"}
 
@@ -38,7 +39,7 @@ Raul Castillo and Abdul-Malik Zekri presented "The 'Surprisal' Between Constrast
 - One paper accepted in **NeurIPS 2025 workshop** - Circuit Complexity From Physical Constraints: Scaling Limitations of Attention - Congratulations **Benjamin**!
 - One paper accepted in **EMNLP 2025 (main)** - ["Investigating Pedagogical Teacher and Student LLM Agents: Genetic Adaptation Meets Retrieval Augmented Generation Across Learning Style"](https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=ogxlzgcAAAAJ&sortby=pubdate&citation_for_view=ogxlzgcAAAAJ:vV6vV6tmYwMC) - Congratulations to students and collaborators.
 
-**🎤 Conference Presentations** 
+**🎤 Conference Presentations**
 
 Rushitha Santhoshi Mamidala presented "*Rethinking Reasoning in LLMs: Neuro-Symbolic Local RetoMaton Beyond ICL and CoT*" at the 19th International Conference on Neuro-Symbolic Learning and Reasoning (NeSy 2025) — delivered both oral and poster presentations.
 
@@ -78,7 +79,7 @@ Rushitha Santhoshi Mamidala presented "*Rethinking Reasoning in LLMs: Neuro-Symb
 
 **🎤 Panel Participation**
 
-- Dr. Mali was invited as panelist at USF AMP conference (https://www.theampconference.com/agenda/session/1624886)
+- Dr. Mali was invited as panelist at [USF AMP conference](https://www.theampconference.com/agenda/session/1624886)
 
 **📝 Conference Acceptance**
 
@@ -121,4 +122,4 @@ Rushitha Santhoshi Mamidala presented "*Rethinking Reasoning in LLMs: Neuro-Symb
 
 ---
 
-*Last updated: October 2025* 
+*Last updated: October 2025*
