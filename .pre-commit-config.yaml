@@ -10,16 +10,20 @@ repos:
       - id: name-tests-test
       - id: requirements-txt-fixer
       - id: trailing-whitespace
-  - repo: https://github.com/crate-ci/typos
-    rev: v1
+  # - repo: https://github.com/crate-ci/typos
+  #   rev: v1
+  #   hooks:
+  #     - id: typos
+  # - repo: https://github.com/errata-ai/vale
+  #   rev: 16d3a7f
+  #   hooks:
+  #     - id: vale
+  #       name: vale sync
+  #       pass_filenames: false
+  #       args: [sync]
+  #     - id: vale
+  #       args: [--output=line, --minAlertLevel=error]
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.21.0
     hooks:
-      - id: typos
-  - repo: https://github.com/errata-ai/vale
-    rev: 16d3a7f
-    hooks:
-      - id: vale
-        name: vale sync
-        pass_filenames: false
-        args: [sync]
-      - id: vale
-        args: [--output=line, --minAlertLevel=error]
+    - id: markdownlint-cli2

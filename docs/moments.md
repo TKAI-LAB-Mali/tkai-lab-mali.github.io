@@ -3,7 +3,9 @@ hide:
   - navigation
   - toc
 ---
+
 ## 2024
+
 <body>
   <div class="image-stack">
     <button class="arrow left" onclick="previousImage()">&#8592;</button>
