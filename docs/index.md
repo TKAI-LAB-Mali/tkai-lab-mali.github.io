@@ -4,9 +4,9 @@ hide:
   - toc
 ---
 
-![lab-logo](assets/images/lab-logo.png){ align=left width="250" height="300"}
-
 # Trustworthy Knowledge-Driven Artificial Intelligence (TKAI) Lab
+
+![lab-logo](assets/images/lab-logo.png){ align=left width="250" height="300"}
 
 At the Trustworthy Knowledge Driven Artificial Intelligence (TKAI) Laboratory,
 we combine research ideas derived from formal methods, linguistics, cognitive
@@ -18,4 +18,3 @@ that are expected to learn desirable behavior with minimal supervision and data
 that are provably stable and generalize to unseen distribution. We believe
 these objectives can be stably achieved by designing knowledge-guided,
 neuro-symbolic agents.
-
