@@ -4,9 +4,9 @@ hide:
   - toc
 ---
 
-# [Academic Geneology of Dr. Ankur Mali](https://www.mathgenealogy.org/id.php?id=292756)
+# [Academic Genealogy of Dr. Ankur Mali](https://www.mathgenealogy.org/id.php?id=292756)
 
-Please find Dr. Ankur Mali's academic geneology below. This information was obtained from [Dr. C. Lee Giles'](https://clgiles.ist.psu.edu/index.shtml) webpage, who was the Academic Advisor of Dr. Ankur Mali at Pennsylvania State University. The [Mathematics Genealogy Project](https://www.mathgenealogy.org) is a wonderful tool for tracing academic lineage.
+Please find Dr. Ankur Mali's academic genealogy below. This information was obtained from [Dr. C. Lee Giles'](https://clgiles.ist.psu.edu/index.shtml) webpage, who was the Academic Advisor of Dr. Ankur Mali at Pennsylvania State University. The [Mathematics Genealogy Project](https://www.mathgenealogy.org) is a wonderful tool for tracing academic lineage.
 
 His students are part of the following legacy.
 
@@ -44,7 +44,8 @@ Dirichlet’s advisors were [Professor Simeon Denis Poisson](https://en.wikipedi
 
 Poisson's and Fourier's advisor was [Professor Joseph Louis Lagrange](https://en.wikipedia.org/wiki/Joseph-Louis_Lagrange).
 
-This line continues with Euler, both Bernoulli's, and Leibnitz.
+This line continues with Euler, both Bernoulli's, and Leibniz.
 
 ---
+
 For more information please see the [Mathematics Genealogy Project](https://www.mathgenealogy.org).
