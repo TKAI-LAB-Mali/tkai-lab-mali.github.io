@@ -1,4 +1,6 @@
-Complete list of publications on my [Scholar](https://scholar.google.co.in/citations?view_op=list_works&hl=en&hl=en&user=ogxlzgcAAAAJ) Page
+# Publications
+
+Please refer to the complete list of publications on my [Google Scholar](https://scholar.google.co.in/citations?view_op=list_works&hl=en&hl=en&user=ogxlzgcAAAAJ) page.
 
 ## 2024
 
@@ -46,7 +48,6 @@ Complete list of publications on my [Scholar](https://scholar.google.co.in/citat
 
 * Ororbia, A., & Mali, A. (2023). The predictive forward-forward algorithm. arXiv preprint arXiv:2301.01452.
 
-
 ## 2022
 
 * Borate, P., Riviere, J., Marone, C., Mali, A., Kifer, D., & Shokouhi, P. (2022, December). A Physics-informed Machine Learning (PIML) Model for Lab Earthquake Prediction using Time-lapse Active Source Ultrasonic Data. In AGU Fall Meeting Abstracts (Vol. 2022, pp. S55A-08).
@@ -64,6 +65,7 @@ Complete list of publications on my [Scholar](https://scholar.google.co.in/citat
 * Mali, A. A. (2022). Theoretically deriving computational limits of Artificial Neural Networks with bounded precision and time (Doctoral dissertation, Pennsylvania State University).
 
 ## 2021
+
 * Mali, A., Ororbia, A., Kifer, D., & Giles, L. (2021). Recognizing Long Grammatical Sequences using Recurrent Networks Augmented with an External Differentiable Stack. In Proceedings of the Fifteenth International Conference on Grammatical Inference (pp. 130–153). PMLR.
 
 * Ankur Mali, Alexander Ororbia, Daniel Kifer, & C. L. Giles (2021). An Empirical Analysis of Recurrent Learning Algorithms in Neural Lossy Image Compression Systems. 2021 Data Compression Conference (DCC), 356-356.
