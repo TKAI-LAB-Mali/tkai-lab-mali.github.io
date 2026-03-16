@@ -1,24 +1,26 @@
+<!-- markdownlint-disable first-line-heading -->
 The TKAI Lab is seeking highly motivated Ph.D. and undergraduate students to join our multidisciplinary research efforts aimed at addressing foundational and applied challenges in Artificial Intelligence (AI). Our lab's mission is to develop stable, trustworthy, and explainable AI systems inspired by insights from neuroscience, cognitive science, control theory, and formal methods. Below are key areas of research you will have the opportunity to contribute to:
+<!-- markdownlint-enable first-line-heading -->
 
 ### Research Focus Areas
 
 - **Neuro-Symbolic AI for Trustworthy Systems:**
-   We are developing methods to encode knowledge graphs into artificial neural networks to create robust and interpretable Artificial General Intelligence (AGI). These systems are designed to operate safely in high-risk domains such as medicine and finance. This aligns with our broader goal of building explainable and trustworthy AI systems by combining symbolic reasoning with neural architectures.
+We are developing methods to encode knowledge graphs into artificial neural networks to create robust and interpretable Artificial General Intelligence (AGI). These systems are designed to operate safely in high-risk domains such as medicine and finance. This aligns with our broader goal of building explainable and trustworthy AI systems by combining symbolic reasoning with neural architectures.
 
 - **Theoretical Foundations of AI Models:**
-   Establishing rigorous mathematical frameworks is central to our work. We aim to derive theoretical limits and stability guarantees for AI models, ensuring they function efficiently in polynomial time. This connects to our ongoing efforts to integrate insights from formal methods into AI development for both theoretical rigor and practical reliability.
+Establishing rigorous mathematical frameworks is central to our work. We aim to derive theoretical limits and stability guarantees for AI models, ensuring they function efficiently in polynomial time. This connects to our ongoing efforts to integrate insights from formal methods into AI development for both theoretical rigor and practical reliability.
 
 - **Predictive Coding Architectures:**
-   Inspired by cognitive science, we are designing predictive coding-based architectures for sequential modeling and multi-modal signal encoding. These systems are evaluated on high-stakes domains, such as medicine and cybersecurity, to ensure stability, efficiency, and adaptability.
+Inspired by cognitive science, we are designing predictive coding-based architectures for sequential modeling and multi-modal signal encoding. These systems are evaluated on high-stakes domains, such as medicine and cybersecurity, to ensure stability, efficiency, and adaptability.
 
 - **Fairness by Design in AI Systems:**
-   We aim to create computational models that inherently encode fairness metrics during training. These models are designed with prior constraints to ensure fair and unbiased outcomes, addressing critical ethical concerns in AI deployment.
+We aim to create computational models that inherently encode fairness metrics during training. These models are designed with prior constraints to ensure fair and unbiased outcomes, addressing critical ethical concerns in AI deployment.
 
 - **Low-Resource Natural Language Processing (NLP):**
-   Our lab is developing systems capable of generating and recognizing languages in low-resource settings. This research focuses on creating efficient and explainable neural architectures that perform well even with limited training data, enabling broader accessibility of AI technologies.
+Our lab is developing systems capable of generating and recognizing languages in low-resource settings. This research focuses on creating efficient and explainable neural architectures that perform well even with limited training data, enabling broader accessibility of AI technologies.
 
 - **Explainability by Design (XAI):**
-   At TKAI, we prioritize explainability in AI systems, both through inherent architectural design and visualization tools. This aligns with our mission to create trustworthy AI systems that are transparent to end-users, fostering confidence in their real-world deployment.
+At TKAI, we prioritize explainability in AI systems, both through inherent architectural design and visualization tools. This aligns with our mission to create trustworthy AI systems that are transparent to end-users, fostering confidence in their real-world deployment.
 
 ---
 
