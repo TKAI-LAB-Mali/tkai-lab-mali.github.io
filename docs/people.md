@@ -4,6 +4,10 @@ hide:
   - toc
 ---
 
+<!-- markdownlint-disable-file MD033 -->
+
+# People
+
 ## Principal Investigator
 
 <p class = "heading" >Professor Ankur Mali</p>
@@ -220,7 +224,7 @@ hide:
   <div class="card-socials">
     <a href="mailto:jooyoungg@usf.edu" title="Email">
       <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-    </a> 
+    </a>
     <!-- <a href="https://yourwebsite.com" title="Website">
       <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
     </a> -->
@@ -229,7 +233,7 @@ hide:
     </a>
     <a href="https://github.com/jygonza" title="GitHub">
       <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
-    </a> 
+    </a>
     <!-- <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
       <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
     </a> -->
@@ -268,7 +272,6 @@ hide:
     </a>
   </div>
 </div>
-
 
 <div class="card">
   <div class="card-name">Zhanna</div>
@@ -405,7 +408,6 @@ hide:
     </a> -->
   </div>
 </div>
-
 
 </div>
 
