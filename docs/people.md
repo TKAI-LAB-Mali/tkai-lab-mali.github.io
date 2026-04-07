@@ -388,7 +388,7 @@ hide:
   <img src="../assets/images/people/Raul_Castillo.jpg" alt="Raul" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
-    Studying the capabilities of transformers to model automatas
+    Studying the capabilities of transformers to model automata
   </div>
   <div class="card-socials">
     <a href="mailto:castillo113@usf.edu" title="Email">
