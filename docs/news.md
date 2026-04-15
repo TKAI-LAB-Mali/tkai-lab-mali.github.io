@@ -18,13 +18,13 @@ Raul Castillo and Abdul-Malik Zekri got their work "The Alpha-Divergence Connect
 
 Benjamin Prada presented ["Realizable Circuit Complexity: Embedding Computation in Space-Time"](https://arxiv.org/abs/2509.19161v3) at a NeurIPS 2025 workshop ([What Can't Transformers Do?](https://transformerstheory.github.io/)).
 
-![Benjamin Prada at NeurIPS 2025](images/neurips_2025.jpg){ width="300" }
+![Benjamin Prada at NeurIPS 2025](assets/images/news/neurips_2025.jpg){ width="300" }
 
 **🎤 Conference Presentations** <!-- markdownlint-disable-line no-emphasis-as-heading -->
 
 Raul Castillo and Abdul-Malik Zekri presented "The 'Surprisal' Between Constrastive Representation Learning and the Free Energy Principle" at the 1st Bellini College REU Symposium (BCRS 2025).
 
-![Raul Castillo and Abdul-Malik Zekri at BCRS 2025 Conference](images/bcrs_surprisal.jpg){ width="400"}
+![Raul Castillo and Abdul-Malik Zekri at BCRS 2025 Conference](assets/images/news/bcrs_surprisal.jpg){ width="400"}
 
 ### October 2025
 
@@ -43,7 +43,7 @@ Raul Castillo and Abdul-Malik Zekri presented "The 'Surprisal' Between Constrast
 
 Rushitha Santhoshi Mamidala presented "*Rethinking Reasoning in LLMs: Neuro-Symbolic Local RetoMaton Beyond ICL and CoT*" at the 19th International Conference on Neuro-Symbolic Learning and Reasoning (NeSy 2025) — delivered both oral and poster presentations.
 
-![Rushitha Mamidala at NeSy 2025 Conference](images/20250913_210125.jpg){ width="300" }
+![Rushitha Mamidala at NeSy 2025 Conference](assets/images/news/20250913_210125.jpg){ width="300" }
 
 ### July 2025
 
@@ -95,11 +95,11 @@ Rushitha Santhoshi Mamidala presented "*Rethinking Reasoning in LLMs: Neuro-Symb
 
 - **Abdul-Malik Zekri** presented a poster at the 2025 OneUSF Undergraduate Research Conference, won the 2025 Undergraduate Research - General Disciplinary Student Award, and was recognized at the USF Student Research Awards Luncheon.
 
-![Abdul-Malik at OneUSF Conference](images/1d2e112b297045b312837fa0542e79b56b1d2860.jpg){ width="400" }
+![Abdul-Malik at OneUSF Conference](assets/images/news/1d2e112b297045b312837fa0542e79b56b1d2860.jpg){ width="400" }
 
 - **Abdul-Malik Zekri** presented a poster at the 2025 National Conference on Undergraduate Research (NCUR) titled *"Evolutionary Optimization of Biologically-Inspired Mechanistic Input-Output Neural Circuit Models in the Auditory Pathway."* The project used custom genetic algorithms to evolve spiking neural circuits based on empirical input-output data.
 
-![Abdul-Malik at NCUR](images/7d160768c63f3424477bd2c31f7c9928698831dc.png){ width="300" }
+![Abdul-Malik at NCUR](assets/images/news/7d160768c63f3424477bd2c31f7c9928698831dc.png){ width="300" }
 
 ### March 2025
 
