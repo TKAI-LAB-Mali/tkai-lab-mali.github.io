@@ -39,12 +39,13 @@ Challenging the limitations of traditional backpropagation, we are pioneering al
 Predictive coding is a cornerstone of our research, drawing from the brain’s ability to minimize prediction errors. This approach enables the design of AI systems that are not only computationally efficient but also adaptive, allowing them to learn and respond in real time with greater precision and stability.
 
 ### Scaling Predictive Coding
-
+<embed src="../assets/images/projects/PC_illustration.drawio.pdf#toolbar=0&navpanes=0&scrollbar=0" width="411" height="526" type="application/pdf" style="float: right; margin-left: 10px; margin-bottom: 5px;" >
+<p style="text-align: justify;">
 Machine learning has been a field of significant scientific progress in recent years. The backbone of this progress has been the backpropagation (backprop) algorithm, which computes the gradient with respect to the loss at the end of these machine learning models. Each model parameter is updated based on the derivative of the loss with respect to that parameter to reduce the overall loss, thereby fostering learning, provided the loss is differentiable with respect to that parameter. Despite the successes, the backprop algorithm is said to be biologically implausible since it is unlikely that learning in the brain is done based on some global loss.
 
 Rather, the brain constructs a model of the world and corrects this model by minimising the overall prediction error. This prediction error is hierarchical in nature and hence local. The predictive Coding (PC) framework proposes a biologically plausible alternative to learning. In its classical formulation, it models the brain’s localised and hierarchical error correction. Getting PC right means we come closer to understanding how perception and learning are achieved by the brain. In its success, the PC algorithm has failed to scale in size while remaining stable.
 Our goal is to achieve the scalability of the PC algorithm to make it a stronger alternative to backprop, giving strong empirical backing to the already strong theoretical foundation of the PC framework.
-
+</p>
 ### Local Representation Alignment (LRA)
 
 Modern machine learning is primarily driven by the Backpropagation (backprop) algorithm; however, it is widely considered biologically implausible because it requires a global loss signal and symmetrical weight transposes. Local Representation Alignment (LRA-E) serves as a biologically motivated alternative that replaces global gradients with local target representations and error matrices (E) that learn to approximate weight transposes through a co-learning rule. Our work focuses on developing a generalized LRA-E framework capable of supporting an arbitrary number of layers and architecture depths for autoencoders, moving beyond fixed-depth classification models to allow for complex hierarchical feature learning. We are currently extending this scalable framework to Variational Autoencoders (VAEs), addressing the specific challenges of noisy reparameterization gradients and the inherent mathematical shrinkage bias found in local target correction formulas. Our goal is to demonstrate that local learning rules can scale to deep generative architectures while maintaining performance comparable to traditional backpropagation
@@ -70,7 +71,7 @@ In our future work, we are interested in demonstrating the effectiveness of SRFE
 Empirical results have shown that LLMs perform better with large parameter space. However, the mechanics of LLMs are governed by multiple factors like inference cost, capacity, number of parameters and training algorithm. We need theoretical methods to uncover the black box mechanism of language models to understand their learnability, model parameters and generalization. Minimum description length is one of the domains that can help us with model selection strategies. It also be used to understand the loss landscape of model, noise learned in the representation and the immunization of model towards parameter pruning and perturbation. We explore ways in which we can understand and build closed form solutions for model selection strategies and measure their generalization ability.
 
 ### Local RetoMaton
-<embed src="../assets/images/projects/Reto.pdf#toolbar=0&navpanes=0&scrollbar=0" width="490" height="325" type="application/pdf" style="float: left; margin-right: 15px; margin-bottom: 5px;" >
+<embed src="../assets/images/projects/Reto.pdf#toolbar=0&navpanes=0&scrollbar=0" width="500" height="335" type="application/pdf" style="float: left; margin-right: 10px; margin-bottom: 5px;" >
 <!-- <img src="../assets/images/projects/Reto.pdf" width="450" style="float: left; margin-right: 15px; margin-bottom: 10px;" /> -->
 
 <p style="text-align: justify;">
