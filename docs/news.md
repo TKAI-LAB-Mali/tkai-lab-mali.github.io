@@ -6,6 +6,9 @@ Welcome to our lab's news page! Here you'll find the latest updates on our resea
 
 ## 2026
 
+### April 2026
+**Hitesh Vaidya** accepted Time-Series Foundation Models Research Intern position at GE Vernova for summer 2026.
+
 ### January 2026
 
 Raul Castillo and Abdul-Malik Zekri got their work "The Alpha-Divergence Connection Between Contrastive Representation Learning and the Free Energy Principle" accepted at the 2026 Florida Undergraduate Research Conference (FURC 2026)!
