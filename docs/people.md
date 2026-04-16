@@ -300,6 +300,33 @@ hide:
   </div>
 </div>
 
+<div class="card">
+  <div class="card-name">Tram Ton</div>
+  <div class="card-divider"></div>
+  <img src="../assets/images/people/tram_ton.png" alt="Tram" class="card-image" >
+  <div class="card-bio">
+    Research Assistant, CSE<br>
+    Studying neuro-symbolic language models, focusing on kNN-LMs and FAISS-based retrieval with GPU-accelerated evaluation.
+  </div>
+  <div class="card-socials">
+    <a href="mailto:tramton@usf.edu" title="Email">
+      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
+    </a>
+    <!-- <a href="https://yourwebsite.com" title="Website">
+      <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
+    </a> -->
+    <a href="www.linkedin.com/in/tram-ton" title="LinkedIn">
+      <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
+    </a>
+    <a href="https://github.com/TramTonne" title="GitHub">
+      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
+    </a>
+<!--     <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
+      <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
+    </a> -->
+  </div>
+</div>
+
 </div>
 
 ## Alumni

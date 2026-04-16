@@ -7,7 +7,7 @@ Welcome to our lab's news page! Here you'll find the latest updates on our resea
 ## 2026
 
 ### April 2026
-**Hitesh Vaidya** accepted Time-Series Foundation Models Research Intern position at GE Vernova for summer 2026.
+Hitesh Vaidya accepted Time-Series Foundation Models Research Intern position at **GE Vernova** for summer 2026.
 
 ### January 2026
 
