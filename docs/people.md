@@ -247,57 +247,29 @@ hide:
 </div>
 
 <div class="card">
-  <div class="card-name">Zhanna</div>
+  <div class="card-name">Abdul-Malik Zekri</div>
   <div class="card-divider"></div>
-  <img src="../assets/images/people/Zhanna_Sergeeva.jpg" alt="Zhanna" class="card-image">
+  <img src="../assets/images/people/Malik_Zekri.jpg" alt="Malik" class="card-image">
   <div class="card-bio">
     Research Assistant, CSE<br>
-    Evaluating learnability and stability in deep learning models by investigating alternative approaches to backpropagation and analyzing the effects of input perturbations <br>
-    Incoming SWE intern at DELL Technologies
+    Studying how neural architectures shape learning and function in bio-inspired systems
   </div>
   <div class="card-socials">
-    <a href="mailto:zsergeeva@usf.edu" title="Email">
+    <a href="mailto:zekri2@usf.edu" title="Email">
       <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
     </a>
-<!--     <a href="https://yourwebsite.com" title="Website">
+    <!-- <a href="https://yourwebsite.com" title="Website">
       <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
     </a> -->
-    <a href="https://www.linkedin.com/in/zhannasergeeva/" title="LinkedIn">
+    <a href="https://www.linkedin.com/in/abdul-malik-zekri/" title="LinkedIn">
       <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
     </a>
-    <a href="https://github.com/zhannasunny" title="GitHub">
+    <a href="https://github.com/TheShadowTiki" title="GitHub">
       <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
     </a>
-<!--     <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
+<!--     <a href="https://scholar.google.com/citations?user=kCbp6B4AAAAJ&hl=en" title="Google Scholar">
       <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
     </a> -->
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-name">Mustafa Mannan</div>
-  <div class="card-divider"></div>
-  <img src="../assets/images/people/Mustafa.png" alt="Mustafa" class="card-image">
-  <div class="card-bio">
-    Research Assistant, CSE<br>
-    Tackling challenges in neural network learnability and stability<br>
-  </div>
-  <div class="card-socials">
-    <a href="mailto:mannan2@usf.edu" title="Email">
-      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-    </a>
-    <a href="https://mannanmustafa.com" title="Website">
-      <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
-    </a>
-    <a href="https://linkedin.com/in/mustafa-mannan" title="LinkedIn">
-      <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
-    </a>
-    <a href="https://github.com/mmannan17" title="GitHub">
-      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
-    </a>
-    <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
-      <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
-    </a>
   </div>
 </div>
 
@@ -348,5 +320,7 @@ hide:
 
 ### Undergraduate students
 
+- [Zhanna Sergeeva](https://www.linkedin.com/in/zhannasergeeva/), advised by Dr. Ankur Mali
+- [Tasnia Simin](https://www.linkedin.com/in/tasnia-mahsin-simin/), advised by Dr. Ankur Mali
 - [Shrabon Kumar Das](https://www.linkedin.com/in/shrabon-kumar-das-25564621a/), advised by Dr. Ankur Mali
-- [Abdul-Malik Zekri](https://www.linkedin.com/in/abdul-malik-zekri/), advised by Dr. Ankur Mali
+- [Mustafa Mannan](https://linkedin.com/in/mustafa-mannan), advised by Dr. Ankur Mali
