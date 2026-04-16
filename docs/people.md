@@ -187,33 +187,6 @@ hide:
 <div class="grid cards people" markdown>
 
 <div class="card">
-  <div class="card-name">Tahsun Rahman Khan</div>
-  <div class="card-divider"></div>
-  <img src="../assets/images/people/Tahsun.jpg" alt="Tahsun" class="card-image">
-  <div class="card-bio">
-    Research Assistant, CSE<br>
-    Deep Learning
-  </div>
-  <div class="card-socials">
-    <a href="mailto:tahsunrahman@usf.edu" title="Email">
-      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-    </a>
-    <!-- <a href="https://yourwebsite.com" title="Website">
-      <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
-    </a> -->
-    <a href="https://www.linkedin.com/in/tahsun-rahman-khan-b94641214/" title="LinkedIn">
-      <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
-    </a>
-    <a href="https://github.com/emeraldsplash47" title="GitHub">
-      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
-    </a>
-    <!-- <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
-      <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
-    </a> -->
-  </div>
-</div>
-
-<div class="card">
   <div class="card-name">Joo-Young Gonzalez</div>
   <div class="card-divider"></div>
   <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
@@ -329,60 +302,6 @@ hide:
 </div>
 
 <div class="card">
-  <div class="card-name">Shrabon Kumar Das</div>
-  <div class="card-divider"></div>
-  <img src="../assets/images/people/shrabon.jpg" alt="Shrabon" class="card-image">
-  <div class="card-bio">
-    Research Assistant, CSE<br>
-    Investigating learnability and expressivity of neural architectures
-  </div>
-  <div class="card-socials">
-    <a href="mailto:das157@usf.edu" title="Email">
-      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-    </a>
-    <!-- <a href="https://yourwebsite.com" title="Website">
-      <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
-    </a> -->
-    <a href="https://www.linkedin.com/in/shrabon-kumar-das-25564621a/" title="LinkedIn">
-      <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
-    </a>
-    <a href="https://github.com/ShrabonDas" title="GitHub">
-      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
-    </a>
-    <a href="https://scholar.google.com/citations?user=kCbp6B4AAAAJ&hl=en" title="Google Scholar">
-      <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
-    </a>
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-name">Abdul-Malik Zekri</div>
-  <div class="card-divider"></div>
-  <img src="../assets/images/people/Malik_Zekri.jpg" alt="Malik" class="card-image">
-  <div class="card-bio">
-    Research Assistant, CSE<br>
-    Studying how neural architectures shape learning and function in bio-inspired systems
-  </div>
-  <div class="card-socials">
-    <a href="mailto:zekri2@usf.edu" title="Email">
-      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-    </a>
-    <!-- <a href="https://yourwebsite.com" title="Website">
-      <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
-    </a> -->
-    <a href="https://www.linkedin.com/in/abdul-malik-zekri/" title="LinkedIn">
-      <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
-    </a>
-    <a href="https://github.com/TheShadowTiki" title="GitHub">
-      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
-    </a>
-<!--     <a href="https://scholar.google.com/citations?user=kCbp6B4AAAAJ&hl=en" title="Google Scholar">
-      <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
-    </a> -->
-  </div>
-</div>
-
-<div class="card">
   <div class="card-name">Raul Castillo</div>
   <div class="card-divider"></div>
   <img src="../assets/images/people/Raul_Castillo.jpg" alt="Raul" class="card-image">
@@ -421,7 +340,13 @@ hide:
 
 ### Graduate students
 
+- [Tahsun Rahman Khan](https://www.linkedin.com/in/tahsun-rahman-khan-b94641214/), advised by Dr. Ankur Mali
 - [Thejasvi Valega](https://github.com/thejasvi204), advised by [Dr. Parisa Shokouhi](https://sites.psu.edu/ultrasonics/pshokouhi/) and Dr. Ankur Mali
 - Sudarshan Nayak, advised by [Dr. Dan Kifer](https://www.cse.psu.edu/~duk17/), [Dr. Parisa Shokouhi](https://sites.psu.edu/ultrasonics/pshokouhi/), and Dr. Ankur Mali
 - [Alfredo Fernandez](https://www.linkedin.com/in/alfredofernandezjr/), advised by Dr. Ankur Mali.
 - Gerardo Wibmer, advised by Dr. Ankur Mali
+
+### Undergraduate students
+
+- [Shrabon Kumar Das](https://www.linkedin.com/in/shrabon-kumar-das-25564621a/), advised by Dr. Ankur Mali
+- [Abdul-Malik Zekri](https://www.linkedin.com/in/abdul-malik-zekri/), advised by Dr. Ankur Mali
