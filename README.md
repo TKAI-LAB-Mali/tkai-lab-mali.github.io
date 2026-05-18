@@ -11,7 +11,7 @@ python3 -m venv .venv
 # Create venv (uv)
 uv venv
 
-# Activte environment and install dependencies
+# Activate environment and install dependencies
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
