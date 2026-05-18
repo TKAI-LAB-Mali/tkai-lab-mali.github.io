@@ -26,7 +26,7 @@ hide:
       <a href="https://ankurmali.github.io" title="Website">
         <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
       </a>
-      <a href="https://www.linkedin.com/in/ankur-mali-7b6a8b44/" title="LinkedIn">
+      <a href="https://www.linkedin.com/in/ankur-mali-ph-d-2aa21a55/" title="LinkedIn">
         <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
       </a>
       <a href="https://github.com/ankurmali" title="GitHub">
@@ -168,7 +168,7 @@ hide:
     <!-- <a href="https://yourwebsite.com" title="Website">
       <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
     </a> -->
-    <a href="https://www.linkedin.com/in/sree-rushitha-mamidala/" title="LinkedIn">
+    <a href="https://www.linkedin.com/in/rushitha-mamidala/" title="LinkedIn">
       <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
     </a>
     <a href="https://github.com/RushithaMamidala" title="GitHub">
@@ -220,7 +220,7 @@ hide:
 <div class="grid cards people" markdown>
 
 <div class="card">
-  <div class="card-name">Yusra</div>
+  <div class="card-name">Yusra Rasool</div>
   <div class="card-divider"></div>
   <img src="../assets/images/people/YUSRA.jpeg" alt="Yusra" class="card-image">
   <div class="card-bio">
@@ -240,9 +240,9 @@ hide:
     <a href="https://github.com/yrasool" title="GitHub">
       <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
     </a>
-    <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
+    <!-- <a href="https://scholar.google.com/citations?user=yourprofile" title="Google Scholar">
       <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
-    </a>
+    </a> -->
   </div>
 </div>
 
