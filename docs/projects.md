@@ -105,7 +105,9 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
 ### Surprisal-Rènyi Free Energy (SRFE)
 
 <div class="project-item">
-  <div class="project-thumbnail placeholder">No Image Available</div>
+  <div class="project-thumbnail">
+    <img src="../assets/images/projects/srfe.png" alt="SRFE">
+  </div>
   <div class="project-content">
     Despite sharing the same minimizer, the forward and reverse Kullback-Leibler (KL) divergences induce different inductive biases, commonly referred to as mean-seeking and mode-seeking behavior, respectively. There exist divergences that bridge this asymmetry, such as the Jensen-Shannon divergence and the Cressie-Read power divergence family. However, these attempts either fail to simultaneously enforce both mass- and mean-covering behaviors under certain scenarios or fail to capture higher-order behaviors (such as variance or tail-sensitivity) in ways that could improve learning outcomes.
     <br><br>
@@ -164,10 +166,10 @@ We additionally are have worked on projects beyond ML and have highlighted them 
 ### Gradient Descent-Based Model Reference Adaptive Control (Control Systems)
 
 <div class="project-item">
-  <div class="project-thumbnail placeholder">No Image Available</div>
+  <div class="project-thumbnail">
+    <img src="../assets/images/projects/gd-mrac.png" alt="GD-MRAC">
+  </div>
   <div class="project-content">
     In the command-following problem, model reference adaptive control (MRAC) is a class of well-known control architectures that are capable of tuning control parameters online without explicit knowledge of the system's uncertainties. By construction, MRAC is able to track time-varying control signals; however, they suffer from increase controller order and the dimensionality of the gain matrices. Gradient descent-based MRAC (GD-MRAC) addressed this issue by employing a gradient descent-based approach to minimize the error between the time rate of change of the reference model state and a given command signal to track. As a natural continuation of this work, we are interested in extending GD-MRAC to make use of higher-order optimization methods to further improve tracking performance and subsequently evaluating its performance on real-world systems with the added pressures of increased noise and computational constraints.
   </div>
 </div>
-
-
