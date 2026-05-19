@@ -5,6 +5,7 @@ repo_url: https://github.com/TKAI-LAB-Mali
 theme:
   logo: assets/images/lab-logo.png
   name: material
+  custom_dir: overrides
   favicon: assets/images/lab-logo.png
   features:
   # - navigation.instant
@@ -16,7 +17,7 @@ theme:
   - search.suggest
   - toc.follow
   - toc.integrate
-  # palette: 
+  # palette:
   #   # light mode
   #   - media: "(prefers-color-scheme: light)"
   #   - scheme: default
@@ -72,6 +73,6 @@ nav:
   - People: people.md
   - Projects: projects.md
   - Publications: publications.md
-  - Academic Geneology: genealogy.md
+  - Academic Genealogy: genealogy.md
   - Moments : moments.md
   - Join Us: join.md

@@ -1,6 +1,33 @@
 # Publications
 
-Please refer to the complete list of publications on my [Google Scholar](https://scholar.google.co.in/citations?view_op=list_works&hl=en&hl=en&user=ogxlzgcAAAAJ) page.
+Please refer to the complete list of publications on Dr. Mali's [Google Scholar](https://scholar.google.co.in/citations?view_op=list_works&hl=en&hl=en&user=ogxlzgcAAAAJ) page.
+
+<!-- markdownlint-disable-next-line MD037 -->
+\** denotes equal contribution*
+
+## 2026
+
+* **Surprisal-Rényi Free Energy**<br>
+    *arXiv*<br>
+    Shion Matsumoto, Raul Castillo, Benjamin Prada, Ankur Mali<br>
+    [[Paper](https://arxiv.org/pdf/2603.03405)] <!-- [[Code](https://github.com/TKAI-LAB-Mali/SRFE_Experiments)] -->
+
+* **Curvature-Weighted Capacity Allocation: A Minimum Description Length Framework for Layer-Adaptive Large Language Model Optimization**<br>
+    *arXiv*<br>
+    Theophilus Amaefuna, Hitesh Vaidya, Anshuman Chhabra, Ankur Mali<br>
+    [[Paper](https://arxiv.org/pdf/2603.00910)]
+
+## 2025
+
+* **Rethinking Reasoning in LLMs: Neuro-Symbolic Local RetoMaton Beyond CoT and ICL**<br>
+    *PMLR*<br>
+    Rushitha Mamidala, Anshuman Chhabra, Ankur Mali<br>
+    [[Paper](https://openreview.net/pdf?id=ySTqCi3nqi)] [[Code](https://github.com/TKAI-LAB-Mali/NeuroSymbolicLM)]
+
+* **Realizable Circuit Complexity: Embedding Computation in Space-Time**<br>
+    *arXiv*<br>
+    Benjamin Prada, Ankur Mali<br>
+    [[Paper](https://arxiv.org/pdf/2509.19161)]
 
 ## 2024
 
@@ -78,7 +105,7 @@ Please refer to the complete list of publications on my [Google Scholar](https:/
 
 * Ankur Arjun Mali, Alexander G. Ororbia II, & C. Lee Giles (2021). A Neural State Pushdown Automata. IEEE Trans. Artif. Intell., 1(3), 193–205.
 
-## 2020 - 2013
+## 2013 - 2020
 
 * Gopalakrishnan, A., Mali, A., Kifer, D., Giles, L., & Ororbia, A. G. (2019). A neural temporal model for human motion prediction. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 12116-12125).
 

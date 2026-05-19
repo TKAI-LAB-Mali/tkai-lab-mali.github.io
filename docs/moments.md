@@ -4,6 +4,8 @@ hide:
   - toc
 ---
 
+# Moments
+
 ## 2024
 
 <body>
@@ -24,7 +26,9 @@ hide:
 </body>
 
 ## 2023
+
 <body>
+
   <div class="image-stack">
     <button class="arrow left" onclick="previousImage()">&#8592;</button>
     <div class="image-container">

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block footer %}
+  <footer class="md-footer">
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div style="width: 100%; padding-top: 20px; margin-bottom: 20px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
+          <div style="flex: 1; min-width: 250px;">
+            <h3 style="margin-top: 0;">Contact Us</h3>
+            <p>
+              <strong>Trustworthy Knowledge-Driven Artificial Intelligence (TKAI) Lab</strong><br>
+              Principal Investigator: Dr. Ankur Mali<br>
+              <a href="mailto:ankurarjunmali@usf.edu">ankurarjunmali@usf.edu</a>
+            </p>
+          </div>
+          <div style="flex: 1; min-width: 250px; text-align: right;">
+            <p style="margin-top: 36px;">
+              Bellini College of Artificial Intelligence, Cybersecurity and Computing<br>
+              University of South Florida<br>
+              Northwest Education Complex 200B, Tampa, FL 33612
+            </p>
+          </div>
+        </div>
+        <div class="md-footer-copyright">
+          {{ super() }}
+        </div>
+      </div>
+    </div>
+  </footer>
+{% endblock %}
