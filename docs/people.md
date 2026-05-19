@@ -20,9 +20,6 @@ hide:
     <p>Furthermore, he has also designed approaches to investigate the mysterious success of deep learning in recognizing natural language from a theoretical and empirical perspective. He also works on designing learning algorithms and computational neural architectures guided by theories of the brain. These architectures focus on solving challenges such as continual/lifelong learning, learning with minimal supervision, reinforcement learning, and robustness (both in computer vision and natural language processing).</p>
 
     <div class="card-socials">
-      <a href="mailto:ankurmali@usf.edu" title="Email">
-        <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-      </a>
       <a href="https://ankurmali.github.io" title="Website">
         <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
       </a>
@@ -50,13 +47,11 @@ hide:
   <div class="card-divider"></div>
   <img src="../assets/images/people/hitesh.jpg" alt="Hitesh" class="card-image">
   <div class="card-bio">
-    Computer Science & Engineering <br>
-    Continual Learning, Bio-mimetic Machine Learning <br>
+    Computer Science & Engineering<br>
+    Continual Learning, Bio-mimetic Machine Learning<br>
+    hvaidya [at] usf [dot] edu
   </div>
   <div class="card-socials">
-    <a href="mailto:hvaidya@usf.edu" title="Email">
-      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-    </a>
     <a href="https://hiteshvaidya.github.io" title="Website"> <!-- website link -->
       <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
     </a>
@@ -77,13 +72,11 @@ hide:
   <div class="card-divider"></div>
   <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
   <div class="card-bio">
-    Computer Science & Engineering <br>
-    Predictive coding, Natural Language Processing <br>
+    Computer Science & Engineering<br>
+    Predictive coding, NLP<br>
+    ikennaamaefuna [at] usf [dot] edu
   </div>
   <div class="card-socials">
-    <a href="mailto:ikennaamaefuna@usf.edu" title="Email">
-      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-    </a>
     <a href="https://github.com/ait360" title="GitHub">
       <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
     </a>
@@ -99,12 +92,10 @@ hide:
   <img src="../assets/images/people/shion_matsumoto.jpg" alt="Shion" class="card-image">
   <div class="card-bio">
     Computer Science & Engineering <br>
-    Bioinspired learning, physics-informed neural networks
+    Bio-inspired learning, PINNs<br>
+    matsumoto [at] usf [dot] edu
   </div>
   <div class="card-socials">
-    <a href="mailto:matsumoto@usf.edu" title="Email">
-      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-    </a>
     <a href="https://linkedin.com/in/shion-matsumoto" title="LinkedIn">
       <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
     </a>
@@ -123,12 +114,10 @@ hide:
   <img src="../assets/images/people/Benjamin_Prada.png" alt="Benjamin" class="card-image">
   <div class="card-bio">
     Computer Science & Engineering <br>
-    Neural program synthesis, expressability & learnability
+    Neural program synthesis, expressability & learnability<br>
+    bprada [at] usf [dot] edu
   </div>
   <div class="card-socials">
-    <a href="mailto:bprada@usf.edu" title="Email">
-      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-    </a>
     <a href="https://linkedin.com/in/benjamin-prada" title="LinkedIn">
       <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
     </a>
@@ -144,12 +133,10 @@ hide:
   <img src="../assets/images/people/rushitha.jpg" alt="Rushitha" class="card-image">
   <div class="card-bio">
     Computer Science & Engineering <br>
-    Neuro-symbolic Language Models, Natural Language Processing
+    Neuro-symbolic Language Models, NLP<br>
+    sreerushitha [at] usf [dot] edu<br>
   </div>
   <div class="card-socials">
-    <a href="mailto:sreerushitha@usf.edu" title="Email">
-      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-    </a>
     <a href="https://www.linkedin.com/in/rushitha-mamidala/" title="LinkedIn">
       <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
     </a>
@@ -174,12 +161,10 @@ hide:
   <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
   <div class="card-bio">
     Computer Science & Engineering <br>
-    NLP for second-language development and learner modeling
+    NLP for second-language development and learner modeling<br>
+    jooyoungg [at] usf [dot] edu<br>
   </div>
   <div class="card-socials">
-    <a href="mailto:jooyoungg@usf.edu" title="Email">
-      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-    </a>
     <a href="https://www.linkedin.com/in/jooyoung-gonzalez/" title="LinkedIn">
       <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
     </a>
@@ -201,12 +186,9 @@ hide:
   <img src="../assets/images/people/YUSRA.jpeg" alt="Yusra" class="card-image">
   <div class="card-bio">
     Computer Science & Engineering <br>
-    Addressing challenges in neural network learnability and stability by exploring alternative algorithms to backpropagation
+    yrasool [at] usf [dot] edu<br>
   </div>
   <div class="card-socials">
-    <a href="mailto:yrasool@usf.edu" title="Email">
-      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-    </a>
     <a href="https://yrasool.github.io/PORTFOLIO/" title="Website">
       <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
     </a>
@@ -220,38 +202,14 @@ hide:
 </div>
 
 <div class="card">
-  <div class="card-name">Abdul-Malik Zekri</div>
-  <div class="card-divider"></div>
-  <img src="../assets/images/people/Malik_Zekri.jpg" alt="Malik" class="card-image">
-  <div class="card-bio">
-    Computer Science & Engineering <br>
-    Studying how neural architectures shape learning and function in bio-inspired systems
-  </div>
-  <div class="card-socials">
-    <a href="mailto:zekri2@usf.edu" title="Email">
-      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-    </a>
-    <a href="https://www.linkedin.com/in/abdul-malik-zekri/" title="LinkedIn">
-      <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
-    </a>
-    <a href="https://github.com/TheShadowTiki" title="GitHub">
-      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
-    </a>
-  </div>
-</div>
-
-<div class="card">
   <div class="card-name">Raul Castillo</div>
   <div class="card-divider"></div>
   <img src="../assets/images/people/Raul_Castillo.jpg" alt="Raul" class="card-image">
   <div class="card-bio">
     Computer Science & Engineering <br>
-    Studying the capabilities of transformers to model automatas
+    castillo113 [at] usf [dot] edu<br>
   </div>
   <div class="card-socials">
-    <a href="mailto:castillo113@usf.edu" title="Email">
-      <img src="../assets/icons/email.svg" alt="Email" width="30" height="30">
-    </a>
     <a href="http://www.linkedin.com/in/raul-castillo-215485213" title="LinkedIn">
       <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
     </a>
@@ -281,6 +239,7 @@ hide:
 
 ### Undergraduate students
 
+- [Abdul-Malik Zekri](https://www.linkedin.com/in/abdul-malik-zekri/), advised by Dr. Ankur Mali
 - [Zhanna Sergeeva](https://www.linkedin.com/in/zhannasergeeva/), advised by Dr. Ankur Mali
 - [Tasnia Simin](https://www.linkedin.com/in/tasnia-mahsin-simin/), advised by Dr. Ankur Mali
 - [Shrabon Kumar Das](https://www.linkedin.com/in/shrabon-kumar-das-25564621a/), advised by Dr. Ankur Mali
