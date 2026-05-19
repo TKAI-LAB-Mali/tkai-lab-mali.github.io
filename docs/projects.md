@@ -1,10 +1,10 @@
 # Projects
 
-At the TKAI Lab, our mission is to develop stable systems for Artificial Intelligence applications. Our approach integrates insights from neuroscience, control theory, advanced physics, formal methods, and cognitive science. By combining theoretical foundations with empirical validation, we aim to pioneer stability-driven methodologies. Our focus is on creating systems that demand minimal supervision, leverage smaller datasets, and remain computationally efficient. Above all, we strive to ensure these systems are both explainable and trustworthy, paving the way for reliable and transparent AI solutions.
+At the TKAI Lab, our mission is to develop stable AI systems by integrating insights from neuroscience, control theory, advanced physics, formal methods, and cognitive science. By combining theoretical foundations with empirical validation, we aim to pioneer stability-driven methodologies. Our focus is on creating systems that demand minimal supervision, leverage smaller datasets, and remain computationally efficient. Above all, we strive to ensure these systems are both explainable and trustworthy, paving the way for reliable and transparent AI solutions.
 
-At TKAI Lab, we recognize that stability and trustworthiness must be built on a solid theoretical foundation. Formal methods form the backbone of our research, enabling us to ensure that our AI systems are reliable, transparent, and verifiable in both theory and practice.
-We develop rigorous mathematical frameworks to analyze and guarantee the stability of AI systems. Our theoretical work bridges the gap between foundational research and real-world applications, ensuring our methods are robust under a variety of conditions.
-To validate our theoretical models, we conduct comprehensive empirical studies. These experiments test the applicability and scalability of our methods in real-world scenarios, ensuring that our stability-driven AI systems perform reliably under diverse and challenging conditions.
+<!-- At TKAI Lab, we recognize that stability and trustworthiness must be built on a solid theoretical foundation. Formal methods form the backbone of our research, enabling us to ensure that our AI systems are reliable, transparent, and verifiable in both theory and practice. -->
+<!-- We develop rigorous mathematical frameworks to analyze and guarantee the stability of AI systems. Our theoretical work bridges the gap between foundational research and real-world applications, ensuring our methods are robust under a variety of conditions. -->
+<!-- To validate our theoretical models, we conduct comprehensive empirical studies. These experiments test the applicability and scalability of our methods in real-world scenarios, ensuring that our stability-driven AI systems perform reliably under diverse and challenging conditions. -->
 
 ## AI for Science
 
@@ -13,26 +13,28 @@ We are committed to harnessing the power of AI to revolutionize other scientific
 ### Enzyme-Substrate Affinity Prediction
 
 <div class="project-item">
-  <div class="project-thumbnail placeholder">No Image Available</div>
+  <div class="project-thumbnail">
+    <img src="../assets/images/projects/kcat.png" alt="kCat">
+  </div>
   <div class="project-content">
     The interaction between protein (enzyme) and substrate is a complex reaction that depends on the 3D geometry of protein and bond strength at individual sights of protein. The prediction of binding between enzyme and substrate involves challenges like development of protein embedding space, pooling with minimal information loss and position based binding affinity prediction. We are interested in predicting the binding affinity of enzyme-substrate complexes (Kcat) using protein language models and graph neural networks.
   </div>
 </div>
 
-### DNA Subsequence Alignment
+<!-- ### DNA Subsequence Alignment
 
 <div class="project-item">
   <div class="project-thumbnail placeholder">No Image Available</div>
   <div class="project-content">
     DNA subsequences are long chains of nucleotides with unique geometric and semantic structure. We are using seq-to-seq models to compare DNA subsequences and find the closest matching pair from a vector store database.
   </div>
-</div>
+</div> -->
 
 ## Neuro-Mimetic Approaches
 
 At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of biological systems. Our work focuses on integrating neuro-mimetic principles into AI to develop stable, adaptive, and efficient systems capable of tackling real-world challenges. By fusing insights from neuroscience, control theory, and cognitive science, we aim to create AI systems that emulate human-like learning and decision-making.
 
-### Reinforcement Learning
+<!-- ### Reinforcement Learning
 
 <div class="project-item">
   <div class="project-thumbnail placeholder">No Image Available</div>
@@ -66,7 +68,7 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
   <div class="project-content">
     Predictive coding is a cornerstone of our research, drawing from the brain’s ability to minimize prediction errors. This approach enables the design of AI systems that are not only computationally efficient but also adaptive, allowing them to learn and respond in real time with greater precision and stability.
   </div>
-</div>
+</div> -->
 
 ### Scaling Predictive Coding
 
@@ -80,7 +82,7 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
   </div>
 </div>
 
-### Local Representation Alignment (LRA)
+### Local Representation Alignment
 
 <div class="project-item">
   <div class="project-thumbnail placeholder">No Image Available</div>
@@ -91,7 +93,7 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
   </div>
 </div>
 
-### Memory-Augmented Neural Networks (MANNs)
+### Memory-Augmented Neural Networks
 
 <div class="project-item">
   <div class="project-thumbnail placeholder">No Image Available</div>
@@ -102,7 +104,9 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
   </div>
 </div>
 
-### Surprisal-Rènyi Free Energy (SRFE)
+## Theory
+
+### Surprisal-Rènyi Free Energy
 
 <div class="project-item">
   <div class="project-thumbnail">
@@ -111,22 +115,22 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
   <div class="project-content">
     Despite sharing the same minimizer, the forward and reverse Kullback-Leibler (KL) divergences induce different inductive biases, commonly referred to as mean-seeking and mode-seeking behavior, respectively. There exist divergences that bridge this asymmetry, such as the Jensen-Shannon divergence and the Cressie-Read power divergence family. However, these attempts either fail to simultaneously enforce both mass- and mean-covering behaviors under certain scenarios or fail to capture higher-order behaviors (such as variance or tail-sensitivity) in ways that could improve learning outcomes.
     <br><br>
-    We propose the SRFE as a risk-sensitive functional able that interpolates the forward and reverse KL divergences via a single scalar parameter. We show that SRFE recovers the forward and reverse KL divergences as endpoint limits and derived second-order expansions around the limits that contain the variance of the log-likelihood ratio as a first-order correction. This reveals a sensitivity to mean-variance tradeoffs in SRFE. We further establish that SRFE's gradient form improves gradient conditioning in the almost disjoint regime where classical f-divergences lead to diverging behavior. Finally, we interpret SRFE through the lens of coding theory and show that SRFE penalizes rare but extreme miscalibration events (the model assigns exponentially too little probability to actual outcomes).
+    We propose the Surprisal-Rènyi Free Energy (SRFE) as a risk-sensitive functional able that interpolates the forward and reverse KL divergences via a single scalar parameter. We show that SRFE recovers the forward and reverse KL divergences as endpoint limits and derived second-order expansions around the limits that contain the variance of the log-likelihood ratio as a first-order correction. This reveals a sensitivity to mean-variance tradeoffs in SRFE. We further establish that SRFE's gradient form improves gradient conditioning in the almost disjoint regime where classical f-divergences lead to diverging behavior. Finally, we interpret SRFE through the lens of coding theory and show that SRFE penalizes rare but extreme miscalibration events (the model assigns exponentially too little probability to actual outcomes).
     <br><br>
     In our future work, we are interested in demonstrating the effectiveness of SRFE as an objective by conducting empirical experiments on tasks where robustness to outliers is critical.
   </div>
 </div>
 
-## Large Language Models (LLMs)
-
-### Exploring generalization, capacity and learnability of LLMs
+### Realizable Circuit Complexity
 
 <div class="project-item">
   <div class="project-thumbnail placeholder">No Image Available</div>
   <div class="project-content">
-    Empirical results have shown that LLMs perform better with large parameter space. However, the mechanics of LLMs are governed by multiple factors like inference cost, capacity, number of parameters and training algorithm. We need theoretical methods to uncover the black box mechanism of language models to understand their learnability, model parameters and generalization. Minimum description length is one of the domains that can help us with model selection strategies. It also be used to understand the loss landscape of model, noise learned in the representation and the immunization of model towards parameter pruning and perturbation. We explore ways in which we can understand and build closed form solutions for model selection strategies and measure their generalization ability.
+    Historically, computational complexity has been defined only in terms of the logical depth of the function as realized by a circuit or other device. However, this treatment ignores the challenge of routing the information through physical space, dissipating heat, and other physical considerations. As a result, classical theory is agnostic of the real-world cost of function implementation and thus often over-estimates the performance of a deployed system. We reformulate standard circuit complexity research under conservative physical constraints that lower bound the time complexity of a given function by any conceivable device, classical or quantum. In particular, we explicitly define the regimes where computation is bottlenecked by memory throughput, sequential dependencies, and heat dissipation. This perspective shift places hardware as a first-class citizen for theoretical computer science and enables the discovery of targeted practical results.
   </div>
 </div>
+
+## LLMs
 
 ### Local RetoMaton
 
@@ -139,37 +143,41 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
   </div>
 </div>
 
+### Exploring generalization, capacity and learnability of LLMs
+
+<div class="project-item">
+  <div class="project-thumbnail placeholder">No Image Available</div>
+  <div class="project-content">
+    Empirical results have shown that LLMs perform better with large parameter space. However, the mechanics of LLMs are governed by multiple factors like inference cost, capacity, number of parameters and training algorithm. We need theoretical methods to uncover the black box mechanism of language models to understand their learnability, model parameters and generalization. Minimum description length is one of the domains that can help us with model selection strategies. It also be used to understand the loss landscape of model, noise learned in the representation and the immunization of model towards parameter pruning and perturbation. We explore ways in which we can understand and build closed form solutions for model selection strategies and measure their generalization ability.
+  </div>
+</div>
+
 ## Others
 
 We additionally are have worked on projects beyond ML and have highlighted them here.
 
-### Realizable Circuit Complexity (Computer Architecture)
+### Parallel Bounded Multi-Source Shortest Path
 
 <div class="project-item">
   <div class="project-thumbnail placeholder">No Image Available</div>
   <div class="project-content">
-    Historically, computational complexity has been defined only in terms of the logical depth of the function as realized by a circuit or other device. However, this treatment ignores the challenge of routing the information through physical space, dissipating heat, and other physical considerations. As a result, classical theory is agnostic of the real-world cost of function implementation and thus often over-estimates the performance of a deployed system. We reformulate standard circuit complexity research under conservative physical constraints that lower bound the time complexity of a given function by any conceivable device, classical or quantum. In particular, we explicitly define the regimes where computation is bottlenecked by memory throughput, sequential dependencies, and heat dissipation. This perspective shift places hardware as a first-class citizen for theoretical computer science and enables the discovery of targeted practical results.
-  </div>
-</div>
+    <em>Field: High performance computing</em> <br><br>
 
-### Parallel Bounded Multi-Source Shortest Path (High Performance Computing)
-
-<div class="project-item">
-  <div class="project-thumbnail placeholder">No Image Available</div>
-  <div class="project-content">
     Dijkstra's algorithm is the gold standard for solving the shortest path problem (SSP); i.e., finding the shortest path between a node on a directed graph to all other nodes. However, in 2025 Duan et al. developed "Bounded Multi-source Shortest Path" (BMSSP): the first SSP algorithm with time complexity $\mathcal{O}(E \log^{(2/3)} V)$, strictly lower than Dijkstra's $\mathcal{O}(E + V \log V)$ for sparse graphs. Compared to Dijkstra's, BMSSP is also well-suited for parallelization because it is designed to separate the search into independent sub-problems.
     <br><br>
     We are currently creating the first parallel implementation of BMSSP for execution on GPUs. We aim to probe the limits of the BMSSP algorithm and determine whether it can outperform industry-grade SSP solutions.
   </div>
 </div>
 
-### Gradient Descent-Based Model Reference Adaptive Control (Control Systems)
+### Gradient Descent-Based Model Reference Adaptive Control
 
 <div class="project-item">
   <div class="project-thumbnail">
     <img src="../assets/images/projects/gd-mrac.png" alt="GD-MRAC">
   </div>
   <div class="project-content">
-    In the command-following problem, model reference adaptive control (MRAC) is a class of well-known control architectures that are capable of tuning control parameters online without explicit knowledge of the system's uncertainties. By construction, MRAC is able to track time-varying control signals; however, they suffer from increase controller order and the dimensionality of the gain matrices. Gradient descent-based MRAC (GD-MRAC) addressed this issue by employing a gradient descent-based approach to minimize the error between the time rate of change of the reference model state and a given command signal to track. As a natural continuation of this work, we are interested in extending GD-MRAC to make use of higher-order optimization methods to further improve tracking performance and subsequently evaluating its performance on real-world systems with the added pressures of increased noise and computational constraints.
+    <em>Field: Control systems</em> <br><br>
+
+    In the command-following problem, model reference adaptive control (MRAC) is a class of well-known control architectures that are capable of tuning control parameters online without explicit knowledge of the system's uncertainties. By construction, MRAC is able to track time-varying control signals; however, they suffer from increase controller order and the dimensionality of the gain matrices. Gradient descent-based MRAC (GD-MRAC) addressed this issue by employing a gradient descent-based approach to minimize the error between the time rate of change of the reference model state and a given command signal to track. As a natural continuation of this work, we are interested in extending GD-MRAC to make use of higher-order optimization methods to further improve tracking performance and evaluate its performance on real-world systems with the added pressures of increased noise and computational constraints.
   </div>
 </div>
