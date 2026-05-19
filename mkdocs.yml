@@ -10,30 +10,17 @@ theme:
   features:
   # - navigation.instant
   # - navigation.instant.progress
-  - navigation.tabs
-  - navigation.tabs.sticky
-  - navigation.top
-  - search.highlight
-  - search.suggest
-  - toc.follow
-  - toc.integrate
-  # palette:
-  #   # light mode
-  #   - media: "(prefers-color-scheme: light)"
-  #   - scheme: default
-  #     toggle:
-  #       icon: material/weather-sunny
-  #       name: Switch to dark mode
-  #   # dark mode
-  #   - media: "(prefers-color-scheme: dark)"
-  #   - scheme: slate
-  #     toggle:
-  #       icon: material/weather-night
-  #       name: Switch to light mode
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - toc.follow
+    - toc.integrate
   palette:
   # Light mode configuration
   - media: "(prefers-color-scheme: light)"
-    scheme: default
+    # scheme: default
     primary: custom
     toggle:
       icon: material/weather-sunny
