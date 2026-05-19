@@ -23,3 +23,8 @@ repos:
     hooks:
       - id: codespell
         args: ["-L", "ist"]
+  - repo: https://github.com/tcort/markdown-link-check
+    rev: v3.12.2
+    hooks:
+      - id: markdown-link-check
+        args: ["--quiet", "--config", ".mlc_config.json"]
