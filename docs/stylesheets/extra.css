@@ -1,3 +1,18 @@
+/* --- Variables --- */
+:root {
+  --md-primary-fg-color: #0f311d;
+  /* --md-primary-fg-color: #005432; */
+  --md-primary-bg-color: #CFC493;
+
+  /* Match footer colors to header colors */
+  --md-footer-bg-color: var(--md-primary-fg-color);
+  --md-footer-bg-color--dark: var(--md-primary-fg-color);
+
+  --md-footer-fg-color: var(--md-primary-bg-color);
+  --md-footer-fg-color--light: var(--md-primary-bg-color);
+  --md-footer-fg-color--lighter: var(--md-primary-bg-color);
+}
+
 /* --- Global Styles --- */
 .md-content a {
   color: #CFC493;
@@ -103,32 +118,6 @@
   height: 100%;
 }
 
-.card-name {
-  font-size: 1.2em;
-  color: #CFC493;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
-
-.card-divider {
-  width: 80%;
-  border-top: 1px solid #ddd;
-  margin: 0.5rem 0;
-}
-
-.card-image {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin: 1rem 0;
-}
-
-.card-bio {
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
 /* People Page Social Icons */
 .card-socials {
   display: flex;
@@ -198,8 +187,27 @@
   }
 }
 
-/* --- Variables --- */
-:root {
-  --md-primary-fg-color: #0f311d;
-  --md-primary-bg-color: #CFC493;
+/* --- Footer Styles --- */
+.md-footer {
+  background-color: var(--md-primary-fg-color);
+}
+
+.md-footer a {
+  text-decoration: underline;
+}
+
+.md-footer a:hover {
+  opacity: 0.8;
+}
+
+.md-footer-meta {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+.md-footer-copyright,
+.md-footer-copyright *,
+.md-copyright,
+.md-copyright * {
+  color: #edebd1 !important;
 }
