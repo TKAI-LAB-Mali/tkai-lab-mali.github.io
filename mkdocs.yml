@@ -58,6 +58,9 @@ markdown_extensions:
   - def_list
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 
 extra_css:
   - stylesheets/extra.css
@@ -71,7 +74,7 @@ nav:
   - Home: index.md
   - News: news.md
   - People: people.md
-  - Projects: projects.md
+  - Research: research.md
   - Publications: publications.md
   - Academic Genealogy: genealogy.md
   - Moments : moments.md
