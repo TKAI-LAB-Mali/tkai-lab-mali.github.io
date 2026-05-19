@@ -29,6 +29,11 @@ Please refer to the complete list of publications on Dr. Mali's [Google Scholar]
     Benjamin Prada, Ankur Mali<br>
     [[Paper](https://arxiv.org/pdf/2509.19161)]
 
+* **Robust prediction of enzyme variant kinetics with RealKcat**<br>
+    *bioRxiv*<br>
+    Karuna Anna Sajeevan, Abraham Osinuga, Sakib Ferdous, Nabia Shahreen, Mohammed Sakib Noor, Shashank Koneru, Laura Mariana Santos-Correa, Rahil Salehi, Niaz Bahar Chowdhury, Brisa Calderon-Lopez, Ankur Mali, Rajib Saha, Ratul Chowdhury
+    [[Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC11844551/pdf/nihpp-2025.02.10.637555v1.pdf)] [[Code](https://github.com/TKAI-LAB-Mali/RealKcat)]
+
 ## 2024
 
 * Mali, A., Salvatori, T., & Ororbia, A. (2024). Tight Stability, Convergence, and Robustness Bounds for Predictive Coding Networks. arXiv preprint arXiv:2410.04708.
