@@ -6,7 +6,7 @@ Our mission at the TKAI Lab is to develop stable AI systems by integrating insig
 
 We are committed to harnessing the power of AI to revolutionize other scientific domains.
 
-<div class="grid cards" markdown>
+<div class="grid cards research-grid" markdown>
 
 - **Enzyme-Substrate Affinity Prediction**
 
@@ -38,7 +38,7 @@ We are committed to harnessing the power of AI to revolutionize other scientific
 
 At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of biological systems.
 
-<div class="grid cards" markdown>
+<div class="grid cards research-grid" markdown>
 
 - **Predictive Coding**
 
@@ -84,7 +84,7 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
 
 ## Theory
 
-<div class="grid cards" markdown>
+<div class="grid cards research-grid" markdown>
 
 - **Surprisal-Rènyi Free Energy**
 
@@ -112,7 +112,7 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
 
 ## LLMs
 
-<div class="grid cards" markdown>
+<div class="grid cards research-grid" markdown>
 
 - **Neuro-Symbolic LMs**
 
@@ -142,7 +142,7 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
 
 ## Others
 
-<div class="grid cards" markdown>
+<div class="grid cards research-grid" markdown>
 
 - **High Performance Computing**
 
