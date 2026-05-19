@@ -10,7 +10,7 @@ hide:
 
 ## Principal Investigator
 
-<p class = "heading" >Professor Ankur Mali</p>
+<p class = "heading">Professor Ankur Mali</p>
 
 <div class="profile-container ankur-mali-profile">
   <img src="../assets/images/people/Ankur_Mali.jpg" alt="Prof. Ankur Mali" class="profile-image">
@@ -40,141 +40,101 @@ hide:
 
 ## PhD Students
 
-<div class="grid cards people" markdown>
+<div class="grid cards" markdown>
 
-<div class="card">
-  <div class="card-name">Hitesh Vaidya</div>
-  <div class="card-divider"></div>
-  <img src="../assets/images/people/hitesh.jpg" alt="Hitesh" class="card-image">
-  <div class="card-bio">
+- **Hitesh Vaidya**
+
+    ---
+
+    ![Hitesh Vaidya](./assets/images/people/hitesh.jpg)
+
     Computer Science & Engineering<br>
     Continual Learning, Bio-mimetic Machine Learning<br>
-    hvaidya [at] usf [dot] edu
-  </div>
-  <div class="card-socials">
-    <a href="https://hiteshvaidya.github.io" title="Website"> <!-- website link -->
-      <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
-    </a>
-    <a href="https://www.linkedin.com/in/hiteshuv/" title="LinkedIn">
-      <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
-    </a>
-    <a href="https://github.com/hiteshvaidya" title="GitHub">
-      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
-    </a>
-    <a href="https://scholar.google.com/citations?user=_kpePHMAAAAJ&hl=en&authuser=1" title="Google Scholar">
-      <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
-    </a>
-  </div>
-</div>
+    hvaidya [at] usf [dot] edu<br>
 
-<div class="card">
-  <div class="card-name">Theophilus Amaefuna</div>
-  <div class="card-divider"></div>
-  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
-  <div class="card-bio">
+    [<img src="../assets/icons/website.svg" alt="Website" width="30" height="30">](https://hiteshvaidya.github.io)
+    [<img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">](https://www.linkedin.com/in/hiteshuv/)
+    [<img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">](https://github.com/hiteshvaidya)
+    [<img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">](https://scholar.google.com/citations?user=_kpePHMAAAAJ&hl=en&authuser=1)
+    {: .card-socials }
+
+- **Theophilus Amaefuna**
+
+    ---
+
+    ![Theophilus Amaefuna](https://dummyimage.com/400x400/eee/aaa)
+
     Computer Science & Engineering<br>
     Predictive coding, NLP<br>
     ikennaamaefuna [at] usf [dot] edu
-  </div>
-  <div class="card-socials">
-    <a href="https://github.com/ait360" title="GitHub">
-      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
-    </a>
-    <a href="https://scholar.google.com/citations?hl=en&user=XI04vUMAAAAJ" title="Google Scholar">
-      <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
-    </a>
-  </div>
-</div>
 
-<div class="card">
-  <div class="card-name">Shion Matsumoto</div>
-  <div class="card-divider"></div>
-  <img src="../assets/images/people/shion_matsumoto.jpg" alt="Shion" class="card-image">
-  <div class="card-bio">
+    [<img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">](https://github.com/ait360)
+    [<img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">](https://scholar.google.com/citations?hl=en&user=XI04vUMAAAAJ)
+    {: .card-socials }
+
+- **Shion Matsumoto**
+
+    ---
+
+    ![Shion Matsumoto](./assets/images/people/shion_matsumoto.jpg)
+
     Computer Science & Engineering <br>
     Bio-inspired learning, PINNs<br>
     matsumoto [at] usf [dot] edu
-  </div>
-  <div class="card-socials">
-    <a href="https://linkedin.com/in/shion-matsumoto" title="LinkedIn">
-      <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
-    </a>
-    <a href="https://github.com/matsumotosan" title="GitHub">
-      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
-    </a>
-    <a href="https://scholar.google.com/citations?user=tu2K8tkAAAAJ&hl=en" title="Google Scholar">
-      <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
-    </a>
-  </div>
-</div>
 
-<div class="card">
-  <div class="card-name">Benjamin Prada</div>
-  <div class="card-divider"></div>
-  <img src="../assets/images/people/Benjamin_Prada.png" alt="Benjamin" class="card-image">
-  <div class="card-bio">
+    [<img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">](https://linkedin.com/in/shion-matsumoto)
+    [<img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">](https://github.com/matsumotosan)
+    [<img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">](https://scholar.google.com/citations?user=tu2K8tkAAAAJ&hl=en)
+    {: .card-socials }
+
+- **Benjamin Prada**
+
+    ---
+
+    ![Benjamin Prada](./assets/images/people/Benjamin_Prada.png)
+
     Computer Science & Engineering <br>
     Neural program synthesis, expressability & learnability<br>
     bprada [at] usf [dot] edu
-  </div>
-  <div class="card-socials">
-    <a href="https://linkedin.com/in/benjamin-prada" title="LinkedIn">
-      <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
-    </a>
-    <a href="https://github.com/prada-b" title="GitHub">
-      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
-    </a>
-  </div>
-</div>
 
-<div class="card">
-  <div class="card-name">Sree Rushitha Santhoshi Mamidala</div>
-  <div class="card-divider"></div>
-  <img src="../assets/images/people/rushitha.jpg" alt="Rushitha" class="card-image">
-  <div class="card-bio">
+    [<img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">](https://linkedin.com/in/benjamin-prada)
+    [<img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">](https://github.com/prada-b)
+    {: .card-socials }
+
+- **Sree Rushitha Santhoshi Mamidala**
+
+    ---
+
+    ![Sree Rushitha Santhoshi Mamidala](./assets/images/people/rushitha.jpg)
+
     Computer Science & Engineering <br>
     Neuro-symbolic Language Models, NLP<br>
     sreerushitha [at] usf [dot] edu<br>
-  </div>
-  <div class="card-socials">
-    <a href="https://www.linkedin.com/in/rushitha-mamidala/" title="LinkedIn">
-      <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
-    </a>
-    <a href="https://github.com/RushithaMamidala" title="GitHub">
-      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
-    </a>
-    <a href="https://scholar.google.com/citations?user=4iC55J0AAAAJ&hl=en" title="Google Scholar">
-      <img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">
-    </a>
-  </div>
-</div>
+
+    [<img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">](https://www.linkedin.com/in/rushitha-mamidala/)
+    [<img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">](https://github.com/RushithaMamidala)
+    [<img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">](https://scholar.google.com/citations?user=4iC55J0AAAAJ&hl=en)
+    {: .card-socials }
 
 </div>
 
 ## Undergraduate Students
 
-<div class="grid cards people" markdown>
+<div class="grid cards" markdown>
 
-<div class="card">
-  <div class="card-name">Yusra Rasool</div>
-  <div class="card-divider"></div>
-  <img src="../assets/images/people/YUSRA.jpeg" alt="Yusra" class="card-image">
-  <div class="card-bio">
+- **Yusra Rasool**
+
+    ---
+
+    ![Yusra Rasool](./assets/images/people/yusra.jpg)
+
     Computer Science & Engineering <br>
     yrasool [at] usf [dot] edu<br>
-  </div>
-  <div class="card-socials">
-    <a href="https://yrasool.github.io/PORTFOLIO/" title="Website">
-      <img src="../assets/icons/website.svg" alt="Website" width="30" height="30">
-    </a>
-    <a href="https://www.linkedin.com/in/yusra-rasool-5963b11b1/" title="LinkedIn">
-      <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
-    </a>
-    <a href="https://github.com/yrasool" title="GitHub">
-      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
-    </a>
-  </div>
-</div>
+
+    [<img src="../assets/icons/website.svg" alt="Website" width="30" height="30">](https://yrasool.github.io/PORTFOLIO/)
+    [<img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">](https://www.linkedin.com/in/yusra-rasool-5963b11b1/)
+    [<img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">](https://github.com/yrasool)
+    {: .card-socials }
 
 </div>
 
