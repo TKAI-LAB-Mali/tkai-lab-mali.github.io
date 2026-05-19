@@ -40,9 +40,11 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
 
 <div class="grid cards" markdown>
 
-- **Scaling Predictive Coding**
+- **Predictive Coding**
 
     ---
+
+    ![scaling-pc](./assets/images/research/PC_illustration.drawio.pdf)
 
     === "Overview"
         The brain constructs a model of the world and corrects this model by minimising the overall prediction error. This prediction error is hierarchical in nature and hence local. Our goal is to achieve the scalability of the PC algorithm to make it a stronger alternative to backprop.
