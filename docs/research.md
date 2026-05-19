@@ -6,7 +6,7 @@ Our mission at the TKAI Lab is to develop stable AI systems by integrating insig
 
 We are committed to harnessing the power of AI to revolutionize other scientific domains.
 
-<div class="grid cards" markdown>
+<div class="grid cards research-grid" markdown>
 
 - **Enzyme-Substrate Affinity Prediction**
 
@@ -18,7 +18,7 @@ We are committed to harnessing the power of AI to revolutionize other scientific
         The interaction between protein (enzyme) and substrate is a complex reaction that depends on the 3D geometry of protein and bond strength at individual sights of protein. We are interested in predicting the binding affinity of enzyme-substrate complexes (Kcat) using protein language models and graph neural networks.
 
     === "Publications"
-        - [Robust prediction of enzyme variant kinetics with RealKcat (2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11844551/pdf/nihpp-2025.02.10.637555v1.pdf)
+        - [Robust Prediction of Enzyme Variant Kinetics with RealKcat (2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11844551/pdf/nihpp-2025.02.10.637555v1.pdf)
 
 - **Physics-Informed Neural Networks**
 
@@ -27,7 +27,7 @@ We are committed to harnessing the power of AI to revolutionize other scientific
     ![pc-pinns](./assets/images/research/pc-pinns.png)
 
     === "Overview"
-        Physics-informed neural networks (PINNs)
+        Physics-informed neural networks (PINNs) fail to capture physical phenomena such as high frequency oscillations and shocks. Our goal is to design novel architectures based on predictive coding address the optimization-related challenges in traditional PINNs formulations.
 
     === "Publications"
         *Work in progress.*
@@ -38,49 +38,53 @@ We are committed to harnessing the power of AI to revolutionize other scientific
 
 At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of biological systems.
 
-<div class="grid cards" markdown>
+<div class="grid cards research-grid" markdown>
 
 - **Predictive Coding**
 
     ---
 
-    ![scaling-pc](./assets/images/research/PC_illustration.drawio.pdf)
+    ![pc](./assets/images/research/pc.png)
 
     === "Overview"
-        The brain constructs a model of the world and corrects this model by minimising the overall prediction error. This prediction error is hierarchical in nature and hence local. Our goal is to achieve the scalability of the PC algorithm to make it a stronger alternative to backprop.
+        The brain constructs a model of the world and corrects this model by minimising the overall prediction error. This prediction error is hierarchical in nature and hence local. Our goal is to achieve the scalability of the PC algorithm to make it a stronger alternative to backpropagation.
 
     === "Publications"
+        - [Brain-Inspired Computational Intelligence via Predictive Coding (2025)](https://arxiv.org/pdf/2308.07870)
         - [Tight Stability, Convergence, and Robustness Bounds for Predictive Coding Networks (2024)](https://arxiv.org/pdf/2410.04708)
-        - [Brain-inspired computational intelligence via predictive coding (2023)](https://arxiv.org/pdf/2308.07870)
-        - [Active predictive coding: Brain-inspired reinforcement learning for sparse reward robotic control problems (2023)](https://arxiv.org/pdf/2301.01452)
+        - [The Predictive Forward-Forward Algorithm (2023)](https://arxiv.org/pdf/2301.01452)
 
 - **Local Representation Alignment**
 
     ---
 
+    ![rec-lra](./assets/images/research/rec-lra.png)
+
     === "Overview"
-        Local Representation Alignment (LRA-E) serves as a biologically motivated alternative that replaces global gradients with local target representations and error matrices. We are exploring ways of using LRA to train Recurrent Neural Networks and Variational Autoencoders.
+        Local Representation Alignment (LRA-E) serves as a biologically motivated alternative that replaces global gradients with local target representations and error matrices. We are exploring ways of using LRA to train RNNs and VAEs.
 
     === "Publications"
-        - [Backpropagation-free deep learning with recursive local representation alignment (2023)](https://arxiv.org/pdf/2206.01820)
-        - [Biologically Motivated Algorithms for Propagating Local Target Representations (2019)](https://arxiv.org/pdf/1901.01452)
+        - [Backpropagation-Free Deep Learning with Recursive Local Representation Alignment (2023)](https://doi.org/10.1609/aaai.v37i8.26118)
+        - [Biologically Motivated Algorithms for Propagating Local Target Representations (2019)](https://doi.org/10.1609/aaai.v33i01.33014651)
 
 - **Memory-Augmented Neural Networks**
 
     ---
 
+    ![manns](./assets/images/research/nnpda.png)
+
     === "Overview"
-        Transformers struggle to generalize to strings longer than those seen in training. Our work is focused on developing MANNs that outperform state-of-the-art architectures on formal and general language tasks, whilst maintaining comparable levels of computational complexity.
+        Transformers struggle to generalize to strings longer than those seen in training. Our work is focused on developing memory-augmented neural networks (MANNs) that outperform state-of-the-art architectures on formal and general language tasks, whilst maintaining comparable levels of computational complexity.
 
     === "Publications"
+        - [A provably stable neural network Turing Machine with finite precision and time (2024)](https://doi.org/10.1016/j.ins.2023.120034)
         - [Exploring Learnability in Memory-Augmented Recurrent Neural Networks (2024)](https://arxiv.org/pdf/2410.03154)
-        - [Recognizing Long Grammatical Sequences using MANNs (2021)](https://arxiv.org/pdf/2101.05006)
 
 </div>
 
 ## Theory
 
-<div class="grid cards" markdown>
+<div class="grid cards research-grid" markdown>
 
 - **Surprisal-Rènyi Free Energy**
 
@@ -108,7 +112,7 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
 
 ## LLMs
 
-<div class="grid cards" markdown>
+<div class="grid cards research-grid" markdown>
 
 - **Neuro-Symbolic LMs**
 
@@ -131,13 +135,14 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
 
     === "Publications"
         - [Curvature-Weighted Capacity Allocation for LLM Optimization (2026)](https://arxiv.org/pdf/2603.00910)
+        - [Investigating Pedagogical Teacher and Student LLM Agents (2025)](https://aclanthology.org/2025.emnlp-main.675.pdf)
         - [Investigating Symbolic Capabilities of Large Language Models (2024)](https://arxiv.org/pdf/2405.13209)
 
 </div>
 
 ## Others
 
-<div class="grid cards" markdown>
+<div class="grid cards research-grid" markdown>
 
 - **High Performance Computing**
 

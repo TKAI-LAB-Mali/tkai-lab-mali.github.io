@@ -1,37 +1,42 @@
 # Publications
 
-Please refer to the complete list of publications on Dr. Mali's [Google Scholar](https://scholar.google.co.in/citations?view_op=list_works&hl=en&hl=en&user=ogxlzgcAAAAJ) page.
+Please refer to the complete list of publications on Dr. Ankur Mali's [Google Scholar](https://scholar.google.co.in/citations?view_op=list_works&hl=en&hl=en&user=ogxlzgcAAAAJ) page.
 
 <!-- markdownlint-disable-next-line MD037 -->
 \** denotes equal contribution*
 
 ## 2026
 
-* **Surprisal-Rényi Free Energy**<br>
+**Surprisal-Rényi Free Energy**<br>
     *arXiv*<br>
-    Shion Matsumoto, Raul Castillo, Benjamin Prada, Ankur Mali<br>
+    Shion Matsumoto\*, Raul Castillo\*, Benjamin Prada, Ankur Mali<br>
     [[Paper](https://arxiv.org/pdf/2603.03405)] <!-- [[Code](https://github.com/TKAI-LAB-Mali/SRFE_Experiments)] -->
 
-* **Curvature-Weighted Capacity Allocation: A Minimum Description Length Framework for Layer-Adaptive Large Language Model Optimization**<br>
+**Curvature-Weighted Capacity Allocation: A Minimum Description Length Framework for Layer-Adaptive Large Language Model Optimization**<br>
     *arXiv*<br>
-    Theophilus Amaefuna, Hitesh Vaidya, Anshuman Chhabra, Ankur Mali<br>
+    Theophilus Amaefuna\*, Hitesh Vaidya\*, Anshuman Chhabra, Ankur Mali<br>
     [[Paper](https://arxiv.org/pdf/2603.00910)]
 
 ## 2025
 
-* **Rethinking Reasoning in LLMs: Neuro-Symbolic Local RetoMaton Beyond CoT and ICL**<br>
+**Rethinking Reasoning in LLMs: Neuro-Symbolic Local RetoMaton Beyond CoT and ICL**<br>
     *PMLR*<br>
     Rushitha Mamidala, Anshuman Chhabra, Ankur Mali<br>
     [[Paper](https://openreview.net/pdf?id=ySTqCi3nqi)] [[Code](https://github.com/TKAI-LAB-Mali/NeuroSymbolicLM)]
 
-* **Realizable Circuit Complexity: Embedding Computation in Space-Time**<br>
+**Investigating Pedagogical Teacher and Student LLM Agents: Genetic Adaptation Meets Retrieval-Augmented Generation Across Learning Styles**<br>
+    *EMNLP*<br>
+    Debdeep Sanyal, Agniva Maiti, Umakanta Maharana, Dhruv Kumar, Ankur Mali, C Lee Giles, Murari Mandal<br>
+    [[Paper](https://aclanthology.org/2025.emnlp-main.675.pdf)]
+
+**Realizable Circuit Complexity: Embedding Computation in Space-Time**<br>
     *arXiv*<br>
     Benjamin Prada, Ankur Mali<br>
     [[Paper](https://arxiv.org/pdf/2509.19161)]
 
-* **Robust prediction of enzyme variant kinetics with RealKcat**<br>
+**Robust prediction of enzyme variant kinetics with RealKcat**<br>
     *bioRxiv*<br>
-    Karuna Anna Sajeevan, Abraham Osinuga, Sakib Ferdous, Nabia Shahreen, Mohammed Sakib Noor, Shashank Koneru, Laura Mariana Santos-Correa, Rahil Salehi, Niaz Bahar Chowdhury, Brisa Calderon-Lopez, Ankur Mali, Rajib Saha, Ratul Chowdhury
+    Karuna Anna Sajeevan, Abraham Osinuga, Sakib Ferdous, Nabia Shahreen, Mohammed Sakib Noor, Shashank Koneru, Laura Mariana Santos-Correa, Rahil Salehi, Niaz Bahar Chowdhury, Brisa Calderon-Lopez, Ankur Mali, Rajib Saha, Ratul Chowdhury<br>
     [[Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC11844551/pdf/nihpp-2025.02.10.637555v1.pdf)] [[Code](https://github.com/TKAI-LAB-Mali/RealKcat)]
 
 ## 2024

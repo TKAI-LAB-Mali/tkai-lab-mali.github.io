@@ -91,7 +91,7 @@
 .arrow.left { left: 10px; }
 .arrow.right { right: 10px; }
 
-/* --- People Page Grid & Cards --- */
+/* People Page Grid & Cards */
 .grid.cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -116,6 +116,20 @@
   align-items: center;
   text-align: center;
   height: 100%;
+}
+
+/* Research Page Specific: Left-align Overview/Publications tabs and content */
+.research-grid .tabbed-set {
+  align-self: stretch;
+  text-align: left;
+}
+
+.research-grid .tabbed-labels {
+  justify-content: flex-start;
+}
+
+.research-grid .tabbed-content {
+  text-align: left;
 }
 
 /* People Page Social Icons */
