@@ -1,11 +1,11 @@
+/* --- Global Styles --- */
 .md-content a {
-  color: #CFC493; /* Change this to your preferred color */
-  text-decoration : underline;
+  color: #CFC493;
+  text-decoration: underline;
 }
 
 .md-typeset a:hover {
   color: #466069;
-  /* background-color: #OPTIONAL-BACKGROUND-COLOR; */
 }
 
 .heading {
@@ -14,6 +14,7 @@
   font-weight: bold;
 }
 
+/* --- Principal Investigator Profile --- */
 .ankur-mali-profile {
   display: flex;
   gap: 20px;
@@ -29,64 +30,7 @@
   flex: 1;
 }
 
-/* People page social icons */
-.card-socials {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  margin-top: 1rem;
-}
-
-.card-socials a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background-color: rgba(15, 49, 29, 0.1); /* Light lab green background */
-  transition: all 0.25s ease;
-  text-decoration: none !important;
-}
-
-.card-socials a:hover {
-  background-color: #0f311d; /* Dark green on hover */
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-}
-
-.card-socials a img {
-  width: 20px !important;
-  height: 20px !important;
-  margin: 0 !important;
-  filter: brightness(0); /* Make all icons black by default */
-  transition: all 0.25s ease;
-}
-
-.card-socials a:hover img {
-  filter: brightness(0) invert(1); /* Make icons white on hover */
-}
-
-/* Dark mode adjustments for social icons */
-[data-md-color-scheme="slate"] .card-socials a {
-  background-color: rgba(255, 255, 255, 0.15);
-}
-
-[data-md-color-scheme="slate"] .card-socials a img {
-  filter: brightness(0) invert(1); /* Make icons white by default in dark mode */
-}
-
-[data-md-color-scheme="slate"] .card-socials a:hover {
-  background-color: #CFC493; /* Gold/Tan background on hover */
-}
-
-[data-md-color-scheme="slate"] .card-socials a:hover img {
-  filter: brightness(0); /* Icons turn dark on gold hover */
-}
-
-
-
-
+/* --- Image Stack (Carousel) --- */
 .image-stack {
   position: relative;
   width: 1200px;
@@ -129,16 +73,10 @@
   z-index: 10;
 }
 
-.arrow.left {
-  left: 10px;
-}
+.arrow.left { left: 10px; }
+.arrow.right { right: 10px; }
 
-.arrow.right {
-  right: 10px;
-}
-
-/* People Page Styles */
-
+/* --- People Page Grid & Cards --- */
 .grid.cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -149,18 +87,11 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: contents;
 }
 
-.grid.cards > ul > li {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
+/* Base styles for both list-based (SET ONE) and div-based (SET TWO) cards */
+.grid.cards > ul > li,
 .grid.cards .card {
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -169,6 +100,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  height: 100%;
 }
 
 .card-name {
@@ -197,9 +129,63 @@
   text-align: center;
 }
 
-/* End of People Page Styles */
+/* People Page Social Icons */
+.card-socials {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: auto;
+  padding-bottom: 0.25rem;
+}
 
+.card-socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(15, 49, 29, 0.1);
+  transition: all 0.25s ease;
+  text-decoration: none !important;
+}
 
+.card-socials a:hover {
+  background-color: #0f311d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.card-socials a img {
+  width: 20px !important;
+  height: 20px !important;
+  margin: 0 !important;
+  filter: brightness(0);
+  transition: all 0.25s ease;
+}
+
+.card-socials a:hover img {
+  filter: brightness(0) invert(1);
+}
+
+/* Dark mode adjustments for social icons */
+[data-md-color-scheme="slate"] .card-socials a {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+[data-md-color-scheme="slate"] .card-socials a img {
+  filter: brightness(0) invert(1);
+}
+
+[data-md-color-scheme="slate"] .card-socials a:hover {
+  background-color: #CFC493;
+}
+
+[data-md-color-scheme="slate"] .card-socials a:hover img {
+  filter: brightness(0);
+}
+
+/* --- Media Queries --- */
 @media (max-width: 768px) {
   .grid.cards {
     grid-template-columns: repeat(2, 1fr);
@@ -212,7 +198,8 @@
   }
 }
 
+/* --- Variables --- */
 :root {
-  --md-primary-fg-color:        #0f311d;
-  --md-primary-bg-color:        #CFC493;
+  --md-primary-fg-color: #0f311d;
+  --md-primary-bg-color: #CFC493;
 }
