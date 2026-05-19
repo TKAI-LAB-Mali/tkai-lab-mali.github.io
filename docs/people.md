@@ -10,7 +10,7 @@ hide:
 
 ## Principal Investigator
 
-<p class = "heading">Professor Ankur Mali</p>
+<p class="heading" >Professor Ankur Mali</p>
 
 <div class="profile-container ankur-mali-profile">
   <img src="../assets/images/people/Ankur_Mali.jpg" alt="Prof. Ankur Mali" class="profile-image">
@@ -50,7 +50,7 @@ hide:
 
     Computer Science & Engineering<br>
     Continual Learning, Bio-mimetic Machine Learning<br>
-    hvaidya [at] usf [dot] edu<br>
+    hvaidya [at] usf [dot] edu
 
     [<img src="../assets/icons/website.svg" alt="Website" width="30" height="30">](https://hiteshvaidya.github.io)
     [<img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">](https://www.linkedin.com/in/hiteshuv/)
@@ -76,7 +76,7 @@ hide:
 
     ---
 
-    ![Shion Matsumoto](./assets/images/people/shion_matsumoto.jpg)
+    ![Shion Matsumoto](./assets/images/people/shion.jpg)
 
     Computer Science & Engineering <br>
     Bio-inspired learning, PINNs<br>

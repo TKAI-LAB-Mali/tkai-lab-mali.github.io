@@ -137,6 +137,8 @@
   right: 10px;
 }
 
+/* People Page Styles */
+
 .grid.cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -151,7 +153,17 @@
 
 .grid.cards > ul > li {
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.grid.cards .card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -177,61 +189,6 @@
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
-  margin: 1rem 0;
-}
-
-.card-bio {
-  margin-bottom: 1rem;
-}
-
-/* End of people cards */
-
-
-@media (max-width: 768px) {
-  .grid.cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  .grid.cards {
-    grid-template-columns: 1fr;
-  }
-} */
-
-.grid.cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-}
-
-.grid.cards .card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.card-name {
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
-
-.card-divider {
-  width: 80%;
-  border-top: 1px solid #ddd;
-  margin: 0.5rem 0;
-}
-
-.card-image {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;  /* This ensures a perfect circle */
   margin: 1rem 0;
 }
 
