@@ -38,18 +38,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize the first image view
     updateImages();
   });
-
-  // Email obfuscation
-  const obfuscatedEmails = document.querySelectorAll('.obfuscated-email');
-  obfuscatedEmails.forEach((el) => {
-    const raw = el.getAttribute('data-email');
-    if (raw) {
-      // Simple substitution: -at- -> @ and -dot- -> .
-      const email = raw.replace('-at-', '@').replace(/-dot-/g, '.');
-      el.href = `mailto:${email}`;
-      if (el.hasAttribute('data-show-email')) {
-        el.textContent = email;
-      }
-    }
-  });
 });
