@@ -2,6 +2,7 @@ name: ci
 on:
   push:
     branches:
+      - master
       - main
 permissions:
   contents: write
@@ -21,9 +22,8 @@ jobs:
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
+          path: ~/.cache
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material
-      - run: mkdocs build --clean
       - run: mkdocs gh-deploy --force
