@@ -11,20 +11,20 @@ repos:
       - id: requirements-txt-fixer
       - id: trailing-whitespace
   - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: v0.21.0
+    rev: v0.22.1
     hooks:
     - id: markdownlint-cli2
   - repo: https://github.com/crate-ci/typos
-    rev: v1.23.6
+    rev: v1
     hooks:
       - id: typos
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.3.0
+    rev: v2.4.2
     hooks:
       - id: codespell
         args: ["-L", "ist"]
   - repo: https://github.com/tcort/markdown-link-check
-    rev: v3.12.2
+    rev: v3.14.2
     hooks:
       - id: markdown-link-check
         args: ["--quiet", "--config", ".mlc_config.json"]
