@@ -1,0 +1,23 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^http://127.0.0.1"
+    },
+    {
+      "pattern": "^http://localhost"
+    },
+    {
+      "pattern": "linkedin\\.com"
+    },
+    {
+      "pattern": "www\\.cse\\.psu\\.edu/~duk17/"
+    },
+    {
+      "pattern": "^\\.\\.?/"
+    }
+  ],
+  "timeout": "20s",
+  "retryOn429": true,
+  "fallbackToGet": true,
+  "aliveStatusCodes": [200, 206, 400, 403, 999]
+}

@@ -78,7 +78,7 @@ Please refer to the complete list of publications on my [Google Scholar](https:/
 
 * Ankur Arjun Mali, Alexander G. Ororbia II, & C. Lee Giles (2021). A Neural State Pushdown Automata. IEEE Trans. Artif. Intell., 1(3), 193–205.
 
-## 2020 - 2013
+## 2013 - 2020
 
 * Gopalakrishnan, A., Mali, A., Kifer, D., Giles, L., & Ororbia, A. G. (2019). A neural temporal model for human motion prediction. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 12116-12125).
 

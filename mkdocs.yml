@@ -5,6 +5,7 @@ repo_url: https://github.com/TKAI-LAB-Mali
 theme:
   logo: assets/images/lab-logo.png
   name: material
+  custom_dir: overrides
   favicon: assets/images/lab-logo.png
   features:
   # - navigation.instant
