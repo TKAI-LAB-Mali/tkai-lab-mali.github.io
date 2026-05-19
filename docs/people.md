@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-<!-- markdownlint-disable-file MD033 -->
+<!-- markdownlint-disable-file MD033 MD024-->
 
 # People
 
@@ -151,31 +151,6 @@ hide:
 
 </div>
 
-## Master's Students
-
-<div class="grid cards people" markdown>
-
-<div class="card">
-  <div class="card-name">Joo-Young Gonzalez</div>
-  <div class="card-divider"></div>
-  <img src="https://dummyimage.com/400x400/eee/aaa" alt="Theophilus" class="card-image">
-  <div class="card-bio">
-    Computer Science & Engineering <br>
-    NLP for second-language development and learner modeling<br>
-    jooyoungg [at] usf [dot] edu<br>
-  </div>
-  <div class="card-socials">
-    <a href="https://www.linkedin.com/in/jooyoung-gonzalez/" title="LinkedIn">
-      <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
-    </a>
-    <a href="https://github.com/jygonza" title="GitHub">
-      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
-    </a>
-  </div>
-</div>
-
-</div>
-
 ## Undergraduate Students
 
 <div class="grid cards people" markdown>
@@ -201,45 +176,29 @@ hide:
   </div>
 </div>
 
-<div class="card">
-  <div class="card-name">Raul Castillo</div>
-  <div class="card-divider"></div>
-  <img src="../assets/images/people/Raul_Castillo.jpg" alt="Raul" class="card-image">
-  <div class="card-bio">
-    Computer Science & Engineering <br>
-    castillo113 [at] usf [dot] edu<br>
-  </div>
-  <div class="card-socials">
-    <a href="http://www.linkedin.com/in/raul-castillo-215485213" title="LinkedIn">
-      <img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">
-    </a>
-    <a href="https://github.com/RaulCastillo547" title="GitHub">
-      <img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">
-    </a>
-  </div>
-</div>
-
 </div>
 
 ## Alumni
 
-### PhD students
+### PhD Students
 
 - [Neisarg Dave](https://www.neisargdave.com), advised by [Dr. C. Lee Giles](https://clgiles.ist.psu.edu), [Dr. Dan Kifer](https://www.cse.psu.edu/~duk17/), Dr. Ankur Mali
 - [Haiwen Guan](https://scholar.google.com/citations?user=TfhgkD4AAAAJ&hl=en), advised by [Dr. C. Lee Giles](https://clgiles.ist.psu.edu) and Dr. Ankur Mali
 - Alex Bi, advised by [Dr. Parisa Shokouhi](https://sites.psu.edu/ultrasonics/pshokouhi/) and Dr. Ankur Mali
 
-### Graduate students
+### Master's Students
 
+- [Joo-Young Gonzalez](https://www.linkedin.com/in/jooyoung-gonzalez/), advised by Dr. Ankur Mali
 - [Tahsun Rahman Khan](https://www.linkedin.com/in/tahsun-rahman-khan-b94641214/), advised by Dr. Ankur Mali
 - [Thejasvi Valega](https://github.com/thejasvi204), advised by [Dr. Parisa Shokouhi](https://sites.psu.edu/ultrasonics/pshokouhi/) and Dr. Ankur Mali
 - Sudarshan Nayak, advised by [Dr. Dan Kifer](https://www.cse.psu.edu/~duk17/), [Dr. Parisa Shokouhi](https://sites.psu.edu/ultrasonics/pshokouhi/), and Dr. Ankur Mali
 - [Alfredo Fernandez](https://www.linkedin.com/in/alfredofernandezjr/), advised by Dr. Ankur Mali.
 - Gerardo Wibmer, advised by Dr. Ankur Mali
 
-### Undergraduate students
+### Undergraduate Students
 
-- [Abdul-Malik Zekri](https://www.linkedin.com/in/abdul-malik-zekri/), advised by Dr. Ankur Mali
+- [Abdul-Malik Zekri](https://www.linkedin.com/in/abdul-malik-zekri/), PhD student at Harvard University, advised by Dr. Ankur Mali
+- [Raul Castillo](http://www.linkedin.com/in/raul-castillo-215485213), advised by Dr. Ankur Mali
 - [Zhanna Sergeeva](https://www.linkedin.com/in/zhannasergeeva/), advised by Dr. Ankur Mali
 - [Tasnia Simin](https://www.linkedin.com/in/tasnia-mahsin-simin/), advised by Dr. Ankur Mali
 - [Shrabon Kumar Das](https://www.linkedin.com/in/shrabon-kumar-das-25564621a/), advised by Dr. Ankur Mali
