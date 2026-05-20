@@ -35,7 +35,7 @@ Please refer to the complete list of publications on Dr. Ankur Mali's [Google Sc
     Benjamin Prada, Ankur Mali<br>
     [Paper](https://arxiv.org/pdf/2509.19161){ .md-button .md-button--small }
 
-**Robust prediction of enzyme variant kinetics with RealKcat**<br>
+**Robust Prediction of Enzyme Variant Kinetics with RealKcat**<br>
     *bioRxiv*<br>
     Karuna Anna Sajeevan, Abraham Osinuga, Sakib Ferdous, Nabia Shahreen, Mohammed Sakib Noor, Shashank Koneru, Laura Mariana Santos-Correa, Rahil Salehi, Niaz Bahar Chowdhury, Brisa Calderon-Lopez, Ankur Mali, Rajib Saha, Ratul Chowdhury<br>
     [Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC11844551/pdf/nihpp-2025.02.10.637555v1.pdf){ .md-button .md-button--small }
