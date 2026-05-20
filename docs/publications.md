@@ -43,29 +43,69 @@ Please refer to the complete list of publications on Dr. Ankur Mali's [Google Sc
 
 ## 2024
 
-* Mali, A., Salvatori, T., & Ororbia, A. (2024). Tight Stability, Convergence, and Robustness Bounds for Predictive Coding Networks. arXiv preprint arXiv:2410.04708.
+**Tight Stability, Convergence, and Robustness Bounds for Predictive Coding Networks**<br>
+    *arXiv*<br>
+    Ankur Mali, Tommaso Salvatori, Alexander Ororbia<br>
+    [Paper](https://arxiv.org/pdf/2410.04708){ .md-button .md-button--small }
 
-* Das, S., & Mali, A. (2024). Exploring Learnability in Memory-Augmented Recurrent Neural Networks: Precision, Stability, and Empirical Insights. arXiv preprint arXiv:2410.03154.
+**Exploring Learnability in Memory-Augmented Recurrent Neural Networks: Precision, Stability, and Empirical Insights**<br>
+    *arXiv*<br>
+    Shrabon Das, Ankur Mali<br>
+    [Paper](https://arxiv.org/pdf/2410.03154v1){ .md-button .md-button--small }
 
-* Dave, N., Kifer, D., Giles, L., & Mali, A. (2024). Precision, Stability, and Generalization: A Comprehensive Assessment of RNNs learnability capability for Classifying Counter and Dyck Languages. arXiv preprint arXiv:2410.03118.
+**Precision, Stability, and Generalization: A Comprehensive Assessment of RNNs learnability capability for Classifying Counter and Dyck Languages**<br>
+    *arXiv*<br>
+    Neisarg Dave, Daniel Kifer, Lee Giles, Ankur Mali<br>
+    [Paper](https://arxiv.org/pdf/2410.03118){ .md-button .md-button--small }
 
-* Sharma, A. S., Sarkar, N., Chundawat, V., Mali, A. A., & Mandal, M. (2024). Unlearning or concealment? a critical analysis and evaluation metrics for unlearning in diffusion models. arXiv preprint arXiv:2409.05668.
+**Unlearning or Concealment? A Critical Analysis and Evaluation Metrics for Unlearning in Diffusion Models**<br>
+    *arXiv*<br>
+    Aakash Sen Sharma, Niladri Sarkar, Vikram Chundawat, Ankur Mali, Murari Mandal<br>
+    [Paper](https://arxiv.org/pdf/2409.05668v2){ .md-button .md-button--small }
+    [Website](https://respailab.github.io/unlearning-or-concealment/){ .md-button .md-button--small }
+    [Code](https://github.com/respailab/unlearning-or-concealment){ .md-button .md-button--small }
 
-* Chatterjee, R., Chundawat, V., Tarun, A., Mali, A., & Mandal, M. (2024). A unified framework for continual learning and machine unlearning. arXiv preprint arXiv:2408.11374.
+**A Unified Framework for Continual Learning and Unlearning**<br>
+    *arXiv*<br>
+    Romit Chatterjee, Vikram Chundawat, Ayush Tarun, Ankur Mali, Murari Mandal<br>
+    [Paper](https://arxiv.org/pdf/2408.11374){ .md-button .md-button--small }
+    [Website](https://respailab.github.io/CLMUL/){ .md-button .md-button--small }
+    [Code](https://github.com/respailab/CLMUL){ .md-button .md-button--small }
 
-* Dave, N., Kifer, D., Giles, C. L., & Mali, A. (2024). Investigating Symbolic Capabilities of Large Language Models. arXiv preprint arXiv:2405.13209.
+**Investigating Symbolic Capabilities of Large Language Models**<br>
+    *arXiv*<br>
+    Neisarg Dave, Daniel Kifer, C. Lee Giles, Ankur Mali<br>
+    [Paper](https://arxiv.org/pdf/2405.13209){ .md-button .md-button--small }
 
-* Yu, P., Mali, A., Velaga, T., Bi, A., Yu, J., Marone, C., ... & Elsworth, D. (2024). Crustal permeability generated through microearthquakes is constrained by seismic moment. Nature communications, 15(1), 2057.
+**Crustal permeability generated through microearthquakes is constrained by seismic moment**<br>
+    *Nature Communications*<br>
+    Pengliang Yu, Ankur Mali, Thejasvi Velaga, Alex Bi, Jiayi Yu, Chris Marone, Parisa Shokouhi, Derek Elsworth <br>
+    [Paper](https://www.nature.com/articles/s41467-024-46238-3){ .md-button .md-button--small }
 
-* Vaidya, H., Desell, T., Mali, A., & Ororbia, A. (2024). Neuro-mimetic Task-free Unsupervised Online Learning with Continual Self-Organizing Maps. arXiv preprint arXiv:2402.12465.
+**Neuro-mimetic Task-free Unsupervised Online Learning with Continual Self-Organizing Maps**<br>
+    *arXiv*<br>
+    Hitesh Vaidya, Travis Desell, Ankur Mali, Alexander Ororbia<br>
+    [Paper](https://arxiv.org/pdf/2402.12465){ .md-button .md-button--small }
 
-* Ororbia, A., Mali, A., Kohan, A., Millidge, B., & Salvatori, T. (2024). A review of neuroscience-inspired machine learning. arXiv preprint arXiv:2403.18929.
+**A Review of Neuroscience-Inspired Machine Learning**<br>
+    *arXiv*<br>
+    Alexander Ororbia, Ankur Mali, Adam Kohan, Beren Millidge, Tommaso Salvatori<br>
+    [Paper](https://arxiv.org/pdf/2403.18929){ .md-button .md-button--small }
 
-* Fernandez, A., & Mali, A. (2024). Stable and Robust Deep Learning By Hyperbolic Tangent Exponential Linear Unit (TeLU). arXiv preprint arXiv:2402.02790.
+**Stable and Robust Deep Learning By Hyperbolic Tangent Exponential Linear Unit (TeLU)**<br>
+    *arXiv*<br>
+    Alfredo Fernandez, Ankur Mali<br>
+    [Paper](https://arxiv.org/pdf/2402.02790){ .md-button .md-button--small }
 
-* Dave, N., Kifer, D., Giles, C. L., & Mali, A. (2024). Stability Analysis of Various Symbolic Rule Extraction Methods from Recurrent Neural Network. arXiv preprint arXiv:2402.02627.
+**Stability Analysis of Various Symbolic Rule Extraction Methods from Recurrent Neural Network**<br>
+    *arXiv*<br>
+    Neisarg Dave, Daniel Kifer, C. Lee Giles, Ankur Mali<br>
+    [Paper](https://arxiv.org/pdf/2402.02627){ .md-button .md-button--small }
 
-* Stogin, J., Mali, A., & Giles, C. L. (2024). A provably stable neural network Turing Machine with finite precision and time. Information Sciences, 658, 120034.
+**A provably stable neural network Turing Machine with finite precision and time**<br>
+    *Information Sciences*<br>
+    John Stogin, Ankur Mali, C. Lee Giles<br>
+    [Paper](https://doi.org/10.1016/j.ins.2023.120034){ .md-button .md-button--small }
 
 ## 2023
 
