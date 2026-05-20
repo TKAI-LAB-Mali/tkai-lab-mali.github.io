@@ -102,6 +102,8 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
 
     ---
 
+    ![RCd](./assets/images/research/rcd.png)
+
     === "Overview"
         Historically, computational complexity ignores the challenge of routing information through physical space and dissipating heat. We reformulate standard circuit complexity research under conservative physical constraints.
 
@@ -130,6 +132,8 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
 
     ---
 
+    ![LayerIF](./assets/images/research/layer-if.png)
+
     === "Overview"
         We explore ways in which we can understand and build closed form solutions for model selection strategies and measure their generalization ability using Minimum Description Length (MDL) and curvature analysis.
 
@@ -147,6 +151,8 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
 - **High Performance Computing**
 
     ---
+
+    ![BMSSP](./assets/images/research/bmssp.png)
 
     === "Overview"
         We are creating the first parallel implementation of Bounded Multi-source Shortest Path (BMSSP) for execution on GPUs, designed to separate the search into independent sub-problems.

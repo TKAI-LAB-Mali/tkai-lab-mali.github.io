@@ -10,34 +10,36 @@ Please refer to the complete list of publications on Dr. Ankur Mali's [Google Sc
 **Surprisal-Rényi Free Energy**<br>
     *arXiv*<br>
     Shion Matsumoto\*, Raul Castillo\*, Benjamin Prada, Ankur Mali<br>
-    [[Paper](https://arxiv.org/pdf/2603.03405)] <!-- [[Code](https://github.com/TKAI-LAB-Mali/SRFE_Experiments)] -->
+    [Paper](https://arxiv.org/pdf/2603.03405){ .md-button .md-button--small } <!-- [Code](https://github.com/TKAI-LAB-Mali/SRFE_Experiments){ .md-button .md-button--small } -->
 
 **Curvature-Weighted Capacity Allocation: A Minimum Description Length Framework for Layer-Adaptive Large Language Model Optimization**<br>
     *arXiv*<br>
     Theophilus Amaefuna\*, Hitesh Vaidya\*, Anshuman Chhabra, Ankur Mali<br>
-    [[Paper](https://arxiv.org/pdf/2603.00910)]
+    [Paper](https://arxiv.org/pdf/2603.00910){ .md-button .md-button--small }
 
 ## 2025
 
 **Rethinking Reasoning in LLMs: Neuro-Symbolic Local RetoMaton Beyond CoT and ICL**<br>
     *PMLR*<br>
     Rushitha Mamidala, Anshuman Chhabra, Ankur Mali<br>
-    [[Paper](https://openreview.net/pdf?id=ySTqCi3nqi)] [[Code](https://github.com/TKAI-LAB-Mali/NeuroSymbolicLM)]
+    [Paper](https://openreview.net/pdf?id=ySTqCi3nqi){ .md-button .md-button--small }
+    [Code](https://github.com/TKAI-LAB-Mali/NeuroSymbolicLM){ .md-button .md-button--small }
 
 **Investigating Pedagogical Teacher and Student LLM Agents: Genetic Adaptation Meets Retrieval-Augmented Generation Across Learning Styles**<br>
     *EMNLP*<br>
     Debdeep Sanyal, Agniva Maiti, Umakanta Maharana, Dhruv Kumar, Ankur Mali, C Lee Giles, Murari Mandal<br>
-    [[Paper](https://aclanthology.org/2025.emnlp-main.675.pdf)]
+    [Paper](https://aclanthology.org/2025.emnlp-main.675.pdf){ .md-button .md-button--small }
 
 **Realizable Circuit Complexity: Embedding Computation in Space-Time**<br>
     *arXiv*<br>
     Benjamin Prada, Ankur Mali<br>
-    [[Paper](https://arxiv.org/pdf/2509.19161)]
+    [Paper](https://arxiv.org/pdf/2509.19161){ .md-button .md-button--small }
 
-**Robust prediction of enzyme variant kinetics with RealKcat**<br>
+**Robust Prediction of Enzyme Variant Kinetics with RealKcat**<br>
     *bioRxiv*<br>
     Karuna Anna Sajeevan, Abraham Osinuga, Sakib Ferdous, Nabia Shahreen, Mohammed Sakib Noor, Shashank Koneru, Laura Mariana Santos-Correa, Rahil Salehi, Niaz Bahar Chowdhury, Brisa Calderon-Lopez, Ankur Mali, Rajib Saha, Ratul Chowdhury<br>
-    [[Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC11844551/pdf/nihpp-2025.02.10.637555v1.pdf)] [[Code](https://github.com/TKAI-LAB-Mali/RealKcat)]
+    [Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC11844551/pdf/nihpp-2025.02.10.637555v1.pdf){ .md-button .md-button--small }
+    [Code](https://github.com/TKAI-LAB-Mali/RealKcat){ .md-button .md-button--small }
 
 ## 2024
 
