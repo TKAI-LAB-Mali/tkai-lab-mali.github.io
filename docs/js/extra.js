@@ -1,4 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // Select all links
+  const links = document.querySelectorAll('a');
+
+  links.forEach(link => {
+    // Check if the link is external
+    if (link.hostname && link.hostname !== window.location.hostname) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener');
+    }
+  });
+
   // Select all image stacks
   const stacks = document.querySelectorAll('.image-stack');
 
