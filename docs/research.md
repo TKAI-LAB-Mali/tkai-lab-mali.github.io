@@ -67,18 +67,35 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
         - [Backpropagation-Free Deep Learning with Recursive Local Representation Alignment (2023)](https://doi.org/10.1609/aaai.v37i8.26118)
         - [Biologically Motivated Algorithms for Propagating Local Target Representations (2019)](https://doi.org/10.1609/aaai.v33i01.33014651)
 
-- **Memory-Augmented Neural Networks**
+- **Target Propagation**
 
     ---
 
-    ![manns](./assets/images/research/nnpda.png)
+    ![target-prop](./assets/images/research/target-prop.png)
 
     === "Overview"
-        Transformers struggle to generalize to strings longer than those seen in training. Our work is focused on developing memory-augmented neural networks (MANNs) that outperform state-of-the-art architectures on formal and general language tasks, whilst maintaining comparable levels of computational complexity.
 
     === "Publications"
-        - [A provably stable neural network Turing Machine with finite precision and time (2024)](https://doi.org/10.1016/j.ins.2023.120034)
-        - [Exploring Learnability in Memory-Augmented Recurrent Neural Networks (2024)](https://arxiv.org/pdf/2410.03154)
+
+- **Forward Only Learning**
+
+    ---
+
+    ![forward-only](./assets/images/research/forward-only.png)
+
+    === "Overview"
+
+    === "Publications"
+
+- **Active Inference**
+
+    ---
+
+    ![active-inference](./assets/images/research/active-inference.png)
+
+    === "Overview"
+
+    === "Publications"
 
 </div>
 
@@ -109,6 +126,19 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
 
     === "Publications"
         - [Realizable Circuit Complexity: Embedding Computation in Space-Time (2025)](https://arxiv.org/pdf/2509.19161)
+
+- **Memory-Augmented Neural Networks**
+
+    ---
+
+    ![manns](./assets/images/research/nnpda.png)
+
+    === "Overview"
+        Transformers struggle to generalize to strings longer than those seen in training. Our work is focused on developing memory-augmented neural networks (MANNs) that outperform state-of-the-art architectures on formal and general language tasks, whilst maintaining comparable levels of computational complexity.
+
+    === "Publications"
+        - [A provably stable neural network Turing Machine with finite precision and time (2024)](https://doi.org/10.1016/j.ins.2023.120034)
+        - [Exploring Learnability in Memory-Augmented Recurrent Neural Networks (2024)](https://arxiv.org/pdf/2410.03154)
 
 </div>
 
