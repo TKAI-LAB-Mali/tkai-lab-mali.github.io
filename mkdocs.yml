@@ -50,7 +50,14 @@ markdown_extensions:
       alternate_style: true
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/variables.css
+  - stylesheets/global.css
+  - stylesheets/profile.css
+  - stylesheets/image-stack.css
+  - stylesheets/people.css
+  - stylesheets/publications.css
+  - stylesheets/homepage.css
+  - stylesheets/research-carousel.css
 
 extra_javascript:
   - js/extra.js
