@@ -50,7 +50,6 @@ These models should have a few desired properties, such as robustness and interp
               <li><a href="https://arxiv.org/pdf/2308.07870">Predictive Coding Survey (2025)</a></li>
               <li><a href="https://arxiv.org/pdf/2410.04708">PC Stability &amp; Convergence (2024)</a></li>
               <li><a href="https://doi.org/10.1609/aaai.v37i8.26118">Backpropagation-Free LRA (2023)</a></li>
-              <li><a href="https://doi.org/10.1016/j.ins.2023.120034">Provably Stable Neural Turing Machine (2024)</a></li>
             </ul>
           </div>
         </div>
@@ -125,11 +124,35 @@ These models should have a few desired properties, such as robustness and interp
         </div>
       </div>
 
+      <!-- Slide 5: Memory-Augmented Neural Networks -->
+      <div class="research-carousel-slide">
+        <div class="slide-content">
+          <div class="slide-text">
+            <span class="slide-badge badge-memory">Memory-Augmented Neural Networks</span>
+            <h3>Memory-Augmented Networks</h3>
+            <p>We develop memory-augmented recurrent architectures that generalize to sequence lengths far beyond training limits without losing computational efficiency.</p>
+            <ul>
+              <li><strong>Neural Turing Machines</strong>: Provably stable models computing with finite-precision memory over time.</li>
+              <li><strong>Sequence Generalization</strong>: Recurrent models outperforming state-of-the-art Transformers on formal language tasks.</li>
+            </ul>
+          </div>
+          <div class="slide-info">
+            <img src="assets/images/research/nnpda.png" class="slide-image" alt="Memory-Augmented Neural Networks Structure">
+            <h4>Key Publications</h4>
+            <ul>
+              <li><a href="https://doi.org/10.1016/j.ins.2023.120034">Neural Turing Machine Stability (2024)</a></li>
+              <li><a href="https://arxiv.org/pdf/2410.03154">Exploring Learnability in MANNs (2024)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
   <div class="research-carousel-dots">
     <span class="dot active"></span>
+    <span class="dot"></span>
     <span class="dot"></span>
     <span class="dot"></span>
     <span class="dot"></span>
@@ -156,10 +179,18 @@ These models should have a few desired properties, such as robustness and interp
 
 <div class="news-item" markdown="1">
 <div class="news-meta">
+<span class="news-date">April 2026</span>
+<span class="news-badge badge-presentation">Presentation</span>
+</div>
+**Shion** and **Rushitha** presented their works on *"Bridging Predictive Coding and Minimum Description Length Principle: A Two-Part Code Framework for Deep Learning"* and *"A Neuro-Symbolic, Guideline-Aware Pipeline for Uterine Cancer Restaging and Treatment Recommendation from Pathology Reports"* at the 2026 [USF AI+X Symposium](https://www.usf.edu/ai-cybersecurity-computing/centers/ai-x/index.aspx).
+</div>
+
+<div class="news-item" markdown="1">
+<div class="news-meta">
 <span class="news-date">January 2026</span>
 <span class="news-badge badge-publication">Acceptance</span>
 </div>
-Raul Castillo and Abdul-Malik Zekri got their work *"The Alpha-Divergence Connection Between Contrastive Representation Learning and the Free Energy Principle"* accepted at the 2026 Florida Undergraduate Research Conference (FURC 2026)!
+**Raul Castillo** and **Abdul-Malik Zekri** got their work *"The Alpha-Divergence Connection Between Contrastive Representation Learning and the Free Energy Principle"* accepted at the 2026 Florida Undergraduate Research Conference (FURC 2026)!
 </div>
 
 <div class="news-item" markdown="1">
@@ -167,7 +198,7 @@ Raul Castillo and Abdul-Malik Zekri got their work *"The Alpha-Divergence Connec
 <span class="news-date">December 2025</span>
 <span class="news-badge badge-presentation">Presentation</span>
 </div>
-Benjamin Prada presented ["Realizable Circuit Complexity: Embedding Computation in Space-Time"](https://arxiv.org/abs/2509.19161v3) at the NeurIPS 2025 Workshop (What Can't Transformers Do?).
+**Benjami Prada** presented *["Realizable Circuit Complexity: Embedding Computation in Space-Time"](https://arxiv.org/abs/2509.19161v3)* at the NeurIPS 2025 Workshop (What Can't Transformers Do?).
 </div>
 
 <div class="news-item" markdown="1">
@@ -175,7 +206,7 @@ Benjamin Prada presented ["Realizable Circuit Complexity: Embedding Computation 
 <span class="news-date">December 2025</span>
 <span class="news-badge badge-presentation">Presentation</span>
 </div>
-Raul Castillo and Abdul-Malik Zekri presented *"The 'Surprisal' Between Contrastive Representation Learning and the Free Energy Principle"* at the 1st Bellini College REU Symposium (BCRS 2025).
+**Raul Castillo** and **Abdul-Malik Zekri** presented *"The 'Surprisal' Between Contrastive Representation Learning and the Free Energy Principle"* at the 1st Bellini College REU Symposium (BCRS 2025).
 </div>
 
 <div class="news-item" markdown="1">
@@ -191,7 +222,7 @@ A paper on predictive coding survey with Karl Friston and Rajesh Rao got accepte
 <span class="news-date">September 2025</span>
 <span class="news-badge badge-publication">Acceptance</span>
 </div>
-One paper accepted in **NeurIPS 2025 workshop** (Circuit Complexity From Physical Constraints) – Congratulations Benjamin!
+One paper accepted in **NeurIPS 2025 workshop** (*["Circuit Complexity From Physical Constraints"](https://arxiv.org/pdf/2509.19161)*) – Congratulations **Benjamin**!
 </div>
 
 <div class="news-item" markdown="1">
@@ -199,7 +230,7 @@ One paper accepted in **NeurIPS 2025 workshop** (Circuit Complexity From Physica
 <span class="news-date">September 2025</span>
 <span class="news-badge badge-publication">Acceptance</span>
 </div>
-One paper accepted in **EMNLP 2025 (main)** – *"Investigating Pedagogical Teacher and Student LLM Agents: Genetic Adaptation Meets Retrieval Augmented Generation Across Learning Style"* – Congratulations to students and collaborators.
+One paper accepted in **EMNLP 2025 (main)** – *["Investigating Pedagogical Teacher and Student LLM Agents: Genetic Adaptation Meets Retrieval Augmented Generation Across Learning Style"](https://aclanthology.org/2025.emnlp-main.675.pdf)*
 </div>
 
 </div>

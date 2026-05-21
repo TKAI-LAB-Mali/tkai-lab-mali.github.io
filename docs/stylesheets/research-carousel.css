@@ -105,6 +105,15 @@
   color: #ccc;
 }
 
+.badge-memory {
+  background-color: rgba(0, 150, 136, 0.12);
+  color: #008073;
+}
+[data-md-color-scheme="slate"] .badge-memory {
+  background-color: rgba(0, 150, 136, 0.2);
+  color: #80cbc4;
+}
+
 .slide-text h3 {
   margin-top: 0 !important;
   margin-bottom: 12px !important;
