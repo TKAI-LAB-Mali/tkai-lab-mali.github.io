@@ -55,6 +55,7 @@ extra_css:
   - stylesheets/profile.css
   - stylesheets/image-stack.css
   - stylesheets/people.css
+  - stylesheets/publications.css
   - stylesheets/homepage.css
   - stylesheets/research-carousel.css
 

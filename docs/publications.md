@@ -1,5 +1,7 @@
 # Publications
 
+<div class="publications-page" markdown="1">
+
 Please refer to the complete list of publications on Dr. Ankur Mali's [Google Scholar](https://scholar.google.co.in/citations?view_op=list_works&hl=en&hl=en&user=ogxlzgcAAAAJ) page.
 
 <!-- markdownlint-disable-next-line MD037 -->
@@ -182,3 +184,5 @@ Please refer to the complete list of publications on Dr. Ankur Mali's [Google Sc
 * Thepade, S., Subhedarpage, K., & Mali, . (2013). Performance Rise in Content Based Video Retrieval using Multi-level Thepade’s Sorted Ternary Block Truncation Coding with intermediate block videos and even-odd videos. In Advances in Computing, Communications and Informatics , 2013 International Conference on (pp. 962–966).
 
 * A. Mali, A. G. Ororbia, & C. L. Giles (2020). The Sibling Neural Estimator: Improving Iterative Image Decoding with Gradient Communication. In 2020 Data Compression Conference (DCC) (pp. 23-32).
+
+</div>

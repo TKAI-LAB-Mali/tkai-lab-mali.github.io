@@ -1,0 +1,12 @@
+/* --- Publications Page Styling --- */
+.publications-page > p {
+  margin-bottom: 1.8rem;
+}
+
+.publications-page li {
+  margin-bottom: 1.8rem;
+}
+
+.publications-page li p {
+  margin-bottom: 0;
+}
