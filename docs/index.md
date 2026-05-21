@@ -7,7 +7,9 @@ hide:
 # Welcome to the Trustworthy Knowledge-Driven AI (TKAI) Lab
 
 <div class="welcome-container" markdown="1">
+<div>
 <img src="assets/images/lab-logo.png" class="welcome-logo" alt="TKAI Lab Logo">
+</div>
 <div class="welcome-text" markdown="1">
 At the Trustworthy Knowledge Driven AI (TKAI) Lab, we combine research ideas derived from formal methods, linguistics, cognitive science, and machine learning to efficiently build intelligent systems that are trustworthy, ethical, and secure.
 
