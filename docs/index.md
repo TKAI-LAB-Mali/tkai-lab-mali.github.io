@@ -17,6 +17,129 @@ These models should have a few desired properties, such as robustness and interp
 </div>
 </div>
 
+<div class="research-carousel-section">
+  <h2>Our Research</h2>
+
+  <button class="carousel-control prev" aria-label="Previous Slide">
+    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"/></svg>
+  </button>
+  <button class="carousel-control next" aria-label="Next Slide">
+    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
+  </button>
+
+  <div class="research-carousel-viewport">
+    <div class="research-carousel-track">
+
+      <!-- Slide 1: Neuro-Mimetic AI -->
+      <div class="research-carousel-slide">
+        <div class="slide-content">
+          <div class="slide-text">
+            <span class="slide-badge badge-neuro">Neuro-Mimetic AI</span>
+            <h3>Neuro-Mimetic Approaches</h3>
+            <p>We design brain-inspired computational models that serve as stable, backpropagation-free alternatives to traditional deep learning.</p>
+            <ul>
+              <li><strong>Predictive Coding</strong>: Self-correcting hierarchical prediction networks that minimize local errors.</li>
+              <li><strong>Local Representation Alignment</strong>: Algorithms replacing global gradients with local target representations.</li>
+              <li><strong>Memory-Augmented RNNs</strong>: Stable architectures that generalize to longer sequences with finite precision.</li>
+            </ul>
+          </div>
+          <div class="slide-info">
+            <img src="assets/images/research/pc.png" class="slide-image" alt="Predictive Coding Model Structure">
+            <h4>Key Publications</h4>
+            <ul>
+              <li><a href="https://arxiv.org/pdf/2308.07870">Predictive Coding Survey (2025)</a></li>
+              <li><a href="https://arxiv.org/pdf/2410.04708">PC Stability &amp; Convergence (2024)</a></li>
+              <li><a href="https://doi.org/10.1609/aaai.v37i8.26118">Backpropagation-Free LRA (2023)</a></li>
+              <li><a href="https://doi.org/10.1016/j.ins.2023.120034">Provably Stable Neural Turing Machine (2024)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2: AI for Science -->
+      <div class="research-carousel-slide">
+        <div class="slide-content">
+          <div class="slide-text">
+            <span class="slide-badge badge-science">AI for Science</span>
+            <h3>AI for Scientific Discovery</h3>
+            <p>We leverage machine learning to accelerate discoveries and solve complex optimization challenges in physical and biological systems.</p>
+            <ul>
+              <li><strong>Enzyme-Substrate Affinity</strong>: Using protein language models and graph neural networks to predict kinetics (Kcat).</li>
+              <li><strong>Physics-Informed Neural Networks</strong>: Design of predictive-coding-based PINNs to capture high-frequency oscillations.</li>
+            </ul>
+          </div>
+          <div class="slide-info">
+            <img src="assets/images/research/kcat.png" class="slide-image" alt="Enzyme Kinetics & RealKcat">
+            <h4>Key Publications</h4>
+            <ul>
+              <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11844551/pdf/nihpp-2025.02.10.637555v1.pdf">Enzyme Kinetics with RealKcat (2025)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3: Neuro-Symbolic LLMs -->
+      <div class="research-carousel-slide">
+        <div class="slide-content">
+          <div class="slide-text">
+            <span class="slide-badge badge-llm">Neuro-Symbolic LLMs</span>
+            <h3>Reasoning &amp; Generalization</h3>
+            <p>We bridge connectionist language models with symbolic systems to construct interpretable, robust, and provably stable agents.</p>
+            <ul>
+              <li><strong>Local RetoMaton</strong>: Task-adaptive Weighted Finite Automata (WFA) replacing global search for structured retrieval.</li>
+              <li><strong>LLM Generalization</strong>: Minimum Description Length (MDL) and curvature analysis to optimize model selection.</li>
+            </ul>
+          </div>
+          <div class="slide-info">
+            <img src="assets/images/research/retomaton.png" class="slide-image" alt="Local RetoMaton Architecture">
+            <h4>Key Publications</h4>
+            <ul>
+              <li><a href="https://openreview.net/pdf?id=ySTqCi3nqi">Neuro-Symbolic Local RetoMaton (2025)</a></li>
+              <li><a href="https://arxiv.org/pdf/2603.00910">LLM Optimization Curvature (2026)</a></li>
+              <li><a href="https://aclanthology.org/2025.emnlp-main.675.pdf">Pedagogical Teacher/Student LLMs (2025)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4: Theoretical Foundations -->
+      <div class="research-carousel-slide">
+        <div class="slide-content">
+          <div class="slide-text">
+            <span class="slide-badge badge-theory">Theoretical Foundations</span>
+            <h3>Theory &amp; Physical Constraints</h3>
+            <p>We study the mathematical limits of computation and information theory under realistic thermodynamic constraints.</p>
+            <ul>
+              <li><strong>Surprisal-Rényi Free Energy (SRFE)</strong>: A risk-sensitive free energy interpolating forward and reverse KL.</li>
+              <li><strong>Realizable Circuit Complexity</strong>: Circuit design constraints modeling heat dissipation and physical space routing.</li>
+            </ul>
+          </div>
+          <div class="slide-info">
+            <img src="assets/images/research/rcd.png" class="slide-image" alt="Realizable Circuit Complexity Diagram">
+            <h4>Key Publications</h4>
+            <ul>
+              <li><a href="https://arxiv.org/pdf/2603.03405">Surprisal-Rényi Free Energy (2026)</a></li>
+              <li><a href="https://arxiv.org/pdf/2509.19161">Realizable Circuit Complexity (2025)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="research-carousel-dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <div class="research-explore-container">
+    <a href="research/" class="research-explore-btn">Explore Our Research</a>
+  </div>
+</div>
+
 <div class="homepage-columns" markdown="1">
 <div class="news-box-container" markdown="1">
 ## Latest News
