@@ -2,7 +2,7 @@
 
 Our mission at the TKAI Lab is to develop stable AI systems by integrating insights from neuroscience, control theory, advanced physics, formal methods, and cognitive science. By combining **theoretical foundations** with **empirical validation**, we aim to pioneer stability-driven methodologies. Our focus is on creating systems that demand minimal supervision, leverage smaller datasets, and remain computationally efficient. Above all, we strive to ensure these systems are both **explainable** and **trustworthy**, paving the way for reliable and transparent AI solutions.
 
-## AI for Science
+## AI for Scientific Discovery
 
 We are committed to harnessing the power of AI to revolutionize other scientific domains.
 
@@ -82,7 +82,7 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
 
 </div>
 
-## Theory
+## Theoretical Foundations
 
 <div class="grid cards research-grid" markdown>
 
