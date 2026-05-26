@@ -77,7 +77,7 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
 
     === "Publications"
 
-- **Forward Only Learning**
+- **Forward-Only Learning**
 
     ---
 
