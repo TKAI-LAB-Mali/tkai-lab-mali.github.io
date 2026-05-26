@@ -139,7 +139,7 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
     === "Publications"
         - [A provably stable neural network Turing Machine with finite precision and time (2024)](https://doi.org/10.1016/j.ins.2023.120034)
         - [Exploring Learnability in Memory-Augmented Recurrent Neural Networks (2024)](https://arxiv.org/pdf/2410.03154)
-        - [A Neural State Pushdown Automata](https://doi.org/10.1109/TAI.2021.3055167)
+        - [A Neural State Pushdown Automata (2021)](https://doi.org/10.1109/TAI.2021.3055167)
 
 </div>
 
