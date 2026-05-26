@@ -142,6 +142,7 @@ These models should have a few desired properties, such as robustness and interp
             <ul>
               <li><a href="https://doi.org/10.1016/j.ins.2023.120034">Neural Turing Machine Stability (2024)</a></li>
               <li><a href="https://arxiv.org/pdf/2410.03154">Exploring Learnability in MANNs (2024)</a></li>
+              <li><a href="https://doi.org/10.1109/TAI.2021.3055167">A Neural State Pushdown Automata (2021)</a></li>
             </ul>
           </div>
         </div>
