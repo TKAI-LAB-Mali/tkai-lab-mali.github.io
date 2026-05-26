@@ -30,7 +30,7 @@ We are committed to harnessing the power of AI to revolutionize other scientific
         Physics-informed neural networks (PINNs) fail to capture physical phenomena such as high frequency oscillations and shocks. Our goal is to design novel architectures based on predictive coding address the optimization-related challenges in traditional PINNs formulations.
 
     === "Publications"
-        *Work in progress.*
+        - [Using a physics-informed neural network and fault zone acoustic monitoring to predict lab earthquakes](https://doi.org/10.1038/s41467-023-39377-6)
 
 </div>
 
@@ -139,6 +139,7 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
     === "Publications"
         - [A provably stable neural network Turing Machine with finite precision and time (2024)](https://doi.org/10.1016/j.ins.2023.120034)
         - [Exploring Learnability in Memory-Augmented Recurrent Neural Networks (2024)](https://arxiv.org/pdf/2410.03154)
+        - [A Neural State Pushdown Automata](https://doi.org/10.1109/TAI.2021.3055167)
 
 </div>
 
@@ -171,6 +172,16 @@ At TKAI Lab, we are inspired by the remarkable efficiency and adaptability of bi
         - [Curvature-Weighted Capacity Allocation for LLM Optimization (2026)](https://arxiv.org/pdf/2603.00910)
         - [Investigating Pedagogical Teacher and Student LLM Agents (2025)](https://aclanthology.org/2025.emnlp-main.675.pdf)
         - [Investigating Symbolic Capabilities of Large Language Models (2024)](https://arxiv.org/pdf/2405.13209)
+
+- **Applications**
+
+    ---
+
+    ![LayerIF](./assets/images/research/layer-if.png)
+
+    === "Overview"
+
+    === "Publications"
 
 </div>
 
