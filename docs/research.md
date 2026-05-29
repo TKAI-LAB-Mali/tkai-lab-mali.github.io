@@ -26,7 +26,7 @@ At TKAI Lab, we study learning algorithms inspired by biological intelligence. A
         - [Bridging Predictive Coding and MDL: A Two-Part Code Framework for Deep Learning (2025)](https://arxiv.org/pdf/2505.14635)
         - [Tight Stability, Convergence, and Robustness Bounds for Predictive Coding Networks (2024)](https://arxiv.org/pdf/2410.04708)
         - [The Predictive Forward-Forward Algorithm (2023)](https://arxiv.org/pdf/2301.01452)
-        - [Convolutional Neural Generative Coding: Scaling Predictive Coding to Natural Images (2023)](https://arxiv.org/abs/2211.03481)
+        - [Convolutional Neural Generative Coding: Scaling Predictive Coding to Natural Images (2023)](https://arxiv.org/pdf/2211.12047)
         - [Lifelong Neural Predictive Coding: Sparsity Yields Less Forgetting When Learning Cumulatively (2022)](https://proceedings.neurips.cc/paper_files/paper/2022/file/26f5a4e26c13d1e0a47f46790c999361-Paper-Conference.pdf)
 
 - **Local Representation Alignment**
@@ -40,28 +40,28 @@ At TKAI Lab, we study learning algorithms inspired by biological intelligence. A
 
     === "Publications"
         - [Backpropagation-Free Deep Learning with Recursive Local Representation Alignment (2023)](https://doi.org/10.1609/aaai.v37i8.26118)
-        - [Continual Learning of Recurrent Neural Networks by Locally Aligning Distributed Representations (2018)](https://ieeexplore.ieee.org/document/8543632)
+        - [Continual Learning of Recurrent Neural Networks by Locally Aligning Distributed Representations (2020)](https://doi.org/10.1109/TNNLS.2019.2953622)
         - [Conducting Credit Assignment by Aligning Local Representations (2018)](https://arxiv.org/pdf/1803.01834)
-        - [Biologically Motivated Algorithms for Propagating Local Target Representations (2018)](https://ojs.aaai.org/index.php/AAAI/article/view/4363)
+        - [Biologically Motivated Algorithms for Propagating Local Target Representations (2019)](https://cdn.aaai.org/ojs/4389/4389-13-7428-1-10-20190706.pdf)
 
 - **Backpropagation-Free Reinforcement Learning**
 
     ---
 
-    ![active-inference](./assets/images/research/active-inference.png)
+    ![active-inference](./assets/images/research/angc.png)
 
     === "Overview"
         We explore reinforcement learning systems that use active neural generative coding and predictive coding instead of standard backpropagation through time. These models are motivated by the idea that agents can learn through local predictive objectives, internal state correction, and action-conditioned generative dynamics. This research connects predictive coding, active inference, and reinforcement learning in sparse-reward robotic control settings.
 
     === "Publications"
+        - [Active Predictive Coding: Brain-Inspired Reinforcement Learning for Sparse Reward Robotic Control Problems (2023)](https://doi.org/10.1109/ICRA48891.2023.10160530)
         - [Backprop-Free Reinforcement Learning with Active Neural Generative Coding (2022)](https://doi.org/10.1609/aaai.v36i1.19876)
-        - [Active Predictive Coding: Brain-Inspired Reinforcement Learning for Sparse Reward Robotic Control Problems (2023)](https://ieeexplore.ieee.org/document/10161488)
 
 - **Neuro-Mimetic and Continual Learning**
 
     ---
 
-    ![forward-only](./assets/images/research/forward-only.png)
+    ![forward-only](./assets/images/research/unified-continual-learning.png)
 
     === "Overview"
         We study how neural systems can learn continually without catastrophic forgetting. This includes predictive coding models, self-organizing maps, local learning, sparse representations, and task-free online learning. The broader goal is to design learning systems that remain adaptive over time while preserving previously acquired knowledge.
@@ -100,7 +100,7 @@ We develop theoretical foundations for understanding what neural networks can le
 
     ---
 
-    ![formal-languages](./assets/images/research/formal-languages.png)
+    ![formal-languages](./assets/images/research/recursive-nn.png)
 
     === "Overview"
         We study recurrent neural networks through the lens of formal language recognition. This includes counter languages, Dyck languages, mathematical equation verification, and symbolic rule extraction. Our goal is to characterize when neural models can learn structured computation and when they collapse to simpler finite-state behavior.
@@ -108,8 +108,8 @@ We develop theoretical foundations for understanding what neural networks can le
     === "Publications"
         - [Bridging Neural and Symbolic Computation: A Learnability Study of RNNs on Counter and Dyck Languages (2025)](https://proceedings.mlr.press/v284/dave25a.html)
         - [Investigating Backpropagation Alternatives when Learning to Dynamically Count with Recurrent Neural Networks (2021)](https://proceedings.mlr.press/v153/mali21b.html)
-        - [Recognizing and Verifying Mathematical Equations Using Multiplicative Differential Neural Units (2021)](https://ojs.aaai.org/index.php/AAAI/article/view/16949)
-        - [Stability Analysis of Various Symbolic Rule Extraction Methods from Recurrent Neural Network (2024)](https://openreview.net/forum?id=HnEhue2IYt)
+        - [Recognizing and Verifying Mathematical Equations Using Multiplicative Differential Neural Units (2021)](https://doi.org/10.1609/aaai.v35i6.16634)
+        - [Stability Analysis of Various Symbolic Rule Extraction Methods from Recurrent Neural Network (2024)](https://openreview.net/pdf?id=zFWKKYz2yn)
 
 - **Realizable Circuit Complexity**
 
@@ -122,13 +122,12 @@ We develop theoretical foundations for understanding what neural networks can le
 
     === "Publications"
         - [Realizable Circuit Complexity: Embedding Computation in Space-Time (2025)](https://arxiv.org/pdf/2509.19161)
-        - [Circuit Complexity From Physical Constraints: Scaling Limitations of Attention (2025)](https://arxiv.org/abs/2509.19161)
 
 - **Finite Precision and Computational Limits**
 
     ---
 
-    ![finite-precision](./assets/images/research/finite-precision.png)
+    ![finite-precision](./assets/images/research/second-order-rnn.png)
 
     === "Overview"
         Neural networks are often analyzed as real-valued systems, but practical computation occurs under bounded precision and finite time. We study how these constraints change the expressivity, stability, and learnability of neural architectures. This research asks when neural models can approximate symbolic computation and when numerical constraints force them into simpler computational regimes.
@@ -173,21 +172,19 @@ We develop neuro-symbolic methods that combine neural representations with symbo
 
     === "Publications"
         - [Curvature-Weighted Capacity Allocation: A Minimum Description Length Framework for Layer-Adaptive Large Language Model Optimization (2026)](https://arxiv.org/pdf/2603.00910)
-        - [Surprisal-Rényi Free Energy (2026)](https://arxiv.org/pdf/2603.03405)
-        - [The “Surprisal” Between Contrastive Representation Learning and the Free Energy Principle](https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=1001&context=bcreus)
 
 - **Educational and Human-Centered LLM Agents**
 
     ---
 
-    ![education-ai](./assets/images/research/education-ai.png)
+    ![education-ai](./assets/images/research/persona-rag.png)
 
     === "Overview"
         We design LLM-based agents for education and human-centered reasoning. This includes teacher-student agent systems, retrieval-augmented learning environments, learning-style adaptation, and ethically grounded decision-making. The goal is to make AI agents useful, transparent, and safe in settings where human learning and trust are central.
 
     === "Publications"
         - [Investigating Pedagogical Teacher and Student LLM Agents: Genetic Adaptation Meets Retrieval Augmented Generation Across Learning Style (2025)](https://aclanthology.org/2025.emnlp-main.675.pdf)
-        - [Ethical Decision-Making in the Age of AI: An Analysis of Large Language Models (2026)](https://ieeexplore.ieee.org/document/11062979)
+        - [Ethical Decision-Making in the Age of AI: An Analysis of Large Language Models (2026)](https://doi.org/10.1109/ACDSA67686.2026.11467880)
 
 </div>
 
@@ -230,7 +227,7 @@ We develop mathematical and algorithmic tools for improving the stability, robus
 
     ---
 
-    ![unlearning](./assets/images/research/unlearning.png)
+    ![unlearning](./assets/images/research/diffusion-unlearning.png)
 
     === "Overview"
         Reliable AI systems must adapt, forget, and remain robust under distribution shifts and adversarial conditions. We study continual learning, model unlearning, concept erasure, and robustness in generative models. This research develops evaluation methods and divergence-driven objectives for distinguishing true unlearning from concealment or superficial suppression.
@@ -282,13 +279,13 @@ We use AI to accelerate scientific discovery in biology, geoscience, physics, an
 
     ---
 
-    ![geoscience](./assets/images/research/geoscience.png)
+    ![geoscience](./assets/images/research/crustal-permeability.png)
 
     === "Overview"
         We apply machine learning to geophysical systems involving permeability evolution, microearthquakes, and coupled seismo-thermo-hydro-mechanical-chemical processes. This work aims to connect seismic signals, laboratory measurements, and physical mechanisms in order to better understand subsurface dynamics and enhanced geothermal systems.
 
     === "Publications"
-        - [Crustal Permeability Generated Through Microearthquakes Is Constrained by Seismic Moment (2024)](https://doi.org/10.1038/s41467-024-46303-x)
+        - [Crustal Permeability Generated Through Microearthquakes Is Constrained by Seismic Moment (2024)](https://rdcu.be/flrNb)
         - [Evolution of Crustal Permeability as a Coupled Seismo-THMC Process (2025)](https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/1894046)
         <!-- - [Machine Learning to Connect Permeability Evolution to Microearthquakes in Hydraulic Stimulations for Enhanced Geothermal Systems (2023)]() -->
 
@@ -312,7 +309,7 @@ We develop AI systems for biomedical interpretation, visual reasoning, image com
         We study how language models and chain-of-thought prompting can support clinical interpretation and patient-centered communication. This includes work on pathology report summarization, cancer report interpretation, and safe deployment of AI systems in health-related workflows.
 
     === "Publications"
-        - [Chain-of-Thought for Cancer Pathology Interpretation and Summarization (2025)](https://ieeexplore.ieee.org/document/11063519)
+        - [Chain-of-Thought for Cancer Pathology Interpretation and Summarization (2025)](https://doi.org/10.1109/SMARTCOMP65954.2025.00081)
 
 - **Microscopy and Human-in-the-Loop Vision-Language Models**
 
@@ -336,7 +333,7 @@ We develop AI systems for biomedical interpretation, visual reasoning, image com
         We develop neural methods for image compression and iterative decoding. This includes recurrent learning algorithms, neural JPEG systems, and gradient communication between estimators. The broader goal is to improve compression efficiency while preserving reconstruction quality and computational tractability.
 
     === "Publications"
-        - [The Sibling Neural Estimator: Improving Iterative Image Decoding with Gradient Communication (2020)](https://ieeexplore.ieee.org/document/9105790)
+        - [The Sibling Neural Estimator: Improving Iterative Image Decoding with Gradient Communication (2020)](https://doi.org/10.1109/DCC47342.2020.00010)
         - [Neural JPEG: End-to-End Image Compression Leveraging a Standard JPEG Encoder-Decoder (2022)](https://doi.org/10.1109/DCC52660.2022.00082)
         - [An Empirical Analysis of Recurrent Learning Algorithms in Neural Lossy Image Compression Systems (2021)](https://doi.org/10.1109/DCC50243.2021.00073)
         - [Learned Neural Iterative Decoding for Lossy Image Compression Systems (2018)](https://doi.org/10.1109/DCC.2019.00008)
@@ -345,7 +342,7 @@ We develop AI systems for biomedical interpretation, visual reasoning, image com
 
     ---
 
-    ![vision](./assets/images/research/vision.png)
+    ![vision](./assets/images/research/omni-layout.png)
 
     === "Overview"
         We study visual representation learning, visually grounded language acquisition, human motion prediction, and 3D room layout reconstruction. This work connects perception, language, geometry, and temporal modeling.
@@ -353,7 +350,7 @@ We develop AI systems for biomedical interpretation, visual reasoning, image com
     === "Publications"
         - [OmniLayout: Room Layout Reconstruction from Indoor Spherical Panoramas (2021)](https://openaccess.thecvf.com/content/CVPR2021W/OmniCV/papers/Rao_OmniLayout_Room_Layout_Reconstruction_From_Indoor_Spherical_Panoramas_CVPRW_2021_paper.pdf)
         - [A Neural Temporal Model for Human Motion Prediction (2019)](https://openaccess.thecvf.com/content_CVPR_2019/html/Gopalakrishnan_A_Neural_Temporal_Model_for_Human_Motion_Prediction_CVPR_2019_paper.html)
-        - [Like a Baby: Visually Situated Neural Language Acquisition (2018)](https://aclanthology.org/P18-1142/)
+        - [Like a Baby: Visually Situated Neural Language Acquisition (2018)](https://aclanthology.org/P19-1506.pdf)
         - [Like a Bilingual Baby: The Advantage of Visually Grounding a Bilingual Language Model (2022)](https://arxiv.org/pdf/2210.05487)
 
 </div>
@@ -368,7 +365,7 @@ We develop AI systems for biomedical interpretation, visual reasoning, image com
 
     ---
 
-    ![patent](./assets/images/research/patent.png)
+    ![patent](./assets/images/research/ml-patent.png)
 
     === "Overview"
         Our research has contributed to patented technology on alternative methods for training neural networks. This reflects the translational potential of biologically motivated and backpropagation-free learning methods for real-world AI systems.
