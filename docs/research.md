@@ -303,7 +303,7 @@ We develop AI systems for biomedical interpretation, visual reasoning, image com
 
     ---
 
-    ![health-ai](./assets/images/research/health-ai.png)
+    ![health-ai](./assets/images/research/cancer-summary.png)
 
     === "Overview"
         We study how language models and chain-of-thought prompting can support clinical interpretation and patient-centered communication. This includes work on pathology report summarization, cancer report interpretation, and safe deployment of AI systems in health-related workflows.
