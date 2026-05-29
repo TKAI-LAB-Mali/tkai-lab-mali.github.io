@@ -1,8 +1,14 @@
 # Research
 
-The Trustworthy Knowledge-Driven AI (TKAI) Lab develops stable, explainable, and trustworthy AI systems by integrating ideas from neuroscience, formal language theory, control theory, information theory, scientific machine learning, and cognitive science. Our research combines **mathematical foundations** with **empirical validation**, with the goal of building AI systems that learn from limited data, remain computationally efficient, generalize beyond training distributions, and provide transparent reasoning.
+The Trustworthy Knowledge-Driven AI (TKAI) Lab develops **stable, explainable, and trustworthy AI systems** by integrating ideas from neuroscience, formal language theory, control theory, information theory, scientific machine learning, and cognitive science. Our research combines **mathematical foundations** and **empirical validation** with the goal of building AI systems that learn from limited data, remain computationally efficient, generalize beyond training distributions, and provide transparent reasoning.
 
-Our work spans five major directions: **brain-inspired learning**, **neural automata and theoretical AI**, **neuro-symbolic reasoning and trustworthy language models**, **AI for scientific discovery**, and **AI for health, biology, and vision**.
+Our work spans five major directions:
+
+1. **Brain-inspired learning**
+2. **Neural automata and theoretical AI**
+3. **Neuro-symbolic reasoning and trustworthy language models**
+4. **AI for scientific discovery**
+5. **AI for health, biology, and vision**
 
 ---
 
@@ -315,7 +321,7 @@ We develop AI systems for biomedical interpretation, visual reasoning, image com
 
     ---
 
-    ![microscopy](./assets/images/research/microscopy.png)
+    ![microscopy](./assets/images/research/apt-pilot-pipeline.png)
 
     === "Overview"
         We study human-in-the-loop methods for selecting prompts and improving microscopy vision-language models. This research focuses on making AI-assisted microscopy more efficient, interpretable, and useful for scientific image analysis.
@@ -327,7 +333,7 @@ We develop AI systems for biomedical interpretation, visual reasoning, image com
 
     ---
 
-    ![compression](./assets/images/research/compression.png)
+    ![compression](./assets/images/research/sibling.png)
 
     === "Overview"
         We develop neural methods for image compression and iterative decoding. This includes recurrent learning algorithms, neural JPEG systems, and gradient communication between estimators. The broader goal is to improve compression efficiency while preserving reconstruction quality and computational tractability.
