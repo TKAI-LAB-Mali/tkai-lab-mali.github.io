@@ -46,7 +46,7 @@ At TKAI Lab, we study learning algorithms inspired by biological intelligence. A
 
     === "Publications"
         - [Backpropagation-Free Deep Learning with Recursive Local Representation Alignment (2023)](https://doi.org/10.1609/aaai.v37i8.26118)<br><span class="venue-badge">AAAI</span>
-        - [Continual Learning of Recurrent Neural Networks by Locally Aligning Distributed Representations (2020)](https://doi.org/10.1109/TNNLS.2019.2953622)<br><span class="venue-badge">IEEE TNNLS</span>
+        - [Continual Learning of Recurrent Neural Networks by Locally Aligning Distributed Representations (2020)](https://doi.org/10.1109/TNNLS.2019.2953622)<br><span class="venue-badge">TNNLS</span>
         - [Conducting Credit Assignment by Aligning Local Representations (2018)](https://arxiv.org/pdf/1803.01834)<br><span class="venue-badge">arXiv</span>
         - [Biologically Motivated Algorithms for Propagating Local Target Representations (2019)](https://cdn.aaai.org/ojs/4389/4389-13-7428-1-10-20190706.pdf)<br><span class="venue-badge">AAAI</span>
 
@@ -60,7 +60,7 @@ At TKAI Lab, we study learning algorithms inspired by biological intelligence. A
         We explore reinforcement learning systems that use active neural generative coding and predictive coding instead of standard backpropagation through time. These models are motivated by the idea that agents can learn through local predictive objectives, internal state correction, and action-conditioned generative dynamics. This research connects predictive coding, active inference, and reinforcement learning in sparse-reward robotic control settings.
 
     === "Publications"
-        - [Active Predictive Coding: Brain-Inspired Reinforcement Learning for Sparse Reward Robotic Control Problems (2023)](https://doi.org/10.1109/ICRA48891.2023.10160530)<br><span class="venue-badge">IEEE ICRA</span>
+        - [Active Predictive Coding: Brain-Inspired Reinforcement Learning for Sparse Reward Robotic Control Problems (2023)](https://doi.org/10.1109/ICRA48891.2023.10160530)<br><span class="venue-badge">ICRA</span>
         - [Backprop-Free Reinforcement Learning with Active Neural Generative Coding (2022)](https://doi.org/10.1609/aaai.v36i1.19876)<br><span class="venue-badge">AAAI</span>
 
 - **Neuro-Mimetic and Continual Learning**
@@ -112,7 +112,7 @@ We develop theoretical foundations for understanding what neural networks can le
         We study recurrent neural networks through the lens of formal language recognition. This includes counter languages, Dyck languages, mathematical equation verification, and symbolic rule extraction. Our goal is to characterize when neural models can learn structured computation and when they collapse to simpler finite-state behavior.
 
     === "Publications"
-        - [Bridging Neural and Symbolic Computation: A Learnability Study of RNNs on Counter and Dyck Languages (2025)](https://proceedings.mlr.press/v284/dave25a.html)<br><span class="venue-badge">NeSy 2025</span>
+        - [Bridging Neural and Symbolic Computation: A Learnability Study of RNNs on Counter and Dyck Languages (2025)](https://proceedings.mlr.press/v284/dave25a.html)<br><span class="venue-badge">PMLR</span>
         - [Investigating Backpropagation Alternatives when Learning to Dynamically Count with Recurrent Neural Networks (2021)](https://proceedings.mlr.press/v153/mali21b.html)<br><span class="venue-badge">PMLR</span>
         - [Recognizing and Verifying Mathematical Equations Using Multiplicative Differential Neural Units (2021)](https://doi.org/10.1609/aaai.v35i6.16634)<br><span class="venue-badge">AAAI</span>
         - [Stability Analysis of Various Symbolic Rule Extraction Methods from Recurrent Neural Network (2024)](https://openreview.net/pdf?id=zFWKKYz2yn)<br><span class="venue-badge">arxiv</span>
@@ -164,7 +164,7 @@ We develop neuro-symbolic methods that combine neural representations with symbo
 
     === "Publications"
         - [Rethinking Reasoning in LLMs: Neuro-Symbolic Local RetoMaton Beyond CoT and ICL (2025)](https://openreview.net/pdf?id=ySTqCi3nqi)<br><span class="venue-badge">PMLR</span>
-        - [Neuro‑Symbolic Data Collection Automata for Training Language Models on Edge Devices (2025)](https://openreview.net/pdf?id=wO7CP2lpCJ)<br><span class="venue-badge">NeSy 2025</span>
+        - [Neuro‑Symbolic Data Collection Automata for Training Language Models on Edge Devices (2025)](https://openreview.net/pdf?id=wO7CP2lpCJ)<br><span class="venue-badge">PMLR</span>
         - [Investigating Symbolic Capabilities of Large Language Models (2024)](https://arxiv.org/pdf/2405.13209)<br><span class="venue-badge">arxiv</span>
 
 - **LLM Generalization, Capacity, and MDL**
@@ -190,7 +190,7 @@ We develop neuro-symbolic methods that combine neural representations with symbo
 
     === "Publications"
         - [Investigating Pedagogical Teacher and Student LLM Agents: Genetic Adaptation Meets Retrieval Augmented Generation Across Learning Style (2025)](https://aclanthology.org/2025.emnlp-main.675.pdf)<br><span class="venue-badge">EMNLP</span>
-        - [Ethical Decision-Making in the Age of AI: An Analysis of Large Language Models (2026)](https://doi.org/10.1109/ACDSA67686.2026.11467880)<br><span class="venue-badge">ACDSA 2026</span>
+        - [Ethical Decision-Making in the Age of AI: An Analysis of Large Language Models (2026)](https://doi.org/10.1109/ACDSA67686.2026.11467880)<br><span class="venue-badge">ACDSA</span>
 
 </div>
 
@@ -315,7 +315,7 @@ We develop AI systems for biomedical interpretation, visual reasoning, image com
         We study how language models and chain-of-thought prompting can support clinical interpretation and patient-centered communication. This includes work on pathology report summarization, cancer report interpretation, and safe deployment of AI systems in health-related workflows.
 
     === "Publications"
-        - [Chain-of-Thought for Cancer Pathology Interpretation and Summarization (2025)](https://doi.org/10.1109/SMARTCOMP65954.2025.00081)<br><span class="venue-badge">IEEE SMARTCOMP 2025</span>
+        - [Chain-of-Thought for Cancer Pathology Interpretation and Summarization (2025)](https://doi.org/10.1109/SMARTCOMP65954.2025.00081)<br><span class="venue-badge">SMARTCOMP</span>
 
 - **Microscopy and Human-in-the-Loop Vision-Language Models**
 
@@ -339,10 +339,10 @@ We develop AI systems for biomedical interpretation, visual reasoning, image com
         We develop neural methods for image compression and iterative decoding. This includes recurrent learning algorithms, neural JPEG systems, and gradient communication between estimators. The broader goal is to improve compression efficiency while preserving reconstruction quality and computational tractability.
 
     === "Publications"
-        - [The Sibling Neural Estimator: Improving Iterative Image Decoding with Gradient Communication (2020)](https://doi.org/10.1109/DCC47342.2020.00010)<br><span class="venue-badge">IEEE DCC</span>
-        - [Neural JPEG: End-to-End Image Compression Leveraging a Standard JPEG Encoder-Decoder (2022)](https://doi.org/10.1109/DCC52660.2022.00082)<br><span class="venue-badge">IEEE DCC</span>
-        - [An Empirical Analysis of Recurrent Learning Algorithms in Neural Lossy Image Compression Systems (2021)](https://doi.org/10.1109/DCC50243.2021.00073)<br><span class="venue-badge">IEEE DCC</span>
-        - [Learned Neural Iterative Decoding for Lossy Image Compression Systems (2018)](https://doi.org/10.1109/DCC.2019.00008)<br><span class="venue-badge">IEEE DCC</span>
+        - [The Sibling Neural Estimator: Improving Iterative Image Decoding with Gradient Communication (2020)](https://doi.org/10.1109/DCC47342.2020.00010)<br><span class="venue-badge">DCC</span>
+        - [Neural JPEG: End-to-End Image Compression Leveraging a Standard JPEG Encoder-Decoder (2022)](https://doi.org/10.1109/DCC52660.2022.00082)<br><span class="venue-badge">DCC</span>
+        - [An Empirical Analysis of Recurrent Learning Algorithms in Neural Lossy Image Compression Systems (2021)](https://doi.org/10.1109/DCC50243.2021.00073)<br><span class="venue-badge">DCC</span>
+        - [Learned Neural Iterative Decoding for Lossy Image Compression Systems (2018)](https://doi.org/10.1109/DCC.2019.00008)<br><span class="venue-badge">DCC</span>
 
 - **Computer Vision and Visually Grounded Learning**
 
@@ -354,8 +354,8 @@ We develop AI systems for biomedical interpretation, visual reasoning, image com
         We study visual representation learning, visually grounded language acquisition, human motion prediction, and 3D room layout reconstruction. This work connects perception, language, geometry, and temporal modeling.
 
     === "Publications"
-        - [OmniLayout: Room Layout Reconstruction from Indoor Spherical Panoramas (2021)](https://openaccess.thecvf.com/content/CVPR2021W/OmniCV/papers/Rao_OmniLayout_Room_Layout_Reconstruction_From_Indoor_Spherical_Panoramas_CVPRW_2021_paper.pdf)<br><span class="venue-badge">IEEE/CVF CVPR Workshops</span>
-        - [A Neural Temporal Model for Human Motion Prediction (2019)](https://openaccess.thecvf.com/content_CVPR_2019/html/Gopalakrishnan_A_Neural_Temporal_Model_for_Human_Motion_Prediction_CVPR_2019_paper.html)<br><span class="venue-badge">IEEE/CVF CVPR</span>
+        - [OmniLayout: Room Layout Reconstruction from Indoor Spherical Panoramas (2021)](https://openaccess.thecvf.com/content/CVPR2021W/OmniCV/papers/Rao_OmniLayout_Room_Layout_Reconstruction_From_Indoor_Spherical_Panoramas_CVPRW_2021_paper.pdf)<br><span class="venue-badge">CVPR</span>
+        - [A Neural Temporal Model for Human Motion Prediction (2019)](https://openaccess.thecvf.com/content_CVPR_2019/html/Gopalakrishnan_A_Neural_Temporal_Model_for_Human_Motion_Prediction_CVPR_2019_paper.html)<br><span class="venue-badge">CVPR</span>
         - [Like a Baby: Visually Situated Neural Language Acquisition (2018)](https://aclanthology.org/P19-1506.pdf)<br><span class="venue-badge">ACL</span>
         - [Like a Bilingual Baby: The Advantage of Visually Grounding a Bilingual Language Model (2022)](https://arxiv.org/pdf/2210.05487)<br><span class="venue-badge">arxiv</span>
 
