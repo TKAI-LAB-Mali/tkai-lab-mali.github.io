@@ -31,8 +31,8 @@ At TKAI Lab, we study learning algorithms inspired by biological intelligence. A
         - [A Survey on Neuro-Mimetic Deep Learning via Predictive Coding (2025)](https://doi.org/10.1016/j.neunet.2025.108161)<br><span class="venue-badge">Neural Networks</span>
         - [Bridging Predictive Coding and MDL: A Two-Part Code Framework for Deep Learning (2025)](https://arxiv.org/pdf/2505.14635)<br><span class="venue-badge">arXiv</span>
         - [Tight Stability, Convergence, and Robustness Bounds for Predictive Coding Networks (2024)](https://arxiv.org/pdf/2410.04708)<br><span class="venue-badge">arXiv</span>
-        - [The Predictive Forward-Forward Algorithm (2023)](https://arxiv.org/pdf/2301.01452)<br><span class="venue-badge">arXiv</span>
-        - [Convolutional Neural Generative Coding: Scaling Predictive Coding to Natural Images (2023)](https://arxiv.org/pdf/2211.12047)<br><span class="venue-badge">arXiv</span>
+        - [The Predictive Forward-Forward Algorithm (2023)](https://arxiv.org/pdf/2301.01452)<br><span class="venue-badge">CogSci</span>
+        - [Convolutional Neural Generative Coding: Scaling Predictive Coding to Natural Images (2023)](https://arxiv.org/pdf/2211.12047)<br><span class="venue-badge">CogSci</span>
         - [Lifelong Neural Predictive Coding: Sparsity Yields Less Forgetting When Learning Cumulatively (2022)](https://proceedings.neurips.cc/paper_files/paper/2022/file/26f5a4e26c13d1e0a47f46790c999361-Paper-Conference.pdf)<br><span class="venue-badge">NeurIPS</span>
 
 - **Local Representation Alignment**
