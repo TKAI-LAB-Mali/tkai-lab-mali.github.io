@@ -39,6 +39,14 @@
   text-align: left;
 }
 
+.research-grid .tabbed-content p,
+.research-grid .tabbed-content li,
+.research-grid .tabbed-content a {
+  font-size: 0.7rem;
+  /* line-height: 1.5; */
+}
+
+
 /* People Page Social Icons */
 .card-socials {
   display: flex;
