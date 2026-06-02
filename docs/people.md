@@ -116,6 +116,21 @@ hide:
     [<img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">](https://scholar.google.com/citations?user=4iC55J0AAAAJ&hl=en)
     {: .card-socials }
 
+- **Chaitanya Sharma**
+
+    ---
+
+    ![Chaitanya Sharma](./assets/images/people/chaitanya.jpg)
+
+    Big Data Analytics <br>
+    Trustworthy AI, AI Robustness<br>
+    sharma8 [at] usf [dot] edu
+
+    [<img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">](https://www.linkedin.com/in/chaitanya-sharma-9764028b/)
+    [<img src="../assets/icons/github.svg" alt="GitHub" width="30" height="30">](https://github.com/chaitanyasharma1551)
+    [<img src="../assets/icons/google-scholar.svg" alt="Google Scholar" width="30" height="30">](https://scholar.google.com/citations?user=gx8nxCoAAAAJ&hl=en)
+    {: .card-socials }
+
 </div>
 
 ## Undergraduate Students
