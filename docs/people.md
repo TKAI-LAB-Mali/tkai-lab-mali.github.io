@@ -15,9 +15,9 @@ hide:
 <div class="profile-container ankur-mali-profile">
   <img src="../assets/images/people/Ankur_Mali.jpg" alt="Prof. Ankur Mali" class="profile-image">
   <div class="profile-content">
-    <p>Professor Ankur Mali completed his Ph.D. under Professor Clyde Lee Giles from The Pennsylvania State University in 2022. He works at the intersection of language, memory, and computation—spanning natural language processing, linguistics, and formal language theory.</p>
+    <p>Professor Ankur Mali received his Ph.D. in 2022 from The Pennsylvania State University, where he worked under the supervision of Professor Clyde Lee Giles. His research lies at the intersection of language, memory, cognition, computation, and information theory, spanning natural language processing, computational neuroscience, formal language theory, and theoretical machine learning.</p>
 
-    <p>Furthermore, he has also designed approaches to investigate the mysterious success of deep learning in recognizing natural language from a theoretical and empirical perspective. He also works on designing learning algorithms and computational neural architectures guided by theories of the brain. These architectures focus on solving challenges such as continual/lifelong learning, learning with minimal supervision, reinforcement learning, and robustness (both in computer vision and natural language processing).</p>
+    <p>Dr. Mali’s work seeks to understand the theoretical and empirical foundations underlying the success of deep learning in language understanding, sequence modeling, and representation learning. His research develops brain-inspired and information-theoretic learning algorithms, including predictive coding, memory-augmented neural architectures, and minimum-description-length-based approaches for building more stable, interpretable, and robust AI systems. These methods address challenges in continual and lifelong learning, learning from limited supervision, reinforcement learning, and robustness across both vision and language tasks.</p>
 
     <div class="card-socials">
       <a href="https://ankurmali.github.io" title="Website">
