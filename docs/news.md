@@ -6,6 +6,13 @@ Welcome to our lab's news page! Here you'll find the latest updates on our resea
 
 ## 2026
 
+### June 2026
+
+![MDL-LayerIF](./assets/images/research/layer-if.png)
+
+Theophilus Amaefuna and Hitesh Vaidya got their paper "Curvature-Weighted Capacity Allocation: A Minimum Description Length Framework for Layer-Adaptive Large Language Model Optimization" accepted at the Forty-Second Annual Conference on Uncertainty in Artificial Intelligence (UAI)
+
+
 ### April 2026
 
 **Hitesh Vaidya** accepted Time-Series Foundation Models Research Intern position at GE Vernova for summer 2026.
