@@ -10,7 +10,7 @@ Welcome to our lab's news page! Here you'll find the latest updates on our resea
 
 ![MDL-LayerIF](./assets/images/research/layer-if.png)
 
-Theophilus Amaefuna and Hitesh Vaidya got their paper "Curvature-Weighted Capacity Allocation: A Minimum Description Length Framework for Layer-Adaptive Large Language Model Optimization" accepted at the Forty-Second Annual Conference on Uncertainty in Artificial Intelligence (UAI)
+Theophilus Amaefuna* and Hitesh Vaidya* got their paper "Curvature-Weighted Capacity Allocation: A Minimum Description Length Framework for Layer-Adaptive Large Language Model Optimization" accepted at the Forty-Second Annual Conference on Uncertainty in Artificial Intelligence (UAI)
 
 
 ### April 2026
