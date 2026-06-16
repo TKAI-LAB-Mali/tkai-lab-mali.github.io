@@ -172,6 +172,14 @@ These models should have a few desired properties, such as robustness and interp
 
 <div class="news-item" markdown="1">
 <div class="news-meta">
+<span class="news-date">May 2026</span>
+<span class="news-badge badge-internship">Acceptance</span>
+</div>
+**Theophilus Amaefuna** and **Hitesh Vaidya** got their paper [*"Curvature-Weighted Capacity Allocation: A Minimum Description Length Framework for Layer-Adaptive Large Language Model Optimization"*](https://arxiv.org/abs/2603.00910) accepted at the Forty-Second Annual Conference on Uncertainty in Artificial Intelligence.
+</div>
+
+<div class="news-item" markdown="1">
+<div class="news-meta">
 <span class="news-date">April 2026</span>
 <span class="news-badge badge-internship">Internship</span>
 </div>
