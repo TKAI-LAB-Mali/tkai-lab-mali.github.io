@@ -153,6 +153,24 @@ hide:
 
 </div>
 
+## Visiting Students
+
+<div class="grid cards" markdown>
+
+- **Hyeonjin (Monica) Jee**
+
+    ---
+
+    ![Hyeonjin Jee](./assets/images/people/HyeonjinJee.jpg)
+
+    Mechanical & Biomedical Engineering <br>
+    hjee [at] usf [dot] edu<br>
+
+    [<img src="../assets/icons/linkedin.svg" alt="LinkedIn" width="30" height="30">](https://www.linkedin.com/in/hyeonjinjee/)
+    {: .card-socials }
+
+</div>
+
 ## Alumni
 
 ### PhD Students
