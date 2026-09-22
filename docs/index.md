@@ -17,6 +17,9 @@ These models should have a few desired properties, such as robustness and interp
 </div>
 </div>
 
+!!! warning "Notice for Prospective PhD Students"
+    The TKAI Lab is **not hiring any PhD students until Spring 2028**. We continue to welcome inquiries from motivated undergraduate students and volunteers.
+
 <div class="research-carousel-section">
   <h2>Our Research</h2>
 

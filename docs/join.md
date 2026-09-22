@@ -1,5 +1,5 @@
 <!-- markdownlint-disable first-line-heading -->
-The TKAI Lab is seeking highly motivated Ph.D. and undergraduate students to join our multidisciplinary research efforts aimed at addressing foundational and applied challenges in Artificial Intelligence (AI). Our lab's mission is to develop stable, trustworthy, and explainable AI systems inspired by insights from neuroscience, cognitive science, control theory, and formal methods. Below are key areas of research you will have the opportunity to contribute to:
+The TKAI Lab is seeking highly motivated graduate and undergraduate students to join our multidisciplinary research efforts aimed at addressing foundational and applied challenges in Artificial Intelligence (AI). *(Please note that PhD admissions and hiring are currently paused until Spring 2028.)* Our lab's mission is to develop stable, trustworthy, and explainable AI systems inspired by insights from neuroscience, cognitive science, control theory, and formal methods. Below are key areas of research you will have the opportunity to contribute to:
 <!-- markdownlint-enable first-line-heading -->
 
 ### Research Focus Areas
@@ -26,7 +26,8 @@ At TKAI, we prioritize explainability in AI systems, both through inherent archi
 
 ## Ph.D. Students
 
-We are looking for Ph.D. students who are passionate about tackling these research challenges and contributing to cutting-edge advancements in AI.
+!!! warning "Notice for Prospective PhD Students"
+    The TKAI Lab is **not hiring any PhD students until Spring 2028**. We continue to welcome inquiries from motivated undergraduate students and volunteers.
 
 ### Position Requirements
 
