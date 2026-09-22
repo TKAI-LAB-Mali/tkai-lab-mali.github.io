@@ -254,7 +254,7 @@ One paper accepted in **EMNLP 2025 (main)** – *["Investigating Pedagogical Tea
 <div class="cta-card" markdown="1">
 <div markdown="1">
 <h2 class="cta-title">Join Our Lab</h2>
-<p class="cta-description">We are actively seeking motivated undergraduate students interested in trustworthy machine learning, neuro-symbolic AI, and cognitive models.</em></p>
+<p class="cta-description">We are actively seeking motivated graduate and undergraduate students interested in trustworthy machine learning, neuro-symbolic AI, and cognitive models.</p>
 <p class="cta-description">If you want to build intelligent agents that are robust, interpretable, and provably stable, explore our open positions and research goals.</p>
 </div>
 <a href="join/" class="cta-button">Apply / Contact Us</a>
