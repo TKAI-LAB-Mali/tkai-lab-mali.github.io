@@ -260,3 +260,18 @@ One paper accepted in **EMNLP 2025 (main)** – *["Investigating Pedagogical Tea
 <a href="join/" class="cta-button">Apply / Contact Us</a>
 </div>
 </div>
+
+## Funding Sources
+
+We are grateful to the following entities for past and continuing research support
+
+<div class="grid cards" markdown>
+
+- [![Center for Inclusive Computing (CIC)](assets/images/funding/CIC.png){ style="display: block; margin: 0 auto; height: 100px; width: auto; object-fit: contain;" }](https://cic.northeastern.edu/){ target="_blank" }
+{: style="background-color: #CAD2D8;" }
+- [![Florida Center for Behavioral Health Workforce (FCBHW)](assets/images/funding/FCBHW.png){ style="display: block; margin: 0 auto; height: 100px; width: auto; object-fit: contain;" }](https://fcbhw.org/){ target="_blank" }
+{: style="background-color: #CAD2D8;" }
+- [![U.S. Army Combat Capabilities Development Command (DEVCOM)](assets/images/funding/FCC-DEVCOM.png){ style="display: block; margin: 0 auto; height: 100px; width: auto; object-fit: contain;" }](https://devcom.army.mil/){ target="_blank" }
+{: style="background-color: #CAD2D8;" }
+
+</div>
