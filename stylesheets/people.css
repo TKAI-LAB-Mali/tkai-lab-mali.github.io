@@ -1,0 +1,137 @@
+/* People Page Grid & Cards */
+.grid.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.grid.cards > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: contents;
+}
+
+/* Base styles for both list-based (SET ONE) and div-based (SET TWO) cards */
+.grid.cards > ul > li,
+.grid.cards .card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+/* Research Page Specific: Left-align Overview/Publications tabs and content */
+.research-grid .tabbed-set {
+  align-self: stretch;
+  text-align: left;
+}
+
+.research-grid .tabbed-labels {
+  justify-content: flex-start;
+}
+
+.research-grid .tabbed-content {
+  text-align: left;
+}
+
+.research-grid .tabbed-content p,
+.research-grid .tabbed-content li,
+.research-grid .tabbed-content a {
+  font-size: 0.7rem;
+  /* line-height: 1.5; */
+}
+
+.research-grid .venue-badge {
+  display: inline-block;
+  padding: 2px 6px;
+  font-size: 0.50rem;
+  font-weight: 600;
+  border-radius: 4px;
+  background-color: rgba(15, 49, 29, 0.08);
+  color: #0f311d;
+  margin-top: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  line-height: 1.0;
+}
+
+[data-md-color-scheme="slate"] .research-grid .venue-badge {
+  background-color: rgba(207, 196, 147, 0.15);
+  color: #CFC493;
+}
+
+
+
+/* People Page Social Icons */
+.card-socials {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: auto;
+  padding-bottom: 0.25rem;
+}
+
+.card-socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(15, 49, 29, 0.1);
+  transition: all 0.25s ease;
+  text-decoration: none !important;
+}
+
+.card-socials a:hover {
+  background-color: #0f311d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.card-socials a img {
+  width: 20px !important;
+  height: 20px !important;
+  margin: 0 !important;
+  filter: brightness(0);
+  transition: all 0.25s ease;
+}
+
+.card-socials a:hover img {
+  filter: brightness(0) invert(1);
+}
+
+/* Dark mode adjustments for social icons */
+[data-md-color-scheme="slate"] .card-socials a {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+[data-md-color-scheme="slate"] .card-socials a img {
+  filter: brightness(0) invert(1);
+}
+
+[data-md-color-scheme="slate"] .card-socials a:hover {
+  background-color: #CFC493;
+}
+
+[data-md-color-scheme="slate"] .card-socials a:hover img {
+  filter: brightness(0);
+}
+
+/* --- Media Queries --- */
+@media (max-width: 768px) {
+  .grid.cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .grid.cards {
+    grid-template-columns: 1fr;
+  }
+}

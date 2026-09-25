@@ -1,0 +1,59 @@
+/* --- Global Styles --- */
+.md-content a {
+  color: #CFC493;
+  text-decoration: underline;
+}
+
+.md-typeset a:hover {
+  color: #466069;
+}
+
+.heading {
+  color: #CFC493;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* --- Footer Styles --- */
+.md-footer {
+  background-color: var(--md-primary-fg-color);
+}
+
+.md-footer a {
+  text-decoration: underline;
+}
+
+.md-footer a:hover {
+  opacity: 0.8;
+}
+
+.md-footer-meta {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+.md-footer-copyright,
+.md-footer-copyright *,
+.md-copyright,
+.md-copyright * {
+  color: #edebd1 !important;
+}
+
+/* --- Buttons --- */
+.md-typeset .md-button.md-button--small {
+  padding: 0.2rem 0.3rem;
+  font-size: 0.6rem;
+  border-radius: 0.2rem;
+  margin-top: 0.3rem;
+  margin-right: 0.2rem;
+  /* background-color: var(--md-primary-fg-color); */
+  background-color: #7E96A0;
+  color: #edebd1 !important;
+  border: 1px solid var(--md-primary-fg-color);
+}
+
+.md-typeset .md-button.md-button--small:hover {
+  background-color: #CFC493;
+  color: var(--md-primary-fg-color) !important;
+  border-color: #CFC493;
+}
