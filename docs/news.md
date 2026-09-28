@@ -6,6 +6,10 @@ Welcome to our lab's news page! Here you'll find the latest updates on our resea
 
 ## 2026
 
+### September 2026
+
+**Dr. Mali** appeared on [PBS's Florida This Week](https://video.wedu.org/video/sep-25-2026-aya0ad/) to discuss the impacts of the rise of artificial intelligence.
+
 ### June 2026
 
 **Theophilus Amaefuna** and **Hitesh Vaidya** got their paper [*"Curvature-Weighted Capacity Allocation: A Minimum Description Length Framework for Layer-Adaptive Large Language Model Optimization"*](https://arxiv.org/abs/2603.00910) accepted at the Forty-Second Annual Conference on Uncertainty in Artificial Intelligence.
@@ -89,7 +93,7 @@ Rushitha Santhoshi Mamidala presented "*Rethinking Reasoning in LLMs: Neuro-Symb
 
 **🎤 Panel Participation** <!-- markdownlint-disable-line no-emphasis-as-heading -->
 
-- Dr. Mali was invited as panelist at [USF AMP conference](https://www.theampconference.com/agenda/session/1624886)
+- Dr. Mali was invited as panelist at [USF AMP conference](https://www.usf.edu/business/news/2023/06-16-amp-conference.aspx)
 
 **📝 Conference Acceptance** <!-- markdownlint-disable-line no-emphasis-as-heading -->
 
