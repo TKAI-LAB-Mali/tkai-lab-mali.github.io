@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CatRange development updates · TKAI Lab</title>
+<meta name="description" content="Patches, fixes and new features for CatRange, posted as they land.">
+<link rel="icon" href="/assets/images/lab-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  /* ---------- Tokens: TKAI Lab brand (forest green + sand gold) ---------- */
+  :root {
+    --forest: #0f311d;
+    --forest-2: #174a2c;
+    --gold: #cfc493;
+    --gold-strong: #b8a95e;
+    --bg: #f6f7f4;
+    --surface: #ffffff;
+    --ink: #13201a;
+    --muted: #5c6b63;
+    --line: #e1e6e1;
+    --soft: #eef2ec;
+    --link: #1d5a36;
+    --fix: #b8862b;
+    --feature: #2e7d4f;
+    --docs: #3b6ea8;
+    --notice: #8a7d45;
+    --open: #2e7d4f;
+    --merged: #6c4ea0;
+    --closed: #a0503c;
+    --shadow: 0 1px 2px rgba(15,49,29,.06), 0 6px 20px rgba(15,49,29,.06);
+    color-scheme: light dark;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e1612; --surface: #16211b; --ink: #e5ece7; --muted: #9aaba1;
+      --line: #25332b; --soft: #1b2821; --link: #9fd3b0;
+      --fix: #e0b35c; --feature: #6cc18f; --docs: #86b4e6; --notice: #cfc493;
+      --open: #6cc18f; --merged: #b9a0e6; --closed: #e0957f;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.25);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0e1612; --surface: #16211b; --ink: #e5ece7; --muted: #9aaba1;
+    --line: #25332b; --soft: #1b2821; --link: #9fd3b0;
+    --fix: #e0b35c; --feature: #6cc18f; --docs: #86b4e6; --notice: #cfc493;
+    --open: #6cc18f; --merged: #b9a0e6; --closed: #e0957f;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.25);
+  }
+
+  *, *::before, *::after { box-sizing: inherit; }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: Roboto, system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.55; -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--link); text-underline-offset: 2px; }
+  :focus-visible { outline: 2px solid var(--gold-strong); outline-offset: 2px; border-radius: 4px; }
+  .mono { font-family: "Roboto Mono", ui-monospace, Menlo, monospace; font-size: .8rem; }
+  .wrap { max-width: 70rem; margin: 0 auto; padding: 0 1.25rem; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  /* ---------- Lab bar (matches the site header) ---------- */
+  .labbar { background: var(--forest); color: var(--gold); }
+  .labbar .wrap { display: flex; align-items: center; gap: .75rem; height: 3.5rem; }
+  .labbar a.home { display: flex; align-items: center; gap: .6rem; color: var(--gold); text-decoration: none; font-weight: 700; font-size: 1.1rem; }
+  .labbar img { width: 30px; height: 30px; border-radius: 4px; }
+  .labbar .spacer { flex: 1; }
+  .labbar a.gh { color: var(--gold); font-size: .9rem; text-decoration: none; opacity: .85; display: inline-flex; gap: .4rem; align-items: center; }
+  .labbar a.gh:hover { opacity: 1; text-decoration: underline; }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    position: relative; overflow: hidden; color: #f3f0e0;
+    background:
+      radial-gradient(60rem 30rem at 85% 110%, rgba(207,196,147,.16), transparent 60%),
+      linear-gradient(180deg, var(--forest-2) 0%, var(--forest) 100%);
+    border-top: 1px solid rgba(207,196,147,.18);
+  }
+  .hero .wrap { position: relative; padding-top: 3.5rem; padding-bottom: 3rem; }
+  .hero .grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 2rem; align-items: center; }
+  @media (max-width: 860px) { .hero .grid { grid-template-columns: 1fr; } .hero .plot { display: none; } }
+  .kicker { color: var(--gold); font-weight: 500; margin: 0 0 .75rem; font-size: .95rem; }
+  .hero h1 { font-weight: 900; font-size: clamp(2.3rem, 5.2vw, 3.6rem); line-height: 1.02; letter-spacing: -.025em; margin: 0 0 1rem; }
+  .hero .lede { font-size: 1.15rem; color: #d7dccf; max-width: 34rem; margin: 0 0 1.75rem; }
+  .actions { display: flex; flex-wrap: wrap; gap: .6rem; }
+  .btn {
+    display: inline-flex; align-items: center; gap: .45rem; padding: .65rem 1.05rem; border-radius: 8px;
+    font-weight: 500; text-decoration: none; font-size: .95rem; transition: transform .15s ease, background .15s ease;
+  }
+  .btn svg { width: 18px; height: 18px; }
+  .btn.gold { background: var(--gold); color: var(--forest); }
+  .btn.gold:hover { background: #ddd3a6; }
+  .btn.ghost { color: #f3f0e0; border: 1px solid rgba(243,240,224,.35); }
+  .btn.ghost:hover { background: rgba(243,240,224,.08); }
+  .btn:active { transform: translateY(1px); }
+
+  /* The plot: a saturation curve, drawn like a figure axis */
+  .plot svg { width: 100%; height: auto; display: block; }
+  .plot .axis { stroke: rgba(243,240,224,.35); stroke-width: 1.5; fill: none; }
+  .plot .vmax { stroke: rgba(207,196,147,.45); stroke-width: 1.5; stroke-dasharray: 5 6; }
+  .plot .curve { stroke: var(--gold); stroke-width: 4; fill: none; stroke-linecap: round; }
+  .plot .pt { fill: var(--forest); stroke: var(--gold); stroke-width: 3; }
+  .plot text { fill: rgba(243,240,224,.6); font-size: 13px; font-family: Roboto, sans-serif; }
+  .plot text.vlabel { fill: var(--gold); }
+
+  /* Live stats strip */
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 2.5rem; border-top: 1px solid rgba(243,240,224,.15); }
+  .stat { padding: 1.1rem 1rem 0 0; }
+  .stat + .stat { padding-left: 1.25rem; border-left: 1px solid rgba(243,240,224,.15); }
+  .stat .num { font-size: 1.9rem; font-weight: 700; color: #fff; line-height: 1.1; min-height: 2.1rem; }
+  .stat .lbl { color: #b9c2b4; font-size: .9rem; }
+  @media (max-width: 560px) { .stat .num { font-size: 1.35rem; } .stat + .stat { padding-left: .75rem; } }
+
+  /* ---------- Sections ---------- */
+  main section { padding: 3rem 0 1rem; }
+  .sec-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 1rem; margin-bottom: 1.5rem; }
+  h2 { font-size: 1.65rem; font-weight: 700; letter-spacing: -.015em; margin: 0; }
+  h2::after { content: ""; display: block; width: 2.5rem; height: 3px; background: var(--gold-strong); border-radius: 2px; margin-top: .5rem; }
+  .sub { color: var(--muted); margin: .6rem 0 0; }
+
+  /* Patch notes */
+  .notes { display: grid; gap: 1rem; }
+  .note {
+    display: grid; grid-template-columns: 6.5rem 1fr; gap: 1.25rem;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 1.25rem 1.4rem;
+    box-shadow: var(--shadow); position: relative; overflow: hidden;
+  }
+  .note::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--kind, var(--notice)); }
+  .note.latest { border-color: color-mix(in srgb, var(--gold-strong) 60%, var(--line)); }
+  .date { text-align: left; }
+  .date .d { font-size: 2rem; font-weight: 900; line-height: 1; }
+  .date .m { color: var(--muted); font-size: .9rem; }
+  .note h3 { margin: 0 0 .35rem; font-size: 1.15rem; font-weight: 700; display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; }
+  .kind { font-size: .75rem; font-weight: 700; padding: .1rem .55rem; border-radius: 999px; color: var(--kind); background: color-mix(in srgb, var(--kind) 14%, transparent); }
+  .newbadge { font-size: .75rem; font-weight: 700; padding: .1rem .55rem; border-radius: 999px; background: var(--gold); color: var(--forest); }
+  .note p { margin: 0; max-width: 44rem; }
+  .todo { margin-top: .7rem !important; padding: .55rem .8rem; border-radius: 8px; background: var(--soft); font-size: .95rem; }
+  .note-links { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: .6rem; font-size: .95rem; }
+  @media (max-width: 560px) { .note { grid-template-columns: 1fr; gap: .5rem; } .date { display: flex; gap: .5rem; align-items: baseline; } .date .d { font-size: 1.3rem; } }
+
+  /* Activity feed */
+  .toolbar { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+  .chips { display: inline-flex; background: var(--soft); border-radius: 999px; padding: 3px; }
+  .chip { font: inherit; font-size: .9rem; border: 0; background: transparent; color: var(--muted); padding: .35rem .8rem; border-radius: 999px; cursor: pointer; }
+  .chip[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,.12); font-weight: 500; }
+  select, .iconbtn {
+    font: inherit; font-size: .9rem; color: var(--ink); background: var(--surface);
+    border: 1px solid var(--line); border-radius: 8px; padding: .4rem .6rem; cursor: pointer;
+  }
+  .iconbtn { display: inline-flex; align-items: center; gap: .35rem; }
+  .iconbtn svg { width: 16px; height: 16px; }
+  .iconbtn.spin svg { animation: spin .8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .status { color: var(--muted); font-size: .88rem; margin: 0 0 .75rem; min-height: 1.3em; }
+
+  .feed { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); padding: .5rem 1.25rem; }
+  .feed ol { list-style: none; margin: 0; padding: 0; }
+  .ev { display: grid; grid-template-columns: 2.25rem 1fr auto; gap: .9rem; padding: .9rem 0; border-top: 1px solid var(--line); align-items: start; }
+  .ev:first-child { border-top: 0; }
+  .ico { width: 2.25rem; height: 2.25rem; border-radius: 50%; display: grid; place-items: center; background: var(--soft); color: var(--muted); position: relative; }
+  .ico svg { width: 17px; height: 17px; }
+  .ico img { width: 100%; height: 100%; border-radius: 50%; }
+  .ico .badge { position: absolute; right: -4px; bottom: -4px; width: 18px; height: 18px; border-radius: 50%; display: grid; place-items: center; background: var(--surface); border: 1px solid var(--line); }
+  .ico .badge svg { width: 11px; height: 11px; }
+  .ev .t { font-weight: 500; overflow-wrap: anywhere; }
+  .ev .t a { color: var(--ink); text-decoration: none; }
+  .ev .t a:hover { color: var(--link); text-decoration: underline; }
+  .ev .m { color: var(--muted); font-size: .85rem; margin-top: .15rem; display: flex; flex-wrap: wrap; gap: .25rem .75rem; align-items: center; }
+  .ev time { color: var(--muted); font-size: .85rem; white-space: nowrap; }
+  .pill { font-size: .75rem; font-weight: 700; padding: 0 .5rem; border-radius: 999px; color: var(--c); background: color-mix(in srgb, var(--c) 14%, transparent); }
+  .lab { font-size: .75rem; padding: 0 .45rem; border-radius: 999px; border: 1px solid var(--line); }
+  .empty { text-align: center; color: var(--muted); padding: 2rem 1rem; }
+  .empty a { font-weight: 500; }
+  .sk { height: 3.2rem; margin: .9rem 0; border-radius: 8px; background: linear-gradient(90deg, var(--soft), var(--line), var(--soft)); background-size: 200% 100%; animation: shimmer 1.2s infinite; }
+  @keyframes shimmer { to { background-position: -200% 0; } }
+  .more { text-align: center; padding: .75rem 0 .5rem; border-top: 1px solid var(--line); font-size: .92rem; }
+  @media (max-width: 560px) { .ev { grid-template-columns: 2.25rem 1fr; } .ev > time { grid-column: 2; margin-top: -.5rem; } }
+
+  /* Follow cards */
+  .follow { display: grid; grid-template-columns: repeat(auto-fit, minmax(15.5rem, 1fr)); gap: 1rem; }
+  .card { display: block; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 1.25rem; text-decoration: none; color: var(--ink); box-shadow: var(--shadow); transition: border-color .15s ease, transform .15s ease; }
+  .card:hover { border-color: var(--gold-strong); transform: translateY(-2px); }
+  .card .ci { width: 2.5rem; height: 2.5rem; border-radius: 10px; display: grid; place-items: center; background: var(--forest); color: var(--gold); margin-bottom: .8rem; }
+  .card .ci svg { width: 20px; height: 20px; }
+  .card h3 { margin: 0 0 .3rem; font-size: 1.05rem; }
+  .card p { margin: 0; color: var(--muted); font-size: .95rem; }
+
+  footer { margin-top: 3.5rem; background: var(--forest); color: var(--gold); }
+  footer .wrap { padding-top: 1.75rem; padding-bottom: 1.75rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 2rem; font-size: .9rem; }
+  footer a { color: var(--gold); }
+
+  /* One orchestrated moment: the curve draws itself on load */
+  @media (prefers-reduced-motion: no-preference) {
+    .plot .curve { stroke-dasharray: 700; stroke-dashoffset: 700; animation: draw 1.8s cubic-bezier(.3,.7,.2,1) .15s forwards; }
+    .plot .pt { opacity: 0; animation: pop .35s ease-out forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes pop { from { opacity: 0; transform: scale(.4); } to { opacity: 1; transform: scale(1); } }
+    .plot .pt { transform-box: fill-box; transform-origin: center; }
+  }
+  @media (prefers-reduced-motion: reduce) { .sk { animation: none; } .card, .btn { transition: none; } }
+</style>
+</head>
+<body>
+
+<!--
+  HOW TO UPDATE THIS PAGE
+  1. Patch notes: add a new object to the TOP of PATCH_NOTES in the script at the
+     bottom of this file. That's all.
+  2. The activity feed and numbers update themselves from the repository in CONFIG.
+-->
+
+<div class="labbar">
+  <div class="wrap">
+    <a class="home" href="/">
+      <img src="/assets/images/lab-logo.png" alt="" onerror="this.remove()">
+      TKAI Lab
+    </a>
+    <span class="spacer"></span>
+    <a class="gh" id="gh-top" href="#">
+      <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38v-1.33c-2.23.48-2.7-1.07-2.7-1.07-.36-.92-.89-1.17-.89-1.17-.73-.5.06-.49.06-.49.8.06 1.23.83 1.23.83.72 1.23 1.88.87 2.34.67.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+      <span id="repo-name">Repository</span>
+    </a>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="grid">
+      <div>
+        <p class="kicker">CatRange development log</p>
+        <h1>What's new in CatRange</h1>
+        <p class="lede">Patches, fixes and new features for CatRange are posted here as they land, along with anything you need to do after updating.</p>
+        <div class="actions">
+          <a class="btn gold" href="#notes">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+            Read patch notes
+          </a>
+          <a class="btn ghost" id="issue-hero" href="#">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg>
+            Report a problem
+          </a>
+        </div>
+      </div>
+      <div class="plot" aria-hidden="true">
+        <!-- A Michaelis–Menten saturation curve: v = Vmax[S]/(Km+[S]) -->
+        <svg viewBox="0 0 420 260">
+          <line class="vmax" x1="40" y1="46" x2="410" y2="46"/>
+          <text class="vlabel" x="412" y="40" text-anchor="end">V<tspan font-size="10" dy="3">max</tspan></text>
+          <path class="axis" d="M40 20 V225 H410"/>
+          <text x="410" y="248" text-anchor="end">[S]</text>
+          <text x="30" y="30" text-anchor="end">v</text>
+          <path class="curve" id="mm"/>
+          <g id="mm-pts"></g>
+        </svg>
+      </div>
+    </div>
+    <div class="stats" aria-live="polite">
+      <div class="stat"><div class="num" id="s-updated">—</div><div class="lbl">Last code change</div></div>
+      <div class="stat"><div class="num" id="s-prs">—</div><div class="lbl">Open pull requests</div></div>
+      <div class="stat"><div class="num" id="s-issues">—</div><div class="lbl">Open issues</div></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="notes" aria-labelledby="notes-h">
+    <div class="sec-head">
+      <div>
+        <h2 id="notes-h">Patch notes</h2>
+        <p class="sub">What changed, why it matters, and whether you need to do anything.</p>
+      </div>
+    </div>
+    <div class="notes" id="notes-list"></div>
+  </section>
+
+  <section id="activity" aria-labelledby="act-h">
+    <div class="sec-head">
+      <div>
+        <h2 id="act-h">Live activity</h2>
+        <p class="sub">Work in progress, straight from GitHub.</p>
+      </div>
+      <div class="toolbar">
+        <div class="chips" role="group" aria-label="Show">
+          <button class="chip" data-f="all" aria-pressed="true">All</button>
+          <button class="chip" data-f="commit" aria-pressed="false">Commits</button>
+          <button class="chip" data-f="pr" aria-pressed="false">Pull requests</button>
+          <button class="chip" data-f="issue" aria-pressed="false">Issues</button>
+        </div>
+        <label class="sr" for="branch">Branch</label>
+        <select id="branch" title="Branch for commits"></select>
+        <button class="iconbtn" id="refresh" type="button" title="Check GitHub for new activity">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66M20 4v5h-5"/></svg>
+          Refresh
+        </button>
+      </div>
+    </div>
+    <p class="status" id="status" role="status" aria-live="polite"></p>
+    <div class="feed">
+      <ol id="feed"></ol>
+      <div class="more"><a id="more-link" href="#">See everything on GitHub</a></div>
+    </div>
+  </section>
+
+  <section id="follow" aria-labelledby="follow-h">
+    <div class="sec-head">
+      <div>
+        <h2 id="follow-h">Stay up to date</h2>
+        <p class="sub">Pick whichever suits you.</p>
+      </div>
+    </div>
+    <div class="follow">
+      <a class="card" id="c-watch" href="#">
+        <div class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <h3>Watch on GitHub</h3>
+        <p>Choose Watch → Custom → Releases to get an email when a new version ships.</p>
+      </a>
+      <a class="card" id="c-rss" href="#">
+        <div class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1.5" fill="currentColor"/></svg></div>
+        <h3>Subscribe by RSS</h3>
+        <p>Add the commit feed to any feed reader.</p>
+      </a>
+      <a class="card" id="c-issue" href="#">
+        <div class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg></div>
+        <h3>Report a problem</h3>
+        <p>Open an issue with your sequence, SMILES and the output you saw.</p>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>If you use CatRange in your work, please cite the paper listed in the repository README.</span>
+    <span id="updated"></span>
+  </div>
+</footer>
+
+<script>
+/* ==========================================================================
+   CONFIG — change these if the repository moves.
+   ========================================================================== */
+const CONFIG = {
+  owner: "TKAI-LAB-Mali",
+  repo: "CatRange",
+  defaultBranch: "main",
+  branches: ["main", "develop", "optimization"],
+  feedSize: 12,          // items in the activity feed
+  cacheMinutes: 10       // keeps visitors well under GitHub's 60 requests/hour limit
+};
+
+/* ==========================================================================
+   PATCH NOTES — add new entries at the TOP. Newest first.
+   kind: "Fix" | "Feature" | "Docs" | "Notice"
+   action (optional): what users need to do after updating
+   links (optional): [{ label, url }]
+   ========================================================================== */
+const PATCH_NOTES = [
+  {
+    date: "2026-09-21",
+    title: "Development page launched",
+    kind: "Notice",
+    body: "From now on, patches, bug fixes and new features for CatRange will be announced here. Each entry says what changed and whether you need to update anything.",
+    action: "",
+    links: []
+  }
+  // Example:
+  // {
+  //   date: "2026-10-01",
+  //   title: "Fix kcat label range for high-activity enzymes",
+  //   kind: "Fix",
+  //   body: "Short description of the problem and the fix.",
+  //   action: "Re-run predictions made before this date.",
+  //   links: [{ label: "Pull request #6", url: "https://github.com/TKAI-LAB-Mali/CatRange/pull/6" }]
+  // },
+];
+
+/* ==========================================================================
+   Nothing below needs editing.
+   ========================================================================== */
+const REPO = `${CONFIG.owner}/${CONFIG.repo}`;
+const GH = `https://github.com/${REPO}`;
+const API = `https://api.github.com/repos/${REPO}`;
+const KIND_COLOR = { Fix: "var(--fix)", Feature: "var(--feature)", Docs: "var(--docs)", Notice: "var(--notice)" };
+
+const $ = (id) => document.getElementById(id);
+function el(tag, props = {}, ...kids) {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(props)) {
+    if (v == null) continue;
+    if (k === "class") n.className = v;
+    else if (k === "text") n.textContent = v;
+    else if (k === "style") n.style.cssText = v;
+    else n.setAttribute(k, v);
+  }
+  for (const c of kids) if (c != null && c !== false) n.append(c);
+  return n;
+}
+const a = (href, text) => el("a", { href, text, rel: "noopener" });
+const svg = (inner, vb = "0 0 16 16") => {
+  const t = document.createElement("template");
+  t.innerHTML = `<svg viewBox="${vb}" fill="currentColor" aria-hidden="true">${inner}</svg>`;
+  return t.content.firstChild;
+};
+const ICON = {
+  commit: '<path d="M11.93 8.5a4 4 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4 4 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z"/>',
+  pr: '<path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.12v5.26a2.25 2.25 0 1 1-1.5 0V5.37a2.25 2.25 0 0 1-1.5-2.12Zm8.97-.53a.75.75 0 0 1 1.06 0L12.28 3.5h.97A2.75 2.75 0 0 1 16 6.25v4.38a2.25 2.25 0 1 1-1.5 0V6.25c0-.69-.56-1.25-1.25-1.25h-.97l.75.75a.75.75 0 1 1-1.06 1.06L9.94 4.78a.75.75 0 0 1 0-1.06l1.53-1.53Z" transform="translate(-1 0)"/>',
+  merged: '<path d="M5.45 5.15A2.25 2.25 0 1 1 3.25 3a2.25 2.25 0 0 1 2.2 2.15 5.5 5.5 0 0 0 4.35 3.55 2.25 2.25 0 1 1 0 1.52A7 7 0 0 1 4 7.02v3.61a2.25 2.25 0 1 1-1.5 0V5.37c.11-.04.21-.1.31-.16"/>',
+  issue: '<path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/>'
+};
+
+const fmtDate = (d) => new Date(d).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+function ago(iso, short = false) {
+  const s = (Date.now() - new Date(iso).getTime()) / 1000;
+  const U = [["year", "y", 31536000], ["month", "mo", 2592000], ["week", "w", 604800], ["day", "d", 86400], ["hour", "h", 3600], ["minute", "m", 60]];
+  for (const [u, su, n] of U) if (s >= n) {
+    const v = Math.floor(s / n);
+    return short ? `${v}${su} ago` : `${v} ${u}${v > 1 ? "s" : ""} ago`;
+  }
+  return "just now";
+}
+
+/* ---------- Hero plot: Michaelis–Menten curve, points on the curve ---------- */
+function drawCurve() {
+  const x0 = 40, y0 = 225, W = 370, H = 179, Km = 0.18;   // Vmax sits at y=46
+  const f = (s) => s / (Km + s);
+  let d = "";
+  for (let i = 0; i <= 80; i++) {
+    const s = i / 80, x = x0 + s * W, y = y0 - f(s) * H;
+    d += `${i ? "L" : "M"}${x.toFixed(1)} ${y.toFixed(1)}`;
+  }
+  $("mm").setAttribute("d", d);
+  const g = $("mm-pts");
+  [0.06, 0.16, 0.32, 0.55, 0.85].forEach((s, i) => {
+    const c = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    c.setAttribute("class", "pt");
+    c.setAttribute("cx", (x0 + s * W).toFixed(1));
+    c.setAttribute("cy", (y0 - f(s) * H).toFixed(1));
+    c.setAttribute("r", "6");
+    c.style.animationDelay = `${0.5 + i * 0.22}s`;
+    g.append(c);
+  });
+}
+
+/* ---------- Static wiring ---------- */
+function wire() {
+  $("repo-name").textContent = REPO;
+  $("gh-top").href = GH;
+  $("issue-hero").href = `${GH}/issues/new`;
+  $("c-watch").href = GH;
+  $("c-issue").href = `${GH}/issues/new`;
+  $("more-link").href = `${GH}/pulse`;
+  const lm = new Date(document.lastModified);
+  if (!isNaN(lm)) $("updated").textContent = `Page updated ${fmtDate(lm)}`;
+}
+
+/* ---------- Patch notes ---------- */
+function renderNotes() {
+  const box = $("notes-list");
+  box.replaceChildren();
+  const notes = [...PATCH_NOTES].sort((x, y) => y.date.localeCompare(x.date));
+  if (!notes.length) { box.append(el("p", { class: "empty", text: "No patch notes yet. The first one will appear here." })); return; }
+  notes.forEach((n, i) => {
+    const d = new Date(n.date + "T12:00:00");
+    const color = KIND_COLOR[n.kind] || "var(--notice)";
+    const isNew = (Date.now() - d) / 86400000 < 14;
+    const body = el("div", {},
+      el("h3", {}, n.title,
+        n.kind ? el("span", { class: "kind", text: n.kind }) : null,
+        i === 0 && isNew ? el("span", { class: "newbadge", text: "New" }) : null),
+      el("p", { text: n.body }),
+      n.action ? el("p", { class: "todo" }, el("strong", { text: "What to do: " }), n.action) : null);
+    if (n.links && n.links.length) {
+      const l = el("div", { class: "note-links" });
+      n.links.forEach((x) => l.append(a(x.url, x.label)));
+      body.append(l);
+    }
+    box.append(el("article", { class: `note${i === 0 ? " latest" : ""}`, style: `--kind:${color}` },
+      el("div", { class: "date" },
+        el("div", { class: "d", text: String(d.getDate()) }),
+        el("div", { class: "m", text: d.toLocaleDateString(undefined, { month: "short", year: "numeric" }) })),
+      body));
+  });
+}
+
+/* ---------- GitHub with cache ---------- */
+function cacheGet(k) {
+  try { const r = localStorage.getItem(k); if (!r) return null;
+        const { t, data } = JSON.parse(r); return { t, data, fresh: Date.now() - t < CONFIG.cacheMinutes * 60000 }; }
+  catch { return null; }
+}
+function cacheSet(k, data) { try { localStorage.setItem(k, JSON.stringify({ t: Date.now(), data })); } catch {} }
+class RateLimited extends Error { constructor(reset) { super("rate"); this.reset = reset; } }
+
+async function gh(path, force) {
+  const k = `catrange-dev:${path}`, c = cacheGet(k);
+  if (c && c.fresh && !force) return { data: c.data, t: c.t, from: "cache" };
+  try {
+    const res = await fetch(API + path, { headers: { Accept: "application/vnd.github+json" } });
+    if (res.status === 403 || res.status === 429) {
+      const reset = Number(res.headers.get("x-ratelimit-reset")) * 1000 || null;
+      if (c) return { data: c.data, t: c.t, from: "stale" };
+      throw new RateLimited(reset);
+    }
+    if (!res.ok) throw new Error(`GitHub returned ${res.status}`);
+    const data = await res.json(); cacheSet(k, data);
+    return { data, t: Date.now(), from: "network" };
+  } catch (e) {
+    if (e instanceof RateLimited) throw e;
+    if (c) return { data: c.data, t: c.t, from: "stale" };
+    throw e;
+  }
+}
+
+/* ---------- Activity feed ---------- */
+let EVENTS = [], FILTER = "all";
+
+function toEvents(commits, pulls, issues) {
+  const ev = [];
+  (commits || []).forEach((c) => ev.push({
+    type: "commit", when: c.commit.author?.date || c.commit.committer?.date,
+    title: (c.commit.message || "").split("\n")[0], url: c.html_url,
+    who: c.author?.login || c.commit.author?.name || "unknown", avatar: c.author?.avatar_url,
+    meta: [el("span", { class: "mono", text: c.sha.slice(0, 7) })]
+  }));
+  (pulls || []).forEach((p) => {
+    const st = p.merged_at ? "merged" : p.state;
+    const c = { open: "var(--open)", merged: "var(--merged)", closed: "var(--closed)" }[st];
+    ev.push({
+      type: "pr", sub: st, when: p.merged_at || p.closed_at || p.updated_at, title: p.title, url: p.html_url,
+      who: p.user?.login, avatar: p.user?.avatar_url,
+      meta: [el("span", { class: "pill", style: `--c:${c}`, text: st[0].toUpperCase() + st.slice(1) }),
+             el("span", { text: `#${p.number}` }),
+             el("span", { text: `${p.head?.ref || "?"} → ${p.base?.ref || "?"}` })]
+    });
+  });
+  (issues || []).filter((i) => !i.pull_request).forEach((i) => ev.push({
+    type: "issue", when: i.updated_at, title: i.title, url: i.html_url,
+    who: i.user?.login, avatar: i.user?.avatar_url,
+    meta: [el("span", { class: "pill", style: "--c:var(--open)", text: "Open" }), el("span", { text: `#${i.number}` }),
+           ...(i.labels || []).slice(0, 3).map((l) => el("span", { class: "lab", text: typeof l === "string" ? l : l.name }))]
+  }));
+  return ev.filter((e) => e.when).sort((x, y) => new Date(y.when) - new Date(x.when));
+}
+
+function renderFeed() {
+  const ol = $("feed");
+  const list = EVENTS.filter((e) => FILTER === "all" || e.type === FILTER).slice(0, CONFIG.feedSize);
+  ol.replaceChildren();
+  if (!list.length) {
+    const msg = { all: "No activity yet.", commit: "No commits on this branch yet.", pr: "No pull requests yet.", issue: "No open issues." }[FILTER];
+    ol.append(el("li", { class: "empty" }, msg, FILTER === "issue" ? " Found a problem? " : null,
+      FILTER === "issue" ? a(`${GH}/issues/new`, "Open an issue") : null));
+    return;
+  }
+  for (const e of list) {
+    const iconKey = e.type === "pr" && e.sub === "merged" ? "merged" : e.type;
+    const ico = el("div", { class: "ico" });
+    if (e.avatar) {
+      const img = el("img", { src: `${e.avatar}${e.avatar.includes("?") ? "&" : "?"}s=72`, alt: "", loading: "lazy" });
+      img.addEventListener("error", () => ico.replaceChildren(svg(ICON[iconKey])));   // fall back to the type icon
+      ico.append(img);
+      const b = el("span", { class: "badge" }); b.append(svg(ICON[iconKey])); ico.append(b);
+    } else ico.append(svg(ICON[iconKey]));
+    ol.append(el("li", { class: "ev" }, ico,
+      el("div", {},
+        el("div", { class: "t" }, a(e.url, e.title)),
+        el("div", { class: "m" }, ...e.meta, e.who ? el("span", { text: e.who }) : null)),
+      el("time", { datetime: e.when, title: fmtDate(e.when), text: ago(e.when, true) })));
+  }
+}
+
+function skeleton() { $("feed").replaceChildren(...Array.from({ length: 4 }, () => el("li", {}, el("div", { class: "sk" })))); }
+
+function setStat(id, v) { $(id).textContent = v; }
+
+async function loadAll(force = false) {
+  const btn = $("refresh"); btn.classList.add("spin"); btn.disabled = true;
+  $("status").textContent = "Checking GitHub…";
+  if (!EVENTS.length) skeleton();
+  const branch = $("branch").value;
+  $("c-rss").href = `${GH}/commits/${encodeURIComponent(branch)}.atom`;
+  const reqs = [
+    gh(`/commits?sha=${encodeURIComponent(branch)}&per_page=10`, force),
+    gh(`/pulls?state=all&sort=updated&direction=desc&per_page=30`, force),
+    gh(`/issues?state=open&sort=updated&direction=desc&per_page=30`, force)
+  ];
+  const [cR, pR, iR] = await Promise.allSettled(reqs);
+  btn.classList.remove("spin"); btn.disabled = false;
+
+  const ok = [cR, pR, iR].filter((r) => r.status === "fulfilled").map((r) => r.value);
+  if (!ok.length) {
+    const err = [cR, pR, iR].find((r) => r.reason instanceof RateLimited)?.reason;
+    const when = err?.reset ? ` It resets around ${new Date(err.reset).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}.` : "";
+    $("status").textContent = "";
+    $("feed").replaceChildren(el("li", { class: "empty" },
+      err ? `GitHub's hourly limit for anonymous visitors was reached.${when} ` : "Couldn't reach GitHub right now. ",
+      a(`${GH}/pulse`, "See activity on GitHub")));
+    return;
+  }
+  const commits = cR.value?.data, pulls = pR.value?.data, issues = iR.value?.data;
+  EVENTS = toEvents(commits, pulls, issues);
+  renderFeed();
+
+  // Hero numbers
+  const last = commits && commits[0] && (commits[0].commit.committer?.date || commits[0].commit.author?.date);
+  setStat("s-updated", last ? ago(last, matchMedia("(max-width: 560px)").matches) : "—");
+  if (pulls) { const n = pulls.filter((p) => p.state === "open").length; setStat("s-prs", pulls.length === 30 && n === 30 ? "30+" : String(n)); }
+  if (issues) { const n = issues.filter((i) => !i.pull_request).length; setStat("s-issues", issues.length === 30 ? `${n}+` : String(n)); }
+
+  const oldest = Math.min(...ok.map((r) => r.t));
+  $("status").textContent = ok.some((r) => r.from === "stale")
+    ? `Showing saved results from ${ago(new Date(oldest).toISOString())}; GitHub isn't sending new data right now.`
+    : `Updated ${ago(new Date(oldest).toISOString())}.`;
+}
+
+/* ---------- Boot ---------- */
+drawCurve(); wire(); renderNotes();
+const sel = $("branch");
+CONFIG.branches.forEach((b) => sel.append(el("option", { value: b, text: b })));
+sel.value = CONFIG.defaultBranch;
+sel.addEventListener("change", () => loadAll(false));
+$("refresh").addEventListener("click", () => loadAll(true));
+document.querySelectorAll(".chip").forEach((c) => c.addEventListener("click", () => {
+  FILTER = c.dataset.f;
+  document.querySelectorAll(".chip").forEach((x) => x.setAttribute("aria-pressed", String(x === c)));
+  renderFeed();
+}));
+loadAll(false);
+</script>
+</body>
+</html>

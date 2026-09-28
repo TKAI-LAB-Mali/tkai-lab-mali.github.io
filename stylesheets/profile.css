@@ -1,0 +1,15 @@
+/* --- Principal Investigator Profile --- */
+.ankur-mali-profile {
+  display: flex;
+  gap: 20px;
+}
+
+.ankur-mali-profile .profile-image {
+  width: 300px;
+  height: 380px;
+  object-fit: cover;
+}
+
+.ankur-mali-profile .profile-content {
+  flex: 1;
+}
