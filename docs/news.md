@@ -8,6 +8,8 @@ Welcome to our lab's news page! Here you'll find the latest updates on our resea
 
 ### September 2026
 
+**Dr. Mali**  will be presenting a talk on "Adaptive Computation For Energy-resilient AI: Predictive Coding & Minimum Description Length" at the [GE Vernova AI Edge Symposium](https://gevadvancedresearch.wixstudio.com/ai-symposium/blank-3)
+
 **Dr. Mali** appeared on [PBS's Florida This Week](https://video.wedu.org/video/sep-25-2026-aya0ad/) to discuss the impacts of the rise of artificial intelligence.
 
 ### June 2026
