@@ -22,7 +22,7 @@ Welcome to our lab's news page! Here you'll find the latest updates on our resea
 
 ### January 2026
 
-Raul Castillo and Abdul-Malik Zekri got their work "The Alpha-Divergence Connection Between Contrastive Representation Learning and the Free Energy Principle" accepted at the 2026 Florida Undergraduate Research **Conference** (FURC 2026)!
+Raul Castillo and Abdul-Malik Zekri got their work "The Alpha-Divergence Connection Between Contrastive Representation Learning and the Free Energy Principle" accepted at the 2026 Florida Undergraduate Research Conference (FURC 2026)!
 
 ## 2025
 
