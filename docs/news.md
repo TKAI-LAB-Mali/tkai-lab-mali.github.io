@@ -93,7 +93,7 @@ Rushitha Santhoshi Mamidala presented "*Rethinking Reasoning in LLMs: Neuro-Symb
 
 **🎤 Panel Participation** <!-- markdownlint-disable-line no-emphasis-as-heading -->
 
-- Dr. Mali was invited as panelist at USF AMP conference
+- Dr. Mali was invited as panelist at [USF AMP conference](https://www.usf.edu/business/news/2023/06-16-amp-conference.aspx)
 
 **📝 Conference Acceptance** <!-- markdownlint-disable-line no-emphasis-as-heading -->
 
