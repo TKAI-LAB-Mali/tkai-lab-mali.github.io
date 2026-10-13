@@ -11,6 +11,11 @@ Please refer to the complete list of publications on Dr. Ankur Mali's [Google Sc
 
 ## 2026
 
+**Magnitudes and Rates of Strength-Drawdown Modulate Injection-Induced Seismicity**<br>
+    *Geophysical Research Letters*<br>
+    Pengliang Yu, Matthew Roseboom, Ankur Mali, Jacques Rivière, Parisa Shokouhi, Chris Marone, Derek Elsworth<br>
+    [Paper](https://doi.org/10.1029/2026GL122290){ .md-button .md-button--small }
+
 **Surprisal-Rényi Free Energy**<br>
     *arXiv*<br>
     Shion Matsumoto\*, Raul Castillo\*, Benjamin Prada, Ankur Mali<br>

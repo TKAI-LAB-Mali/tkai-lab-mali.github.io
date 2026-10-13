@@ -291,9 +291,9 @@ We use AI to accelerate scientific discovery in biology, geoscience, physics, an
         We apply machine learning to geophysical systems involving permeability evolution, microearthquakes, and coupled seismo-thermo-hydro-mechanical-chemical processes. This work aims to connect seismic signals, laboratory measurements, and physical mechanisms in order to better understand subsurface dynamics and enhanced geothermal systems.
 
     === "Publications"
-        - [Crustal Permeability Generated Through Microearthquakes Is Constrained by Seismic Moment (2024)](https://rdcu.be/flrNb)<br><span class="venue-badge">Nature Communications</span>
+        - [Magnitudes and Rates of Strength-Drawdown Modulate Injection-Induced Seismicity (2026)](https://doi.org/10.1029/2026GL122290)<br><span class="venue-badge">Geophysical Research Letters</span>
         - [Evolution of Crustal Permeability as a Coupled Seismo-THMC Process (2025)](https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/1894046)<br><span class="venue-badge">AGU Fall Meeting</span>
-        <!-- - [Machine Learning to Connect Permeability Evolution to Microearthquakes in Hydraulic Stimulations for Enhanced Geothermal Systems (2023)]() -->
+        - [Crustal Permeability Generated Through Microearthquakes Is Constrained by Seismic Moment (2024)](https://rdcu.be/flrNb)<br><span class="venue-badge">Nature Communications</span>
 
 </div>
 
