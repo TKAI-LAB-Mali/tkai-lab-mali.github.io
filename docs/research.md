@@ -411,4 +411,16 @@ We develop AI systems for biomedical interpretation, visual reasoning, image com
     === "Publications"
         *Work in progress.*
 
+- **Deep Multi-Grid Networks**
+
+    ---
+
+    ![deep-mg](./assets/images/research/deep-mg.png)
+
+    === "Overview"
+        We introduce a multi-grid framework to solve the bottleneck of long-range credit assignment. By evaluating parallel transitions at exponential scales (2^0, 2^1, 2^2, ...), the architecture acts as an embedded multi-grid solver: coarse scales rapidly capture global trends, while fine scales resolve high-frequency details.
+
+    === "Publications"
+        *Work in progress.*
+
 </div>
