@@ -271,7 +271,9 @@ We are grateful to the following entities for past and continuing research suppo
 {: style="background-color: #CAD2D8;" }
 - [![Florida Center for Behavioral Health Workforce (FCBHW)](assets/images/funding/FCBHW.png){ style="display: block; margin: 0 auto; height: 100px; width: auto; object-fit: contain;" }](https://fcbhw.org/){ target="_blank" }
 {: style="background-color: #CAD2D8;" }
-- [![U.S. Army Combat Capabilities Development Command (DEVCOM)](assets/images/funding/FCC-DEVCOM.png){ style="display: block; margin: 0 auto; height: 100px; width: auto; object-fit: contain;" }](https://devcom.army.mil/){ target="_blank" }
+- [![U.S. Army Transformation Decision Analysis Center (TDAC)](assets/images/funding/tdac.png){ style="display: block; margin: 0 auto; height: 100px; width: auto; object-fit: contain;" }](https://www.army.mil/TDAC){ target="_blank" }
+{: style="background-color: #CAD2D8;" }
+- [![Florida Department of Transportation (FDOT)](assets/images/funding/fdot_logo_color.png){ style="display: block; margin: 0 auto; height: 100px; width: auto; object-fit: contain;" }](https://www.fdot.gov/){ target="_blank" }
 {: style="background-color: #CAD2D8;" }
 
 </div>
