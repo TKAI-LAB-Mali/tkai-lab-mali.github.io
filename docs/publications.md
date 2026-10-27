@@ -11,6 +11,11 @@ Please refer to the complete list of publications on Dr. Ankur Mali's [Google Sc
 
 ## 2026
 
+**SpatialPC: Deep Computation with Sublinear Local Credit Propagation**<br>
+    *arXiv*<br>
+    Benjamin Prada\*, Shion Matsumoto\*, Ankur Mali<br>
+    <!-- [Paper](){ .md-button .md-button--small } -->
+
 **Magnitudes and Rates of Strength-Drawdown Modulate Injection-Induced Seismicity**<br>
     *Geophysical Research Letters*<br>
     Pengliang Yu, Matthew Roseboom, Ankur Mali, Jacques Rivière, Parisa Shokouhi, Chris Marone, Derek Elsworth<br>
