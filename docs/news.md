@@ -8,7 +8,7 @@ Welcome to our lab's news page! Here you'll find the latest updates on our resea
 
 ### October 2026
 
-<!-- **Benjamin** and **Shion** released a preprint [*SpatialPC: Deep Computation with Sublinear Local Credit Propagation*]() on arXiv. -->
+**Benjamin** and **Shion** released a preprint [*SpatialPC: Deep Computation with Sublinear Local Credit Propagation*](https://arxiv.org/abs/2610.36139) on arXiv.
 
 ### September 2026
 
