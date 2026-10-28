@@ -28,6 +28,7 @@ At TKAI Lab, we study learning algorithms inspired by biological intelligence. A
         Predictive coding models learning as an iterative process in which internal states are adjusted to reduce local prediction errors. We study predictive coding as an alternative framework for scalable deep learning, continual learning, robustness, and energy-based inference. Our work develops stability, convergence, and robustness guarantees for predictive coding networks, while also exploring their relationship to Minimum Description Length (MDL), active inference, and biologically plausible learning.
 
     === "Publications"
+        - [SpatialPC: Deep Computation with Sublinear Local Credit Propagation (2026)](https://arxiv.org/abs/2610.36139)<br><span class="venue-badge">arXiv</span>
         - [A Survey on Neuro-Mimetic Deep Learning via Predictive Coding (2025)](https://doi.org/10.1016/j.neunet.2025.108161)<br><span class="venue-badge">Neural Networks</span>
         - [Bridging Predictive Coding and MDL: A Two-Part Code Framework for Deep Learning (2025)](https://arxiv.org/pdf/2505.14635)<br><span class="venue-badge">arXiv</span>
         - [Tight Stability, Convergence, and Robustness Bounds for Predictive Coding Networks (2024)](https://arxiv.org/pdf/2410.04708)<br><span class="venue-badge">arXiv</span>

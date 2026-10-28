@@ -6,6 +6,10 @@ Welcome to our lab's news page! Here you'll find the latest updates on our resea
 
 ## 2026
 
+### October 2026
+
+**Benjamin** and **Shion** released a preprint [*SpatialPC: Deep Computation with Sublinear Local Credit Propagation*](https://arxiv.org/abs/2610.36139) on arXiv.
+
 ### September 2026
 
 **Dr. Mali**  will be presenting a talk on "Adaptive Computation For Energy-resilient AI: Predictive Coding & Minimum Description Length" at the [GE Vernova AI Edge Symposium](https://gevadvancedresearch.wixstudio.com/ai-symposium/blank-3)
@@ -38,7 +42,7 @@ Benjamin Prada presented ["Realizable Circuit Complexity: Embedding Computation 
 
 **🎤 Conference Presentations** <!-- markdownlint-disable-line no-emphasis-as-heading -->
 
-Raul Castillo and Abdul-Malik Zekri presented "The 'Surprisal' Between Constrastive Representation Learning and the Free Energy Principle" at the 1st Bellini College REU Symposium (BCRS 2025).
+Raul Castillo and Abdul-Malik Zekri presented "The 'Surprisal' Between Contrastive Representation Learning and the Free Energy Principle" at the 1st Bellini College REU Symposium (BCRS 2025).
 
 ![Raul Castillo and Abdul-Malik Zekri at BCRS 2025 Conference](assets/images/news/bcrs_surprisal.jpg){ width="400"}
 
