@@ -181,6 +181,7 @@ hide:
 
 ### Master's Students
 
+- [Paul-Ann Francis](https://www.linkedin.com/in/paul-ann-f-a517881a1/), Research Data Scientist at Idaho National Lab in Applied AI & Advanced Computing (D570) division (National & Homeland Security), advised by Dr. Ankur Mali
 - [Joo-Young Gonzalez](https://www.linkedin.com/in/jooyoung-gonzalez/), advised by Dr. Ankur Mali
 - [Tahsun Rahman Khan](https://www.linkedin.com/in/tahsun-rahman-khan-b94641214/), advised by Dr. Ankur Mali
 - [Thejasvi Valega](https://github.com/thejasvi204), advised by [Dr. Parisa Shokouhi](https://sites.psu.edu/ultrasonics/pshokouhi/) and Dr. Ankur Mali
