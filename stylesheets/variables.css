@@ -1,0 +1,14 @@
+/* --- Variables --- */
+:root {
+  --md-primary-fg-color: #0f311d;
+  /* --md-primary-fg-color: #005432; */
+  --md-primary-bg-color: #CFC493;
+
+  /* Match footer colors to header colors */
+  --md-footer-bg-color: var(--md-primary-fg-color);
+  --md-footer-bg-color--dark: var(--md-primary-fg-color);
+
+  --md-footer-fg-color: var(--md-primary-bg-color);
+  --md-footer-fg-color--light: var(--md-primary-bg-color);
+  --md-footer-fg-color--lighter: var(--md-primary-bg-color);
+}
