@@ -6,6 +6,20 @@ hide:
 
 # Moments
 
+## 2026
+
+<body>
+  <div class="image-stack">
+    <button class="arrow left" onclick="previousImage()">&#8592;</button>
+    <div class="image-container">
+      <img src="../assets/images/moments/2026/koizi-inside.jpg" alt="Image 1" class="stacked-image">
+      <img src="../assets/images/moments/2026/koizi-outside.jpg" alt="Image 2" class="stacked-image">
+    </div>
+    <button class="arrow right" onclick="nextImage()">&#8594;</button>
+  </div>
+  <script src="../js/extra.js"></script>
+</body>
+
 ## 2024
 
 <body>
